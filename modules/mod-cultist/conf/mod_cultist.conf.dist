@@ -1,0 +1,9 @@
+#
+# Cultist Module Configuration (AzerothCore 3.3.5a)
+#
+
+[worldserver]
+
+Cultist.Enable = 1
+Cultist.AnnounceOnLogin = 1
+Cultist.MaxSummonDuration = 3600

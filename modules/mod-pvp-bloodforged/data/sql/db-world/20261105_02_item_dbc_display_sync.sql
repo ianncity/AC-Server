@@ -1,0 +1,34 @@
+-- The core enforces item_dbc over item_template (ObjectMgr: enforceDBCAttributes), so item_template display fixes
+-- were reverted at every startup with "does not have a correct display id". Keep item_dbc in step with the fixes.
+UPDATE `item_dbc` SET `DisplayInfoID` = 42289 WHERE `ID` = 2189;
+UPDATE `item_dbc` SET `DisplayInfoID` = 29964 WHERE `ID` = 3246;
+UPDATE `item_dbc` SET `DisplayInfoID` = 18324 WHERE `ID` = 7723;
+UPDATE `item_dbc` SET `DisplayInfoID` = 36064 WHERE `ID` = 21127;
+UPDATE `item_dbc` SET `DisplayInfoID` = 51297 WHERE `ID` = 50909;
+UPDATE `item_dbc` SET `DisplayInfoID` = 18389 WHERE `ID` = 50914;
+UPDATE `item_dbc` SET `DisplayInfoID` = 28351 WHERE `ID` = 50919;
+UPDATE `item_dbc` SET `DisplayInfoID` = 28725 WHERE `ID` = 51069;
+UPDATE `item_dbc` SET `DisplayInfoID` = 32903 WHERE `ID` = 51074;
+UPDATE `item_dbc` SET `DisplayInfoID` = 28282 WHERE `ID` = 51079;
+UPDATE `item_dbc` SET `DisplayInfoID` = 24115 WHERE `ID` = 51626;
+UPDATE `item_dbc` SET `DisplayInfoID` = 25827 WHERE `ID` = 51631;
+UPDATE `item_dbc` SET `DisplayInfoID` = 28727 WHERE `ID` = 51636;
+UPDATE `item_dbc` SET `DisplayInfoID` = 43090 WHERE `ID` = 95113;
+UPDATE `item_dbc` SET `DisplayInfoID` = 60840 WHERE `ID` = 95114;
+UPDATE `item_dbc` SET `DisplayInfoID` = 34904 WHERE `ID` = 96152;
+UPDATE `item_dbc` SET `DisplayInfoID` = 28586 WHERE `ID` = 96210;
+UPDATE `item_dbc` SET `DisplayInfoID` = 16538 WHERE `ID` = 96220;
+UPDATE `item_dbc` SET `DisplayInfoID` = 20010 WHERE `ID` = 96230;
+UPDATE `item_dbc` SET `DisplayInfoID` = 20035 WHERE `ID` = 96240;
+UPDATE `item_dbc` SET `DisplayInfoID` = 19997 WHERE `ID` = 96250;
+UPDATE `item_dbc` SET `DisplayInfoID` = 32197 WHERE `ID` = 96260;
+UPDATE `item_dbc` SET `DisplayInfoID` = 39374 WHERE `ID` = 96270;
+UPDATE `item_dbc` SET `DisplayInfoID` = 20218 WHERE `ID` = 96280;
+UPDATE `item_dbc` SET `DisplayInfoID` = 16539 WHERE `ID` = 96310;
+UPDATE `item_dbc` SET `DisplayInfoID` = 13488 WHERE `ID` = 96320;
+UPDATE `item_dbc` SET `DisplayInfoID` = 20218 WHERE `ID` = 96330;
+UPDATE `item_dbc` SET `DisplayInfoID` = 26477 WHERE `ID` = 96340;
+UPDATE `item_dbc` SET `DisplayInfoID` = 32356 WHERE `ID` = 96350;
+UPDATE `item_dbc` SET `DisplayInfoID` = 31966 WHERE `ID` = 96360;
+UPDATE `item_dbc` SET `DisplayInfoID` = 36378 WHERE `ID` = 96370;
+UPDATE `item_dbc` SET `DisplayInfoID` = 60617 WHERE `ID` = 96380;

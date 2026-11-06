@@ -1,0 +1,74 @@
+{
+  "repository": "https://github.com/jealous-sound/azerothcore-wotlk-coa",
+  "revision": "0487265f863b9c50e7757e1f113169b80505ba8b",
+  "files": {
+    "AscensionCultist.cpp": {
+      "sha256": "6a6a09908545128a83ed5381ca067b1d62693b08adead298de327f6d2a4e19eb",
+      "path": "src/server/coa/AscensionCultist.cpp"
+    },
+    "AscensionCultist.h": {
+      "sha256": "d0c9b0795d5608908521f1221eed9db400cca1daf9e9adca196220a779f27bcf",
+      "path": "src/server/coa/AscensionCultist.h"
+    },
+    "AscensionCultistAbilities.cpp": {
+      "sha256": "787f034382d851dcc15a0894f714f8685b3ead57fcf453f41eae3b097acefc4a",
+      "path": "src/server/coa/AscensionCultistAbilities.cpp"
+    },
+    "AscensionCultistAuras.cpp": {
+      "sha256": "faec972cbfea99058386c03c4a5223a4b39c8a94f440f1bc289c48135eb4ef79",
+      "path": "src/server/coa/AscensionCultistAuras.cpp"
+    },
+    "AscensionCultistContracts.cpp": {
+      "sha256": "4eec74d84af86b9025c293ad4c81227e8b81d0023f3d940cbe7c74be01d38cbd",
+      "path": "src/server/coa/AscensionCultistContracts.cpp"
+    },
+    "AscensionCultistData.h": {
+      "sha256": "6478a3fc83c54678fdc7c1493602b0ada3aab2f3de484ac5165e459d8987f84d",
+      "path": "src/server/coa/AscensionCultistData.h"
+    },
+    "AscensionCultistEvents.cpp": {
+      "sha256": "3571097b9729b7e7365cc1f0045cbc043319c11cb496fb19526243352ba20b1d",
+      "path": "src/server/coa/AscensionCultistEvents.cpp"
+    },
+    "AscensionCultistSummons.cpp": {
+      "sha256": "91ca3db6945c5e63f07fbd0d972f683a82e6b858be264da4da95ff435760e68c",
+      "path": "src/server/coa/AscensionCultistSummons.cpp"
+    },
+    "AscensionNecromancer.cpp": {
+      "sha256": "ef8c3daaa5eee021612e584c774bd0755dca49f4778bed2fae79aa45be2fd29f",
+      "path": "src/server/coa/AscensionNecromancer.cpp"
+    },
+    "AscensionNecromancer.h": {
+      "sha256": "182a5c2fce835c1205969a65a2bdead2ae77da84fbf98dc6563b7302cd780e43",
+      "path": "src/server/coa/AscensionNecromancer.h"
+    },
+    "AscensionNecromancerAbilities.cpp": {
+      "sha256": "b6e59e6832ac4c49d71e7a265b8546172069c4571881e841b0fb2dc28a764d8f",
+      "path": "src/server/coa/AscensionNecromancerAbilities.cpp"
+    },
+    "AscensionNecromancerAuras.cpp": {
+      "sha256": "1eb47bde5327532826092a9a6d3eb3038b3bcebf391cabc448674d5226b6b502",
+      "path": "src/server/coa/AscensionNecromancerAuras.cpp"
+    },
+    "AscensionNecromancerContracts.cpp": {
+      "sha256": "b56bb211ef02ae05cf22cdb64b0fc9c2c5a5b1d8aeaa191cd2874b4a27d190ab",
+      "path": "src/server/coa/AscensionNecromancerContracts.cpp"
+    },
+    "AscensionNecromancerData.h": {
+      "sha256": "0e7cc41c6cd2c3914b00a80eaf1690984d2ee295e6aef8845e61c36bf5cd5451",
+      "path": "src/server/coa/AscensionNecromancerData.h"
+    },
+    "AscensionNecromancerEvents.cpp": {
+      "sha256": "9797ad37790e10ae562acafa4e7edf765b404aa19e4fe2d3e2a7f9041ed888b5",
+      "path": "src/server/coa/AscensionNecromancerEvents.cpp"
+    },
+    "AscensionNecromancerSummons.cpp": {
+      "sha256": "ab011a7d58d2f5de3cdddb08543cb9e999bddddeea534857a6ce13d841bd6674",
+      "path": "src/server/coa/AscensionNecromancerSummons.cpp"
+    },
+    "SpellChargeState.h": {
+      "path": "src/server/game/Spells/SpellChargeState.h",
+      "sha256": "909bc268fd96eb0a1c2056c8d1a0959cd5e21b93d6a512d70f458a0b1e7dc116"
+    }
+  }
+}

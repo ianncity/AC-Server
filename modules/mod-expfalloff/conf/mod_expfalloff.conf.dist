@@ -1,0 +1,38 @@
+#
+# EXP Falloff Module Configuration
+#
+
+[worldserver]
+
+#
+# ExpFalloff.Enable
+# Description: Enables or disables the post-70 EXP Falloff module.
+# Default: 1 (Enabled)
+#
+
+ExpFalloff.Enable = 1
+
+#
+# ExpFalloff.StartLevel
+# Description: The level after which EXP gains begin to fall off.
+#              At Level 70 and below, players receive 100% (1x) of the server's configured XP rates.
+# Default: 70
+#
+
+ExpFalloff.StartLevel = 70
+
+#
+# ExpFalloff.StartSlowdown
+# Description: Initial slowdown factor applied at Level 71 (2.0 = 2x slower / 50% XP).
+# Default: 2.0
+#
+
+ExpFalloff.StartSlowdown = 2.0
+
+#
+# ExpFalloff.MaxSlowdown
+# Description: Maximum slowdown factor reached exponentially by Level 79/80 (4.0 = 4x slower / 25% XP).
+# Default: 4.0
+#
+
+ExpFalloff.MaxSlowdown = 4.0

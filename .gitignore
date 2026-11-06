@@ -1,0 +1,183 @@
+#
+# AzerothCore
+#
+
+.cache
+/conf/*
+!/conf/dist
+/modules/*
+!/modules/*.md
+!/modules/*.sh
+!/modules/CMakeLists.txt
+!/modules/*.h
+!/modules/*.cmake
+/build*/
+/var/*
+!/var/build/.gitkeep
+!/var/ccache/.gitkeep
+/env/dist/*
+!/env/dist/.gitkeep
+/env/user/*
+/.env*
+/e2e/.env
+/apps/joiner
+/deps/deno
+/data/sql/custom/*
+/src/server/scripts/Custom/*
+!/src/server/scripts/Custom/README.md
+
+/*.override.yml
+/*.override.yaml
+
+!.gitkeep
+
+# default build directory if not specified by CMAKE configuration
+/out/*
+
+#
+#Generic
+#
+
+.directory
+.mailmap
+*.orig
+*.rej
+*~
+.hg/
+*.kdev*
+.DS_Store
+CMakeLists.txt.user
+*.bak
+*.patch
+*.diff
+*.REMOTE.*
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+
+#
+# Agents
+#
+.agents/plans/**
+
+#
+# Claude
+#
+.claude/worktrees
+.claude/settings.local.json
+.claude/plans/**
+.claude/.cc-writes/
+CLAUDE.local.md
+
+#
+# IDE & other software
+#
+/.settings/
+/.externalToolBuilders/*
+/.vs
+/out
+# exclude in all levels
+nbproject/
+.sync.ffs_db
+*.kate-swp
+.browse.VC*
+.idea
+cmake-build-*/*
+coverage-report/
+.vs
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+#
+# Eclipse
+#
+*.pydevproject
+.metadata
+.gradle
+tmp/
+*.tmp
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.project
+.cproject
+
+# vcpkg integration
+/vcpkg/
+/vcpkg-ports/
+
+# Python bytecode cache
+__pycache__/
+*.py[cod]
+
+
+# ==================
+#
+#  CUSTOM
+#
+#  put below your custom ignore rules
+#  for example , if you want to include a
+#  module directly in repositoryyou can do:
+#
+#  !modules/yourmodule
+#
+# ==================
+
+# Extracted client data is built locally from the matching client installation.
+/data/dbc/
+
+!/modules/mod-playerbots/
+!/modules/mod-playerbots/**
+
+!/modules/mod-archetype-weapons/
+!/modules/mod-archetype-weapons/**
+!/modules/mod-ascension-classes/
+!/modules/mod-ascension-classes/**
+!/modules/mod-cultist/
+!/modules/mod-cultist/**
+!/modules/mod-cut-content/
+!/modules/mod-cut-content/**
+!/modules/mod-dungeon-loot-revamp/
+!/modules/mod-dungeon-loot-revamp/**
+!/modules/mod-expanded-races/
+!/modules/mod-expanded-races/**
+!/modules/mod-expfalloff/
+!/modules/mod-expfalloff/**
+!/modules/mod-necromancer/
+!/modules/mod-necromancer/**
+!/modules/mod-prestige/
+!/modules/mod-prestige/**
+!/modules/mod-pvp-bloodforged/
+!/modules/mod-pvp-bloodforged/**
+!/modules/mod-qol-shop/
+!/modules/mod-qol-shop/**
+!/modules/mod-transmog/
+!/modules/mod-transmog/**
+!/modules/mod-talent-overrank/
+!/modules/mod-talent-overrank/**
+!/modules/mod-town-raids/
+!/modules/mod-town-raids/**
+!/modules/mod-zone-wardens/
+!/modules/mod-zone-wardens/**
+
+# Live-stack e2e private / local tooling (scratch tests stay uncommitted)
+e2e/local/**
+!e2e/local/README.md
+e2e/go.work
+e2e/go.work.sum
+
+.cache
+compile_commands.json
+
+# Keep the integrated modules and matching server DBCs in this deployment repository.
+!/modules/*/
+!/modules/**
+!/data/dbc/
+!/data/dbc/*.dbc
+!/data/dbc/MANIFEST.json

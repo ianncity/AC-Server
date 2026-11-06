@@ -1,0 +1,17 @@
+#
+# Talent Overranking Module Configuration (AzerothCore 3.3.5a)
+#
+
+[worldserver]
+
+# Enable Talent Overrank system
+TalentOverrank.Enable = 1
+
+# Total shards granted at level 30 (default: 1)
+TalentOverrank.Level30Shards = 1
+
+# Total shards granted at level 60 (default: 2)
+TalentOverrank.Level60Shards = 2
+
+# Announce shard unlocks and system messages in chat
+TalentOverrank.Announce = 1

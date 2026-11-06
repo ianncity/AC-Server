@@ -1,0 +1,7 @@
+[worldserver]
+
+#
+# Vanilla+ Dungeon Loot Revamp Module Configuration
+#
+
+DungeonLootRevamp.Enable = 1

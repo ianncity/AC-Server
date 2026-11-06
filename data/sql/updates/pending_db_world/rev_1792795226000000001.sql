@@ -1,0 +1,2 @@
+-- Give the custom town raid invaders an aggressive creature AI so they can engage and fight town defenders.
+UPDATE `creature_template` SET `ScriptName` = 'town_raid_invader' WHERE `entry` IN (97001, 97002, 97003, 97004, 97005, 97006, 97010, 97011, 97012, 97013, 97014, 97020, 97021, 97022, 97023, 97024, 97030, 97031, 97032, 97033, 97040, 97041, 97042, 97043, 97044, 97050, 97051, 97052, 97053, 97054);

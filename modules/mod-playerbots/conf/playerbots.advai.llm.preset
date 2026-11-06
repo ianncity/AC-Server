@@ -1,0 +1,13 @@
+# Apply after playerbots.advai.preset. Calls your already-running llama.cpp server.
+# Target 2048 tokens/slot: --ctx-size 8192 for 4 slots, 20480 for 10 slots.
+# Entire user context is capped at 1024 actual model tokens; reply budget is 160.
+Playerbots.AdvAI.LLM.Enabled = 1
+Playerbots.AdvAI.LLM.Host = "127.0.0.1"
+Playerbots.AdvAI.LLM.Port = 8080
+# Match the server's --parallel slots (4-10), or reserve fewer if shared.
+Playerbots.AdvAI.LLM.Workers = 4
+Playerbots.AdvAI.LLM.TimeoutSeconds = 15
+Playerbots.AdvAI.LLM.QueueSeconds = 120
+Playerbots.AdvAI.LLM.RequestsPerMinute = 120
+Playerbots.AdvAI.LLM.BotRequestsPerMinute = 12
+Playerbots.AdvAI.LLM.BotChat = 1

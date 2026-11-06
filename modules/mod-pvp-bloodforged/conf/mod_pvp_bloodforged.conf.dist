@@ -1,0 +1,11 @@
+#
+# PvP Bloodforged Rewards Configuration (AzerothCore 3.3.5a)
+#
+
+[worldserver]
+
+PvPBloodforged.Enable = 1
+PvPBloodforged.ItemChance = 20
+PvPBloodforged.RareChance = 70
+PvPBloodforged.EpicChance = 30
+PvPBloodforged.DailyGoldCapGold = 500

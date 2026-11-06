@@ -1,0 +1,3807 @@
+[event_death]
+I'm down. Give me a moment to work out the recovery.
+Well, that ended badly for me.
+Didn't survive that one.
+I've got a corpse to get back to now.
+That was my last bit of health.
+I'm looking at the ground from the wrong side.
+Down here. I'll sort out getting back.
+Going to need a little time after that death.
+Ouch. I didn't make it through.
+That's another repair bill waiting for me.
+I went down there; don't wait on a ready check from me yet.
+I'm dead at the moment, so recovery comes first.
+My part of that fight ended early.
+Lost that one. Need to get myself back on my feet.
+Give me a minute; I just died.
+That took the last of my health.
+I'm out of that fight now.
+Not my finest moment. I'm down.
+Corpse recovery is next on my list.
+I won't be starting anything else while I'm dead.
+That death changes my plans for a bit.
+I need to recover before I can help again.
+Going to take a breath and deal with being dead.
+The view from my corpse could be better.
+I'm not getting up without sorting out recovery.
+That was a rough end to the fight for me.
+One dead adventurer over here.
+I got knocked out of that attempt.
+I'll be occupied getting back after that.
+Down for now. I haven't recovered yet.
+I ran out of health before the fight ran out of trouble.
+I'm taking an unscheduled corpse break.
+That didn't leave me standing.
+Need to handle my death before the next job.
+I lost that exchange. Recovery time.
+I'm on the recovery part of the adventure now.
+Oof, I'm dead. That's put a bend in the plan.
+Well, the corpse is definitely mine this time.
+Rip me. Need to sort the recovery out.
+That was a very short remainder of my health bar.
+Down I go. Recovery before anything ambitious.
+I appear to have become a travel inconvenience.
+I'm dead; don't build the next pull around me being ready.
+That's me out until I get back properly.
+The adventure has paused at my corpse.
+Welp. I'm going to need the recovery part now.
+I didn't have enough health for that final bit.
+Down here taking stock of an unfortunate decision.
+My health bar has registered its objection.
+That left me a little too dead to continue normally.
+I'm on the ground. The next job is getting back.
+That's a death for me, unfortunately.
+The view has changed to mostly floor.
+I won't be much use until I've recovered from that.
+Ouch. That attempt ended at my corpse.
+I'm dead now; give the recovery a chance.
+Not quite the pause I would have chosen.
+I'm temporarily the least upright person here.
+My next practical concern is being alive again.
+Down. There's a recovery to deal with before the next plan.
+
+[event_wipe]
+We've all gone down. Let's recover before deciding the next attempt.
+That's a wipe. A moment to regroup would help.
+Nobody left standing there. Recovery first.
+We need everyone back before trying that again.
+That attempt is over. Let's take the recovery one step at a time.
+All down. No reason to rush the next decision.
+Well, we're recovering as a group now.
+That got the whole party. Let's pause for a moment.
+The group didn't make it through that one.
+We've got a full recovery to sort out.
+Let's get back on our feet before discussing another pull.
+That was the end of that attempt for all of us.
+We lost the group there. Need a reset.
+Everyone went down; the next job is getting people back.
+That's a group wipe, so let's give recovery some room.
+We're starting from recovery again after that.
+No one survived the attempt. Let's regroup calmly.
+That ended with all of us down.
+We have a wipe to recover from before anything else.
+Going to take a moment after losing the whole group.
+We didn't leave anyone standing that time.
+Let's deal with the recovery before we repeat the pull.
+The party needs a breather after that wipe.
+We all need to get back before making more progress.
+That one stopped the entire group.
+A full wipe. We should let everyone recover.
+We're all out of the fight now. Time to regroup.
+The attempt fell apart for everyone there.
+We've reached the corpse recovery stage together.
+Another attempt can wait until we're back.
+That left the whole party down, unfortunately.
+Let's take the reset seriously and get everyone back.
+We need a clean recovery after that group death.
+All of us went down. Give the recovery a minute.
+That fight ended with a full group reset.
+First get back, then work out what comes next.
+Oof, that's all of us. Let's recover without another argument.
+Full wipe. We need everyone back before anything else.
+Well, that attempt ran out of party members.
+We're all down; rushing won't resurrect the plan.
+That's the group gone. Recovery needs to come first.
+Nobody standing means it's time for a proper reset.
+We reached the end of that attempt together, unfortunately.
+All down. Let's make the return less messy than the pull.
+The whole group needs recovery now.
+That turned into a collective repair bill.
+It's a wipe. We can discuss the next approach while recovering.
+We've all got a return journey before another try.
+Well, nobody needs convincing that the attempt ended.
+Full party down. Let's keep the recovery organised.
+That fight has officially become a group corpse problem.
+We should get everyone back before deciding who pulls next.
+We're recovering rather than pushing now.
+That left us with a party of corpses.
+The attempt's over for everyone; one step at a time now.
+Everyone down. A calmer reset would be useful.
+We need a recovery plan before an attack plan.
+That was the whole party, so let's allow a proper breather.
+All of us need to get back after that one.
+Wipe confirmed by the complete lack of standing teammates.
+
+[event_victory]
+Boss down. Nice work getting through that.
+We got that boss! Good effort.
+That's the boss finished. Well played.
+Nice, that fight is behind us now.
+Good job on the boss, everyone.
+One less boss standing in our way.
+That was a successful boss kill. Glad to see it.
+There we go, boss defeated.
+Good fight. We came out of that one.
+Nice to have that boss down.
+That's a win for the group there.
+We can count that boss as beaten.
+The boss is down; take a second to enjoy it.
+That worked out. Good job, group.
+Made it through the boss fight together.
+Well done on that kill.
+Glad we got that boss sorted out.
+The group earned that victory.
+That boss isn't standing any more.
+Good work finishing the fight.
+That's the result we wanted from that boss.
+We did it. Boss down.
+A boss kill is a good place for a quick breath.
+Well played getting that fight finished.
+Nice job bringing the boss down.
+There's a successful fight to remember.
+Good to see the group get that win.
+That boss fight ended our way.
+We can move past that boss now.
+Well, that's a satisfying kill.
+We finished that boss. Cheers for the run so far.
+Good work making it through that encounter.
+The boss went down. Happy with that.
+That's progress for the party.
+Victory on that boss. Nicely done.
+Glad to have that encounter completed.
+There it is. The boss is actually down.
+Hey, we got through that boss. Good work.
+Boss defeated; that's a proper bit of progress.
+That's one encounter on the finished side of things.
+We can enjoy the boss kill for a moment.
+Well played, that boss isn't our problem any more.
+The fight ended with the boss down. I'll take it.
+Good job getting that encounter finished together.
+That's the sort of boss result we came for.
+Boss down! A much nicer ending to a pull.
+We made that encounter work. Nice job.
+Another boss off the list for this run.
+There goes the boss. Good effort from the group.
+That's a finished boss fight rather than another reset.
+The boss finally has less health than the plan.
+Encounter done. Worth a little satisfaction.
+We got the kill; take a second before the next rush.
+Good work seeing that boss fight through.
+That's real progress in the instance right there.
+Boss beaten. Glad that attempt came together.
+There's a successful encounter for the session.
+We can call that boss properly defeated now.
+Nice result on the encounter, everyone.
+That fight has moved from a problem to a victory.
+
+[event_quest]
+That's my quest objectives finished. Still need the turn-in.
+My quest is ready to hand in now.
+Got the objectives done. The quest giver is next.
+That finished what I needed for this quest.
+I'm at the turn-in stage on my quest.
+The quest log says I'm ready to return.
+That's the last objective I needed on that quest.
+My part of the quest is ready for the reward conversation.
+All the required objectives are done on my side.
+Ready to head back to the quest giver for this one.
+That ticked off my remaining quest objective.
+I've got a completed quest waiting for a turn-in.
+The objective work is done; the hand-in still matters.
+That brings my quest to the return stage.
+My log has that quest marked complete now.
+Finished the requirements for that quest.
+One quest ready to turn in on my end.
+I can take this quest back now.
+That was the objective I still needed.
+The quest giver should be my next stop for this one.
+Looks like I've finished my quest objectives.
+That's a completed objective list for me.
+I'm done with the field work for this quest.
+My quest can be handed in after that.
+Got what I needed. Time to return for the turn-in.
+That puts a completed quest in my log.
+No more objectives left on that quest for me.
+Ready for the hand-in, once I get back there.
+That completed the quest requirements on my side.
+The quest is ready; I haven't collected the reward yet.
+Finished the objective stage of that quest.
+Now I need to find the quest giver for the hand-in.
+That's enough to complete my quest objectives.
+My remaining work on this quest is the return trip.
+Got the quest ready for its final conversation.
+That quest has reached the hand-in stage for me.
+The objectives are done on my end. Hand-in still to go.
+That's my quest ready for the reward conversation.
+I've finished what the quest asked for; need the turn-in now.
+My log says the objectives are complete.
+Quest objectives sorted. The quest giver still needs a visit.
+I have the objective part finished now.
+That's ready to hand in rather than already rewarded.
+Good, my quest can go back to the quest giver.
+I'm at the turn-in stage of this quest.
+The objective work is finished on my side.
+One quest ready for a return trip.
+That's the required work complete, pending the hand-in.
+My next step for that quest is turning it in.
+The quest is ready in my log now.
+Objective complete; I haven't collected the reward yet.
+That gets my quest to the hand-in stage.
+I've got the objectives done and the return visit left.
+The quest giver is the next stop for this one.
+I can move from working on it to getting it handed in.
+That's the objective portion of my quest finished.
+My quest is ready for its final visit now.
+Good, that part is done. Turn-in comes afterward.
+The log has caught up: ready to hand in.
+I've finished the objective, so it's back to the quest giver next.
+
+[party_wait]
+Hold a moment; the party isn't ready for another pull.
+Let's give the group time to get ready.
+We're waiting on preparation before starting more trouble.
+A short pause would help the party here.
+Not everyone is ready yet. Let's wait.
+We should regroup before another fight.
+Give the party a moment before moving on.
+There's still some recovery or preparation to finish.
+I'm holding off while the group gets sorted.
+Let's get everyone ready before the next pull.
+The party needs a pause here.
+Waiting for the group to be ready together.
+We shouldn't start another pull quite yet.
+Let's finish getting sorted before we advance.
+A little patience here should help the group.
+We're not all set for the next fight yet.
+Hold up while the party gets ready.
+I want the group together and ready before we continue.
+Let's use a moment for preparation.
+Another pull can wait until we're ready.
+There's a reason to pause with the group here.
+Giving the party some time before continuing.
+We need to get sorted as a group first.
+Let's wait for readiness before pressing on.
+I'm pausing for the party's preparation.
+The group has something to sort out before another fight.
+No hurry on the next pull while we're waiting.
+Let's make room for the party to recover or catch up.
+We still have preparation to deal with.
+Hang on; let's get the party ready first.
+I'd give the group a moment here.
+We'll be in a better place once everyone is ready.
+Pausing so we can continue together.
+Let's avoid rushing ahead of the party.
+The next fight can wait for the group.
+Still waiting on the party before moving forward.
+Not another pull yet; the group still needs a moment.
+We aren't ready as a party, even if one person is eager.
+Let's not turn preparation into an accidental pull.
+There's still something to sort before the group continues.
+Give the party a little breathing room here.
+We need to finish getting ready before moving on.
+A short hold now should make the next bit less awkward.
+Let's check the rest of the group before pushing.
+The party isn't at the ready-to-go stage yet.
+Hold the next step until the group has caught up.
+There's no benefit in starting without the preparation.
+We should give the group time to be ready together.
+Let's leave the next pack alone for another moment.
+The party needs preparation time, not another surprise.
+We're still getting the group into shape to continue.
+I'd rather pause here than reset immediately afterward.
+Not quite ready as a group. Give it a moment.
+We still have some party preparation to finish.
+Let's keep the next pull on hold while we get sorted.
+Everyone being ready matters more than one person's hurry.
+The sensible next step is a brief group pause.
+We're not quite set up for the next part yet.
+There's still a readiness issue to deal with first.
+Hold here until the party can continue properly.
+
+[party_ready]
+The party is back together and ready to move on.
+We're ready to continue now.
+Everyone is in a better state for the next pull.
+The readiness checks look good now.
+Looks like we're set to carry on.
+The group is ready again.
+We can stop waiting on preparation now.
+That's the party sorted for the moment.
+We're together and ready for another attempt.
+Ready when the next pull comes.
+The party has recovered enough to continue.
+All set on the group readiness side.
+We can get moving again now.
+The preparation pause has done its job.
+Everyone looks ready for what's next.
+The group is in place to continue.
+We're past the wait for readiness now.
+Looks good. The party can carry on.
+We've got the group ready again.
+I think we're set for the next part.
+Ready to proceed as a group.
+The party is together and prepared now.
+That wait is over; we're ready.
+We can continue from here.
+The group has what it needs to move on.
+We're back in shape for the next fight.
+All right, the readiness problem is cleared.
+The party is set to go again.
+Nothing holding the group's readiness up now.
+We can get back to the run.
+Everyone is close enough and ready now.
+The group is ready for the next step.
+Our preparation looks sorted at this point.
+Good, we're ready to continue together.
+The pause is finished; the party is set.
+We've got everyone ready for another pull.
+The readiness check looks good now. We can continue.
+The party has caught up with the plan.
+We're in shape to move on as a group now.
+That's the preparation sorted for the next step.
+The group is ready again; let's keep it together.
+We're past the hold and ready to continue.
+The party can get moving with the plan now.
+Everyone is ready enough for the next part.
+We're set as a group rather than just individually.
+The party preparation has reached the ready-to-go stage.
+That's the group ready to carry on.
+We can continue from a much better starting point.
+The party has its readiness back now.
+We're ready to get on with the agreed activity.
+The hold can end; the party is prepared.
+All set for the group to continue normally.
+We're ready together now. Better way to start.
+The preparation issue is sorted for the moment.
+That's everyone in shape for the next step.
+The group can carry on from here.
+We're no longer waiting on party readiness.
+The party is prepared to move forward now.
+Ready as a group. Let's keep that momentum sensible.
+That's a proper starting point for continuing the run.
+
+[unknown]
+I'm not quite following. What do you mean?
+Could you put that another way?
+Lost me there for a second.
+What were you asking about?
+I'm not sure I understood that.
+Which bit do you mean?
+Can you give me a little context?
+Sorry, what was that about?
+I don't know much about that one.
+You might have to explain that to me.
+I'm drawing a blank on that.
+Is that about something here?
+I think I missed part of the conversation.
+What are we talking about now?
+I haven't come across that before.
+Got an example of what you mean?
+I'm probably the wrong person to ask about that.
+Not sure I've heard of that.
+Could you be a bit more specific?
+I don't want to guess and send you the wrong way.
+That one's outside what I know.
+Are you asking me something or just thinking aloud?
+I might be missing the joke here.
+There's a good chance I misunderstood you.
+Wait, start from the beginning for me.
+I don't have an answer for that, honestly.
+What would you like to know exactly?
+Haven't got a clue about that one.
+Could be, but I don't know enough to say.
+I'm having trouble placing what you mean.
+Can you narrow that down a little?
+I caught the words, just not the meaning.
+You're going to have to help me out with that.
+That's not something I can speak to.
+Do you mean something in the game?
+I'm listening, but I need another detail.
+I'm missing the connection between those bits.
+Give me the short version of what you need.
+I don't recognise that subject well enough to answer.
+Might need a little context before I can help there.
+You've lost me at the last part.
+That could mean a few different things.
+I'm not going to pretend I know what that means.
+Could you start with the name of the thing?
+I'm unsure whether you're asking me something or just commenting.
+I don't have enough to go on yet.
+Which person or place is this about?
+Tell me what you're trying to get done with it.
+I'm drawing a blank on that one.
+Not a subject I know much about, honestly.
+I might be reading that the wrong way.
+Spell it out for me; I'm not catching the shorthand.
+I understand the words, but not quite the request.
+That's outside what I can tell you reliably.
+I can't give you a useful answer from that alone.
+The middle of that message is where you lost me.
+Could be me, but I think we're talking past each other.
+I don't want to send you off with a made-up answer.
+I'm going to need more than that hint.
+Name the problem first and I'll try to follow.
+
+[greeting]
+Hey, how's it going?
+Hi there!
+Heya, what's up?
+Hello! How are things?
+Yo, having a good run?
+Hey, nice to see someone around.
+Hi! Keeping busy?
+Oh hey, how are you doing?
+Howdy! What's the plan today?
+Hey there, all good?
+Hiya! How's your day been?
+Hello hello.
+Hey! Anything interesting happening?
+What's up? Doing alright?
+Hi, you just getting started?
+Hey, good to see you.
+Hello! Found anything fun to do?
+Yo! Where are you headed?
+Hi there, how's the adventure?
+Heya. Long session today?
+Oh, hello! Need something?
+Hi! Hope the drops are treating you well.
+Hey, taking it easy today?
+Morning, afternoon, whatever it is. Hey!
+Hello there. What brings you this way?
+Hey! How's the questing going?
+Hiya, got a minute to chat?
+Yo, everything going smoothly?
+Hey, nice weather for getting lost.
+Hi there! What's new?
+Heya, looking for anything in particular?
+Hello! You passing through?
+Hey, how's life treating you?
+Hi! Settling in alright?
+Oh hey. Busy area today.
+Hey there, what are you up to?
+Hey there, taking a break or passing through?
+Oh, hey. What's happening?
+Yo! Good to have some conversation.
+Hello there. How's the session treating you?
+Hey, anything interesting going on?
+Greetings. What brings you my way?
+Hi! Quiet day or busy day?
+Well hello. Got something on your mind?
+Heya. Hope the drops are treating you kindly.
+Morning, evening, whatever time it is for you. Hey.
+Oh hi, didn't mean to be quiet.
+Hello! Always room for a quick hello.
+Hey, how are things on your end?
+Yo, what's the plan for today?
+Hello there, traveller.
+Hiya. Looking for company or just saying hello?
+Hey! May your bags have room today.
+Good to hear a voice. Hello.
+Hey there. Been getting much done?
+Hello. Hopefully your trip here was uneventful.
+Hey, stranger. What's new?
+Hi there. What's keeping you occupied?
+Yo. Welcome to the conversation.
+Hello! What adventure are you considering?
+Oh hey. What brings you this way?
+Hey, caught me between things.
+Hi. Need something, or just passing through?
+Hey there. How's the session treating you?
+Hello! What's happening on your end?
+Yo. What are we getting into?
+Hey, what's the plan for today?
+Hiya. Got something in mind?
+
+[farewell]
+Take care!
+See you around.
+Later, have a good one.
+Good luck out there.
+Catch you another time.
+Have fun, see you!
+Alright, enjoy the rest of your day.
+Safe travels.
+See you next time we're around.
+Bye! Hope your next run goes well.
+Take it easy.
+Go get some good drops.
+Alright, catch you later.
+Have a good night if you're heading off.
+See ya, don't let the repair bills win.
+Good talking to you.
+Until next time!
+Cheers, have fun.
+Look after yourself out there.
+Alright then, happy questing.
+Hope the rest of the session goes well.
+Later! Try not to get too lost.
+Good luck with whatever you're doing next.
+Bye for now.
+See you when I see you.
+Enjoy your break.
+Alright, thanks for the chat.
+Have a good one, seriously.
+May your bags have room for the good stuff.
+Catch you on another adventure.
+Safe trip back.
+Take care of that durability bar.
+Later, and good hunting.
+See you around the world.
+Hope we run into each other again.
+Bye! Don't stay up too late.
+Have a good one, and watch those repair bills.
+Catch you on another adventure sometime.
+Enjoy the rest of your session.
+Safe roads wherever you're headed next.
+Go get something good out of those quests.
+Cheers for stopping to talk.
+May your next trip be less expensive than the last.
+Alright, catch you when our paths cross.
+Hope the next group treats you well.
+Don't let the auction house eat the whole evening.
+Have fun out there. Mind the unexpected adds.
+Take it easy, you've earned a breather.
+See you somewhere with fewer hostile things.
+Cheers, and good luck with your plans.
+Hope you find what you were after.
+Until another conversation, then.
+Enjoy your break if you're taking one.
+Watch the roads. Things tend to wander onto them.
+Catch you after the next adventure, perhaps.
+Good luck getting that last thing done.
+Pleasant travels and sensible pulls.
+Alright, I'll leave you to your plans.
+Thanks for the chat. Have a decent day.
+Go well. Hopefully the next corpse isn't yours.
+Take it easy. We'll catch up another time.
+Alright, see you when our paths cross again.
+Have a good one. Good luck with the next bit.
+Catch you around. Hope the session goes well.
+Later. Leave something for the rest of us.
+See you. May your bags survive the trip.
+Alright, I'll let you get back to it.
+Take care. We can pick this up another time.
+
+[thanks]
+You're welcome.
+No problem!
+Anytime, glad that helped.
+All good, don't worry about it.
+Happy to help where I can.
+No worries at all.
+Sure thing.
+Nothing to thank me for.
+Glad it worked out.
+You're good!
+Of course.
+It's alright, really.
+Don't mention it.
+Cheers, appreciate you saying that.
+Always nicer when people help each other.
+No big deal.
+That's what people are here for.
+Glad to be useful for once.
+You'd probably do the same.
+All sorted then.
+It's nice when things go smoothly.
+Absolutely, take care.
+You're very welcome.
+No trouble on my end.
+Good to hear it helped.
+That's alright, we're all figuring things out.
+Sure, I'm glad you asked.
+Not a problem, honestly.
+Just paying the kindness forward.
+Glad things are looking better.
+It's the little things, right?
+No need to make a fuss.
+You got it.
+All part of the adventure.
+Happy it made a difference.
+Thanks for being nice about it.
+Happy it was of some use.
+No need to make a big thing of it.
+We're all trying to get somewhere.
+A bit of help makes the day easier.
+Glad that cleared something up.
+That's what a quick conversation is for.
+You're very welcome. Pass the kindness along.
+Nothing wrong with asking another player.
+It was worth taking a moment.
+Glad we could sort that bit out.
+No debt between us over that.
+Don't worry about repaying a small favour.
+I'm pleased it helped at all.
+Some things are easier with another pair of eyes.
+Good to know it wasn't wasted effort.
+Cheers for saying so.
+We can call that a useful conversation.
+No trouble, everyone needs a hand sometimes.
+Just remember me kindly at the next repair vendor.
+Helping doesn't always need a price tag.
+Happy to have contributed something useful.
+It costs very little to be decent to someone.
+Glad I could make that less confusing.
+Think nothing of a little assistance.
+
+[apology]
+It's alright.
+No worries, things happen.
+We're good.
+Don't stress over it.
+Thanks for saying that.
+It's not the end of the world.
+Everyone has those moments.
+Let's just move on.
+I appreciate the apology.
+All good, honestly.
+Could've happened to anyone.
+I'm not going to hold that against you.
+No harm in clearing things up.
+Thanks, I get it.
+We'll figure it out.
+No point beating yourself up.
+That's okay, really.
+I understand.
+We're all human about this stuff.
+It happens more often than you'd think.
+Let's take a breath and carry on.
+Nothing to worry about now.
+Appreciate you owning it.
+It's fine, I'd rather have a good time.
+Don't let it ruin your day.
+Fair enough, apology accepted.
+Nobody gets everything right.
+We're on the same page now.
+Glad we cleared that up.
+It's a game; these things happen.
+No hard feelings.
+Thanks for explaining.
+We can start fresh.
+I didn't think you meant anything by it.
+Let's give it another go sometime.
+Alright, we're square.
+We can move past that without a whole argument.
+It happens. Let's deal with what comes next.
+I'm not keeping a score over a mistake.
+Thanks for acknowledging it; that's enough for me.
+No point making one bad moment the whole session.
+Let's give it another chance when we're ready.
+I'd rather fix the problem than keep assigning blame.
+We all get a judgement call wrong occasionally.
+You're allowed to have an off moment.
+Fair enough. We can start the conversation over.
+No need for a speech, I understand.
+An honest mistake isn't the end of the world.
+Let's not let that sour everything else.
+It's easier when people just say what happened.
+We're fine. Take a moment if you need one.
+I don't expect every attempt to be perfect.
+Thanks for being straight about it.
+I've no interest in turning this into an argument.
+We can learn something from it and carry on.
+One mistake doesn't tell me everything about you.
+I'll take a sincere apology over an excuse any day.
+Let's call that part settled.
+It's alright to reset and approach it differently.
+No lasting damage to the conversation, anyway.
+We're fine. Just give me a heads-up next time.
+Thanks for saying so. Let's move on.
+I get it. Plans don't always survive contact with the game.
+Alright, let's take it from here.
+No need to keep apologizing for it.
+That's fair. We can work around it.
+Okay. I'd rather sort it out than argue about it.
+Understood. Next attempt, then.
+
+[congratulations]
+Nice one!
+Grats, that's great!
+Well deserved.
+Hey, good stuff!
+That's a nice bit of progress.
+Congrats! Feeling good about it?
+There we go!
+Always nice when things pay off.
+That's worth celebrating.
+Good work getting there.
+Sweet, congrats!
+Must be a good feeling.
+You earned a little victory lap.
+Nice! What are you aiming for next?
+That's some solid progress.
+Glad to hear it worked out.
+Cheers to that.
+One more thing off the list.
+That's the sort of news I like.
+Congrats, enjoy the moment.
+Bet you're relieved.
+Well played!
+Good on you.
+That calls for a happy dance.
+Hope the next bit goes just as well.
+Always good to hear some good news.
+There it is, nice work.
+Sounds like a good day for you.
+Take a screenshot of that one.
+Big grats!
+I like hearing about a win.
+About time the game was kind, eh?
+You must be pretty pleased.
+That's a good reason to smile.
+Nice going, keep at it.
+Happy for you!
+That's a satisfying bit of progress right there.
+Worth a small celebration, I'd say.
+Hey, something went the right way!
+That's the sort of news you want during a session.
+Good reason to be pleased with yourself.
+That's one less thing to keep chasing.
+Take a moment to enjoy the result.
+A little success makes the rest feel easier.
+Well, that deserves more than a shrug.
+Solid result. Nice to see it happen.
+Always good when the effort finally pays off.
+That sounds like a win worth keeping.
+There's your good moment for the day.
+You have every reason to be happy about that.
+That's a much better story than another repair bill.
+Good news in chat for a change!
+Sounds like something finally clicked.
+That must feel better than another almost.
+Nice bit of work getting there.
+That's a pleasant thing to hear.
+A good result deserves to be noticed.
+I'm glad something went your way.
+Enjoy it before the next errand turns up.
+That's the kind of progress that keeps people playing.
+
+[introduction]
+Here's the short version: %facts
+Sure, I'm %facts
+You can put a name to the face: %facts
+Since you asked, %facts
+Nothing mysterious about it: %facts
+The basics? %facts
+Happy to introduce myself: %facts
+You'll find me as %facts
+Let me start with the easy part: %facts
+For introductions, %facts
+I'm still figuring things out, but: %facts
+This is me: %facts
+No fancy title needed: %facts
+You probably want the character details: %facts
+Well, hello properly: %facts
+Name and class first: %facts
+It's easier if I introduce myself: %facts
+That's a fair question. %facts
+The nameplate version is %facts
+Not much of an introduction, but %facts
+Here's who you're talking to: %facts
+Nice to meet you. %facts
+No need to guess: %facts
+Let's do introductions then. %facts
+Me? %facts
+For the record, %facts
+Call me by the name here: %facts
+Easy enough to answer: %facts
+Here's what you can see about me: %facts
+I'll spare you a long speech: %facts
+Nothing complicated: %facts
+The practical details are %facts
+Before we get sidetracked: %facts
+Always good to know who you're chatting with. %facts
+Straight to the introduction: %facts
+Let's start there: %facts
+%facts That's the useful introduction, anyway.
+%facts The name above my head does most of the introductions.
+%facts What should I know about you?
+%facts No dramatic title to add, I'm afraid.
+%facts Short introduction, less standing around.
+%facts You can use the name without the title.
+%facts Introductions done; what brings you here?
+%facts That's me accounted for.
+%facts Feel free to say hello when we cross paths.
+%facts A fairly ordinary adventurer with a fairly full task list.
+%facts Now we don't have to keep calling each other stranger.
+%facts Good to put a name to the conversation.
+%facts I promise the introduction is shorter than a quest chain.
+%facts Nothing mysterious about that part.
+%facts What are you playing these days?
+%facts There, the formalities have survived us.
+%facts That's enough ceremony for an introduction.
+%facts Glad we got past the anonymous waving stage.
+%facts No need to make an event out of it.
+%facts It's easier talking when names are involved.
+%facts How did you end up around here?
+%facts That's the character sheet version of hello.
+%facts I'd bow, but we might be here all day.
+%facts Pleasure to make your acquaintance, briefly and sensibly.
+
+[activity]
+The thing I'm working on is %facts
+My current priority is %facts
+Right now it's %facts
+I'm focused on %facts
+The plan at the moment is %facts
+What's taking my attention? %facts
+For now, %facts
+At this point I'm dealing with %facts
+One thing at a time; currently %facts
+I've settled on %facts
+My next bit of progress is about %facts
+The immediate goal is %facts
+I'm keeping my attention on %facts
+Mostly thinking about %facts
+Before anything else, %facts
+Today's little priority is %facts
+Where I'm headed with things: %facts
+Nothing too dramatic, just %facts
+My short answer is %facts
+That's tied to what I'm doing: %facts
+The current task is %facts
+I'm trying to make time for %facts
+For the moment I'm prioritizing %facts
+The thing on my mind is %facts
+This stretch is about %facts
+Keeping it simple: %facts
+The relevant bit is %facts
+Still working through %facts
+I've got my attention on %facts
+The task in front of me is %facts
+Just taking care of %facts
+My present focus is %facts
+Working toward something, namely %facts
+The reason I'm busy is %facts
+Here's the current situation: %facts
+At the moment, my goal is %facts
+%facts That's what has my attention for the moment.
+%facts Keeping the plan fairly simple.
+%facts One thing at a time usually works better.
+%facts Trying to make this part of the session useful.
+%facts There are always more errands after the current one.
+%facts Not the whole day's plan, just the current part.
+%facts I can talk a little while I sort that out.
+%facts What are you aiming to get done?
+%facts Nothing especially grand to announce.
+%facts There's usually a practical reason for the detour.
+%facts That's the short answer to what I'm up to.
+%facts I'm trying not to turn every errand into another errand.
+%facts Progress tends to come in small pieces.
+%facts Something useful to occupy the time, at least.
+%facts Plans are easier before the world gets involved.
+%facts That's where the session has taken me.
+%facts I'll see what makes sense after that.
+%facts Plenty to do without inventing more work.
+%facts Keeping an eye on the immediate job.
+%facts The glamorous life of having another thing to finish.
+%facts Not every part of an adventure is a boss fight.
+%facts What's occupying your session?
+%facts Some jobs are more exciting than others.
+%facts Trying to get the practical bits done along the way.
+
+[location]
+I'm in %facts
+Right now I'm over in %facts
+You'll find me around %facts
+Currently over in %facts
+My map says %facts
+At the moment, %facts
+I'm on this side of the world: %facts
+The area I'm in is %facts
+Still here in %facts
+I've ended up in %facts
+If you're looking for me, %facts
+My current whereabouts: %facts
+For meeting up, I'm in %facts
+The short version: %facts
+I'm around this area: %facts
+Not far from wherever my feet landed: %facts
+Currently based around %facts
+Here's where I am: %facts
+Location-wise, %facts
+I'm presently in %facts
+You want my zone? %facts
+This is where the map puts me: %facts
+The place I'm standing in is %facts
+No secret hiding spot: %facts
+You can narrow it down to %facts
+I'm somewhere within %facts
+For now I've landed in %facts
+My surroundings are %facts
+I haven't left this area: %facts
+Still in the area of %facts
+Look for this zone: %facts
+I'm spending time in %facts
+The current stop is %facts
+If we're comparing maps, %facts
+This part of my trip is in %facts
+Here's my side of things: %facts
+%facts That's where I can place myself accurately.
+%facts Not the most detailed landmark, I know.
+%facts Were you planning to come through here?
+%facts Does that help work out the distance?
+%facts You'll want the right map before setting off.
+%facts Where are you travelling from?
+%facts That's the general area on my end.
+%facts No need to guess which continent first.
+%facts Are we talking about meeting or finding a place?
+%facts I can at least settle that part of the directions.
+%facts Travel time is a separate question.
+%facts The road here may be longer than it looks on a map.
+%facts Is that anywhere near your route?
+%facts Hopefully that narrows down the search.
+%facts That's my part of the world at the moment.
+%facts Were you expecting me somewhere else?
+%facts Better to establish the zone before the landmarks.
+%facts What's the place you're trying to reach?
+%facts That's as current as my answer gets.
+%facts Are you coming from a nearby town?
+%facts That should give you a starting point on the map.
+%facts Any meeting plan needs to allow for the trip.
+%facts At least we can rule out most of the world.
+%facts Are you asking about this area or your own destination?
+
+[quest]
+Which quest did you mean?
+Got a quest name or a link?
+What objective are you stuck on?
+Are you picking it up or turning it in?
+Tell me the quest and I'll know what we're discussing.
+Is it the kills, the drops, or finding the place?
+Which part of the quest is giving you trouble?
+Where did you pick that one up?
+What does the objective text say?
+Is that a group quest?
+Have you got the quest in your log already?
+Can you link the one you're talking about?
+Do you need directions or company?
+What level does it show for you?
+Is there a prerequisite you haven't done?
+Which quest giver are we talking about?
+Is the objective complete on your end?
+What are you supposed to collect?
+Are you looking for the start or the finish?
+What zone is the quest sending you to?
+There's a lot of quests; narrow it down for me.
+Does it ask you to use an item?
+Is it one of those escort quests?
+Who gave you that quest?
+Have you checked the quest item in your bags?
+Which stage of the chain are you on?
+Are you after the reward or just clearing your log?
+Does the log mention a specific area?
+What have you tried so far?
+Are the objectives sharing credit in your group?
+Are you asking about a quest I might also have?
+Could you tell me its name first?
+Do you mean finishing the objective or finding the turn-in?
+Is the problem that the NPC isn't there?
+What's the exact objective you're after?
+Give me the quest details so I don't mix it up.
+Before we plan anything, which quest title are we looking at?
+Link the quest so we don't confuse two similar names.
+Is the trouble an objective or getting the next quest to appear?
+Quest chains can be fussy about what came before.
+Let's make sure we're talking about the same step.
+Does the log ask for something to be used rather than killed?
+The quest text is a better starting point than a guess.
+Some of those names sound nearly identical to me.
+Are you missing a drop or missing the right enemies?
+It matters whether you've accepted it yet.
+Is the quest complete, or just one of its objectives?
+We should pin down the quest before choosing a route.
+Sometimes the important bit is hiding in the last sentence.
+Which NPC gave you the current step?
+Are you trying to share it with someone?
+Have you checked whether you're on different stages?
+Could be a prerequisite rather than a missing quest giver.
+Tell me the target name written in your log.
+There's no point searching the wrong area confidently.
+Would the item link or quest link make this clearer?
+I need to know which objective you're counting.
+Was the quest offered locally or did it send you here?
+Let's work from the actual quest rather than the vague memory of it.
+Which part hasn't changed when you make progress?
+
+[help]
+What do you need help with?
+What's the problem?
+Tell me a little more about it.
+Are you stuck on something nearby?
+Is it a fight, a quest, or finding something?
+What's going wrong?
+What are you trying to do?
+Can you show me what you mean?
+How much help are you looking for?
+Where would we need to go?
+What do you need another person for?
+Is this a quick thing or a longer job?
+What have you got in mind?
+Let's start with what you need.
+Are you looking for advice or a group?
+What's the bit you can't get past?
+Do you need a particular class?
+Is it urgent or can it wait a little?
+How far away is it?
+What would you like me to do?
+Can you point me at the problem?
+Is this something you've tried before?
+What happened when you tried it?
+Do you already have anyone helping?
+What's the goal here?
+Give me the details first.
+Are we talking about fighting or figuring something out?
+How would another player help?
+What's the situation on your end?
+Any special requirements I should know about?
+What's the task you're working on?
+Do you need someone now or later?
+Tell me where you're stuck.
+What's keeping you from getting it done?
+Can you break down what you need?
+Start with the problem and we'll go from there.
+Give me a concrete problem and we can start there.
+Advice, directions, or another person in the fight?
+How would you know the problem was solved?
+Tell me what you've already ruled out.
+Some things need a party; some just need clearer directions.
+Let's find the part that's actually stopping you.
+I can't promise a solution before I know the problem.
+What is the next thing you need to happen?
+Is there something nearby you can point out?
+Describe the awkward bit, not the whole afternoon.
+We can work through one piece at a time.
+What's the most useful thing another player could do here?
+Start with what you're short of.
+Are you asking someone to join you or explain something?
+What have you already managed without trouble?
+It helps to know whether there's any time pressure.
+Tell me where the plan stopped making sense.
+Let's agree on the job before anyone sets off.
+Do you need an item, a route, or a second pair of hands?
+What would make this less of a headache?
+Can you narrow it to the next step?
+I can listen, but I'll need the actual situation.
+Which part would you like another opinion on?
+Give me enough detail to avoid sending us both the wrong way.
+What's the part you're stuck on?
+Tell me what you need first, then I'll see if I can help.
+Is this something you need done now?
+What have you already tried?
+Do you need an explanation or another pair of hands?
+Which bit would you like me to handle?
+Give me the short version of the problem.
+What's missing before you can get started?
+
+[group]
+What are you putting a group together for?
+Which roles do you still need?
+How many people have you got?
+Where is the group heading?
+Is this for a quest or an instance?
+What's the level range?
+Are you looking for a full group?
+What sort of run are you planning?
+Who's leading the group?
+Do you have a tank and healer sorted?
+How long do you expect it to take?
+Is everyone ready to travel?
+What's the plan once the group fills?
+Are you just starting or replacing someone?
+What would you need me to do?
+Are there any requirements for joining?
+Where are you meeting up?
+Is it casual or a quick clear?
+What content are we talking about?
+Are you still recruiting?
+How far along is the group already?
+Do you need my class specifically?
+Is there room for another person?
+How are you handling loot?
+Got a destination in mind?
+Are we doing just one run?
+What time are you planning to start?
+Is everyone around the same level?
+What spot are you trying to fill?
+Will people be travelling there normally?
+How's the group looking so far?
+Is this something nearby?
+Are you organizing this yourself?
+What's the missing piece in the group?
+Tell me a bit about the group first.
+What are the expectations for the run?
+What's the group meant to accomplish before we talk invitations?
+Matching levels and plans saves a lot of standing around.
+Are you expecting a quick quest party or a longer session?
+Let's get the destination straight first.
+A group works better when everyone knows the job.
+What does the party already have covered?
+Are you making room for a friend as well?
+I'd want the roles clear before anybody starts travelling.
+How long are you hoping to keep the group together?
+Who's organising the actual route?
+Does everybody have the same objective accepted?
+We should account for anyone who still needs supplies.
+Are you filling a gap or starting from scratch?
+There's less hassle when the expectations are clear.
+What kind of pace are you expecting from the party?
+Is somebody already on the way there?
+An invite is easier once the activity is agreed.
+Are you looking for a particular role or just company?
+Let's avoid assembling five people with five different plans.
+Who still needs to get ready before leaving?
+Would this be a regular party or just today's job?
+Is the group waiting on someone specific?
+What would you like the extra player to handle?
+Getting together is the easy part; agreeing where to go helps.
+What are you hoping to get done together?
+Quick group, or are you settling in for a while?
+How many people are you looking for?
+Do you already have a tank and healer sorted?
+Are we questing nearby or heading somewhere?
+What sort of pace are you aiming for?
+What's the level range for the group?
+Is there a particular run you had in mind?
+
+[dungeon]
+Which dungeon are you thinking of?
+Normal or heroic?
+What's the group missing for that dungeon?
+Is this a full clear or a specific boss?
+Are you queueing or travelling there?
+What level is the dungeon group?
+Have you got a healer lined up?
+Do you know the route through it?
+Are you looking to learn it or farm it?
+What time are you heading in?
+Are people ready outside the entrance?
+Any quests you want to do inside?
+How long a run are you expecting?
+Is the group already inside?
+Which boss are you on?
+Are you replacing someone who left?
+What's your plan for the tricky pulls?
+Is everyone eligible for that one?
+How are you doing loot for the run?
+Do you need a particular role?
+Is this your first time there?
+Which entrance are you meeting at?
+Are you clearing optional bosses too?
+Do people have time for the whole place?
+What difficulty did you select?
+Are we talking about a dungeon quest?
+Has everyone repaired before heading in?
+Do you already have five people?
+Is anyone explaining the mechanics?
+What's the main reason for this run?
+Are you taking it steadily or going quickly?
+Any level requirements I should know?
+What part of that dungeon are you discussing?
+Is there a particular drop you're after?
+How's the run going so far?
+Give me the dungeon name and the plan.
+Which entrance are people actually travelling toward?
+The difficulty matters before anyone commits to the trip.
+Have the healer and tank agreed on the pace?
+It's worth making sure nobody is locked out first.
+Are you starting a fresh run or filling a departure?
+I'd rather know the instance than guess from the role request.
+Some preparation now saves a corpse run later.
+Does everyone meet the requirements for that difficulty?
+Are you aiming for a full clear or a particular boss?
+How far into the instance is the group?
+Make room for supplies as well as loot.
+Does anyone need directions to the actual entrance?
+Better to check the party before making the first pull.
+Who is handling marks and the pull order?
+Is the plan to finish this run before queuing another?
+People should know whether it's a learning run.
+Do you already have the necessary roles covered?
+It's easier when the group agrees what a reasonable pull looks like.
+Nobody enjoys discovering broken gear after the first pack.
+Is someone still waiting on a quest for that place?
+A short readiness check can prevent a long reset.
+Are there any particular mechanics you want discussed first?
+What's the plan if someone has to leave partway through?
+Let's get an actual dungeon name into the plan.
+
+[raid]
+Which raid and difficulty?
+How many spots are you trying to fill?
+What's the raid working on?
+Is this a fresh raid or a saved run?
+What are the role requirements?
+Who's doing the raid leading?
+What time is the start?
+Which boss are you on?
+Are you explaining fights as you go?
+How are you handling the raid lockout?
+Is everyone prepared with supplies?
+What sort of gear are you expecting?
+How long are you planning to raid?
+Is this progression or a familiar clear?
+What loot rules are you using?
+Are people travelling to the entrance?
+Do you need a specific class buff?
+How many tanks have you got?
+Are your healers sorted?
+Which encounter is causing trouble?
+Is it ten-player or twenty-five-player?
+Is everyone available for the whole run?
+Are you taking people who are learning?
+What's the group composition like?
+Do you have a plan for assignments?
+What are you trying to improve on this attempt?
+Is the raid forming now or later?
+Are we talking about a particular mechanic?
+Has everyone checked their eligibility?
+What boss strategy are you using?
+Are you filling a replacement spot?
+What does the raid need most?
+Which part are you organizing?
+How's everyone's durability looking?
+Are there any special preparations?
+Tell me the raid details before we get ahead of ourselves.
+A raid needs a bit more agreement than a mass invitation.
+Which bosses are on the plan for this session?
+Is everyone working from the same raid lockout?
+Are you replacing someone or putting a fresh roster together?
+Knowing the difficulty saves an awkward trip later.
+What roles are still missing from the roster?
+Is there an agreed stopping time for the run?
+Raid plans go better when the loot rules are clear beforehand.
+Who's calling pulls and handling assignments?
+Are newcomers expected to know the fights already?
+Do people still need to travel or repair first?
+Are you aiming to learn an encounter or clear quickly?
+How much of the raid is already inside?
+One spare player doesn't always solve a missing role.
+Does everyone have the required access to that instance?
+It would help to know whether this is a guild run.
+Nobody should discover the loot rules after an item drops.
+Which encounter is the roster being built around?
+Is there time planned for explaining mechanics?
+Are the raid size and difficulty settled yet?
+I'd start with the lockout, roles, and destination.
+What's the recovery plan if the first attempt goes badly?
+Are you keeping the same group for another session?
+Better to settle expectations before people spend the travel time.
+
+[battleground]
+%facts Which battleground are you talking about?
+%facts Are you queueing as a group?
+%facts What's happening with the objectives?
+%facts Do you need defense or an attack group?
+%facts Are people staying together?
+%facts Which bracket are you in?
+%facts What's the score looking like?
+%facts Is the flag being covered?
+%facts Which objective needs attention?
+%facts Are you calling targets for the group?
+%facts Where's the pressure coming from?
+%facts Are we talking tactics or queueing?
+%facts Do you want people defending a point?
+%facts Is anyone coordinating the team?
+%facts What's the plan for the next push?
+%facts Are the healers getting support?
+%facts How's the match going?
+%facts Do people need to regroup?
+%facts Which side of the map matters right now?
+%facts What's the team struggling with?
+%facts Is there a clear objective for this fight?
+%facts Are you trying to hold or recover a point?
+%facts What role are you playing this match?
+%facts Is this a premade group?
+%facts Are you looking for someone in your bracket?
+%facts What's more urgent, defense or pressure?
+%facts Are people watching the map?
+%facts Is the team chasing kills or objectives?
+%facts Where do you think the next attack is coming?
+%facts What's the call from the group?
+%facts Are there enough people protecting the carrier?
+%facts How much time is left?
+%facts What would help the team most?
+%facts Is this about the current match?
+%facts Which objective are you trying to secure?
+%facts Tell me what you can see happening.
+%facts Fighting near an objective usually does more than fighting on a road.
+%facts A few people moving together can change a messy fight.
+%facts Don't forget the flag while looking for a kill.
+%facts Is your team keeping anyone back to defend?
+%facts One defender calling for help can save a lot of running.
+%facts Chasing into their respawns rarely ends well.
+%facts It's easy to win a fight in a place that doesn't matter.
+%facts Are you trying to defend ground or take it?
+%facts The next useful move isn't always another attack.
+%facts A controlled retreat can keep a push alive.
+%facts Check who can actually support you before going in.
+%facts Is the group waiting for people to come back?
+%facts Staying close enough to help beats charging separately.
+%facts A low enemy can be bait for a very long chase.
+%facts Objectives tend to get forgotten when a fight gets personal.
+%facts Where is your team losing most of its time?
+%facts Defending can be useful even when the scoreboard is quiet.
+%facts You don't need every player chasing the carrier.
+%facts A short call is more useful than an argument in chat.
+%facts Are you playing with friends or joining on your own?
+%facts The person watching the flag is doing a job too.
+%facts A fight that pulls us away from everything may be a distraction.
+%facts It's easier to regroup before the next push than after another wipe.
+%facts How has the match been going on your end?
+
+[arena]
+%facts Which arena bracket are you interested in?
+%facts What composition are you running?
+%facts Are you looking for a regular teammate?
+%facts What role would you want filled?
+%facts Are you practising or pushing rating?
+%facts What time do you usually queue?
+%facts Which matchups are giving you trouble?
+%facts How are you coordinating crowd control?
+%facts Are you trying a new composition?
+%facts What are you working on improving?
+%facts Do you have a partner already?
+%facts What kind of experience are you looking for?
+%facts Is this twos, threes, or fives?
+%facts What's the plan for target swaps?
+%facts Are you discussing a specific match?
+%facts How's the team communicating?
+%facts What happened in the last round?
+%facts Are you looking for casual practice?
+%facts How often do you want to play?
+%facts Which class are you pairing with?
+%facts What sort of pace do you like in matches?
+%facts Are you planning around defensive cooldowns?
+%facts What do you need from a teammate?
+%facts Is the team ready with gear and supplies?
+%facts Are you trying to solve a positioning problem?
+%facts What would you change next round?
+%facts Do you want to review the last game?
+%facts Are you forming a new team?
+%facts What do your usual sessions look like?
+%facts Which part of arena play interests you most?
+%facts Is this a team invitation or a tactics question?
+%facts What opening are you planning?
+%facts Are you comfortable learning together?
+%facts What's the team trying to achieve?
+%facts Who would be calling the switches?
+%facts Tell me a bit about the arena plan.
+%facts A target switch works better when both people notice it.
+%facts Positioning can make an ordinary match feel completely different.
+%facts Not every defensive needs to be used at once.
+%facts Is your team practising anything particular today?
+%facts Losing line of sight at the wrong moment gets expensive.
+%facts A clean reset can be better than forcing a bad chase.
+%facts Knowing your partner's plan helps more than guessing it.
+%facts Which matchup keeps making you change your opening?
+%facts An interrupt without a cast isn't much of an interrupt.
+%facts It's useful to agree who calls the first switch.
+%facts Pressure isn't always the same thing as chasing.
+%facts Are you trying to improve a setup or change the composition?
+%facts One rough game doesn't explain an entire team.
+%facts Keeping a teammate alive can create the next opening.
+%facts A plan should leave room for the other team to react.
+%facts Are you discussing a new team or an existing one?
+%facts Some losses make more sense after a quiet review.
+%facts Turning every mistake into an argument won't improve the next round.
+%facts The useful question is what to do differently next time.
+%facts How does your team decide when to push?
+%facts An obvious immunity is a good reason to reconsider the target.
+%facts People need room to learn their partner's timing.
+%facts It's a lot easier when the team wants the same kind of session.
+%facts Are you after steady games or a specific rating goal?
+
+[trade]
+What are you looking to trade?
+Which item are we talking about?
+What quantity did you have in mind?
+Have you got an item link?
+What would you want in exchange?
+Let's be clear about the item first.
+Is this a sale or a straight swap?
+What sort of price are you thinking?
+Where would the trade happen?
+Do you want one stack or several?
+Which version of the item do you need?
+Are you buying materials or finished goods?
+What are the terms you're offering?
+Can you show me the item?
+Are we discussing a price or arranging a trade?
+What's your offer exactly?
+Let's get the details before opening trade.
+Do you mean the item you linked?
+How many are involved?
+Is that price per item or per stack?
+Would this be a direct trade?
+What do you need on my side of it?
+Are you looking for materials I might have?
+What are you offering back?
+Any specific quality or requirements?
+Which goods did you mean?
+Let's make sure we're talking about the same thing.
+What does the deal include?
+Are you asking for a price check?
+Do you have a preferred meeting place?
+What amount are you after?
+Could you spell out the trade?
+Is this about something in your bags?
+What item and what price?
+Are you still looking to trade that?
+Give me the item details first.
+Let's establish what each side is actually offering.
+A clear item link saves a lot of price confusion.
+I need the quantity as well as the item name.
+Are we discussing one item or the whole stack?
+The terms should be settled before the trade window opens.
+There's no deal yet if we're talking about different quantities.
+Tell me which part of the offer you'd like to change.
+Are you valuing the materials separately from the finished item?
+Let's avoid agreeing to two different versions of the trade.
+I can talk terms once the goods are clear.
+Is that gold, another item, or a mix of both?
+Are you quoting a price for each or for everything?
+The trade needs to be possible for both of us.
+Is the item ready to exchange, or are you still looking for it?
+We should be clear about what happens in the actual window.
+I'm not taking a vague offer as a finished agreement.
+Let's get the exact item into the conversation.
+What's the part you want to negotiate?
+Does the offer include the full stack shown in the link?
+Neither of us benefits from guessing the price unit.
+Tell me what you expect to receive for it.
+Is this a direct exchange or are you asking about market prices?
+We can discuss it without pretending the trade has happened.
+Which of the terms do you want confirmed first?
+
+[buy]
+Which item are you buying?
+How many do you need?
+Have you got a link for what you want?
+What's your budget for it?
+Are you buying a full stack?
+What exactly are you looking for?
+Do you need it right away?
+Which materials are on your shopping list?
+Are you looking for a crafted item?
+What quality do you need?
+Is that a price per stack?
+What would you pay for the quantity you need?
+Do you want the item or the materials?
+Any specific stats you're after?
+How much are you hoping to pick up?
+Is there a particular recipe involved?
+Are you comparing offers?
+Can you link the exact item?
+Are you buying for yourself or crafting?
+Which version are you after?
+What's the amount and the price range?
+Is this a one-time purchase?
+Do you need a particular enchant or gem?
+What have you found for sale so far?
+Are you willing to travel for it?
+Which goods did you want to buy?
+How soon do you need the materials?
+Are you buying singles or stacks?
+Any restrictions on what you'll accept?
+What quantity should I be thinking about?
+Are you after a specific item level?
+Is your offer for the whole lot?
+What are you planning to use it for?
+What's on the list, exactly?
+Are you still searching for a seller?
+Tell me what you want to buy first.
+Link what you want so the name doesn't fool us.
+Is there a particular version you need?
+Quantity first, then we can discuss the rest.
+Do you need it right away or are you comparing offers?
+There's a difference between buying one and buying a stack.
+Tell me what you would actually put in the trade.
+Are you replacing something or stocking up?
+The item needs to match what you're looking for.
+Do you need a specific quality or just the materials?
+Let's make sure the amount is written down clearly.
+Are you asking me for stock or asking where to shop?
+What would count as enough for the job?
+Buying extras isn't always the cheapest way to finish a recipe.
+Do you need the crafted item or its ingredients?
+Tell me whether substitutes would even be useful.
+Is the price you mentioned for a single unit?
+The link and the amount would settle most of this.
+What are you hoping to spend on the purchase?
+Are you after the whole lot or only part of it?
+Make sure it's something you can actually use.
+Is there a level or skill requirement to account for?
+We should establish exactly what you're trying to buy.
+Are you looking to collect it in person?
+How many would you need to stop shopping for it?
+
+[sell]
+What are you selling?
+How much are you asking?
+Have you got an item link?
+Is that the price for a stack?
+What quantity do you have?
+Which item are you offering?
+Are you selling materials or equipment?
+Is there a minimum amount to buy?
+What's included in the price?
+Are you open to discussing the amount?
+What quality is the item?
+Is it a crafted piece?
+Where are you offering it from?
+Do you have more than one stack?
+What are the exact stats?
+Are you selling the whole batch together?
+Which version of it do you have?
+Do you have a price in mind already?
+Is that still available?
+What's the asking price per item?
+Are you selling directly or through the auction house?
+Could you show me what it is?
+What amount are you trying to move?
+Is the item bound at all?
+Do you want gold or another item?
+Are you selling a service or the finished item?
+What would the full batch cost?
+Is this a regular supply or just spare materials?
+What are your trade terms?
+Have you set a price for singles?
+Which goods are available?
+Are you looking for offers?
+Can you give me the item and quantity?
+Is there anything special about that one?
+What do you want for it exactly?
+Tell me what you're offering first.
+Let me see the actual item before we discuss buying it.
+Is the asking price for the stack shown?
+What quantity do you have available to trade?
+The details matter more than a vague bargain.
+Are you selling materials or something already made?
+Make the unit price clear and people can compare it properly.
+Does it have a requirement I should know about?
+Are you offering all of it together?
+I don't want to promise a purchase without checking the item.
+Which part of the price is negotiable?
+Are you looking for gold or willing to exchange goods?
+A usable item and a useful item aren't always the same thing.
+Can you link the exact piece you're offering?
+Is that your remaining stock or just one stack?
+Selling quickly and getting the best price can be different plans.
+Are you expecting someone to travel for the trade?
+Tell me how much you're asking for each.
+Does the offer include anything besides the linked item?
+I'm listening, but that isn't a commitment to buy.
+Would you sell a smaller amount if that's all someone needs?
+Let's get the condition and quantity straight first.
+Is it something you're making regularly or clearing from your bags?
+Your item link would answer more than a guess from the name.
+What would you consider a fair exchange for the lot?
+
+[profession]
+%facts What are you working on at the moment?
+%facts Are you choosing your first profession?
+%facts Which part of the trade interests you?
+%facts Are you gathering materials or buying them?
+%facts What recipe are you trying to learn?
+%facts Is there a particular item you want made?
+%facts Have you found a useful trainer?
+%facts Do you make things for yourself or your guild?
+%facts Are you trying to earn gold with it?
+%facts What material has been hardest to find?
+%facts Are you pairing gathering with a crafting skill?
+%facts Have you been keeping your tools with you?
+%facts Are you trying to raise a skill today?
+%facts What's your next profession goal?
+%facts Have you compared the cost of the ingredients?
+%facts Is this for equipment or consumables?
+%facts Do you have a recipe link handy?
+%facts Are you looking for someone with a specific skill?
+%facts What made you choose your trade?
+%facts Have you got enough bag space for gathering?
+%facts Do you save materials or sell them as you go?
+%facts Are you shopping for a recipe?
+%facts Is there something your group keeps running out of?
+%facts What have you found useful to make lately?
+%facts Are you learning a trade on another character too?
+%facts Have you checked which ingredients you already own?
+%facts Do you prefer gathering routes or time at a workbench?
+%facts Are you after a one-off craft or a regular supplier?
+%facts Have you tried asking your guild about the recipe?
+%facts Is a missing tool holding you up?
+%facts Do you tend to keep a stock of useful materials?
+%facts Are the trainer's fees what you're saving for?
+%facts What would you like to be able to make next?
+%facts Are you checking skill requirements before buying materials?
+%facts Did you need my skill level or information about a recipe?
+%facts Tell me what you're planning to make.
+%facts A useful recipe can justify quite a few errands.
+%facts Materials have a way of filling every spare bag slot.
+%facts Owning the ingredients is a good start, at least.
+%facts Some of the tools are errands of their own.
+%facts Are you working toward a particular recipe?
+%facts Buying every ingredient can get expensive quickly.
+%facts Gathering and crafting make a fairly practical pair.
+%facts The workbench is only part of the job.
+%facts There's usually one ingredient holding things up.
+%facts Are you making things to use or things to sell?
+%facts It's worth checking the recipe before buying a stack of the wrong thing.
+%facts Skill points feel better when the finished item is useful.
+%facts A crafting trip can turn into a shopping trip very easily.
+%facts Some materials are worth keeping rather than selling immediately.
+%facts Do you have a regular source for your ingredients?
+%facts Even the simple recipes need actual supplies.
+%facts Making goods nobody needs isn't much of a business.
+%facts A missing tool can make a full bag of materials useless.
+%facts It's easy to underestimate the cost of all the small ingredients.
+%facts Are you trying to improve the skill or finish a particular item?
+%facts The gathering part can take longer than the crafting part.
+%facts A recipe link is more reliable than remembering half its name.
+%facts Useful crafts give the profession a purpose beyond a number.
+%facts What are you planning to do with the finished goods?
+
+[equipment]
+%facts Are you comparing it with something you found?
+%facts What slot are you hoping to improve?
+%facts Is this for a dungeon gear check?
+%facts Are you looking for a weapon upgrade?
+%facts Do you have an item link to compare?
+%facts Have you had any useful drops lately?
+%facts Are you checking repair needs before a run?
+%facts What stats are you building around?
+%facts Is there a particular piece you wanted to ask about?
+%facts Are you choosing a quest reward?
+%facts Do you usually buy upgrades or wait for drops?
+%facts Is your group getting ready for something harder?
+%facts What are you using in that slot?
+%facts Are you comparing item levels or useful stats?
+%facts Have you found an enchant you want to use?
+%facts Is there a set bonus you're working toward?
+%facts Are you trying to replace a worn-out piece?
+%facts Do you have a crafting option for that slot?
+%facts What kind of upgrade would help your role most?
+%facts Have you checked whether you can use the item yet?
+%facts Are you asking about what I'm wearing or a linked item?
+%facts Is a repair bill slowing your plans down?
+%facts Do you keep spare equipment in your bags?
+%facts Are you planning gear for a different role?
+%facts Have you compared the weapon speeds too?
+%facts Did something drop that you wanted another opinion on?
+%facts Are you saving for a particular upgrade?
+%facts Is your current gear meeting the instance requirements?
+%facts What piece has been hardest for you to replace?
+%facts Do you prefer a useful stat combination over a higher item level?
+%facts Are you trying to get ready for PvP?
+%facts Have you looked at the profession-made options?
+%facts Would you link the exact item you meant?
+%facts Are you considering an upgrade for now or for later levels?
+%facts Is there a slot the whole group is struggling to fill?
+%facts Tell me which piece you wanted to discuss.
+%facts Item level doesn't answer every equipment question.
+%facts The useful stats depend on what the piece is for.
+%facts An upgrade still needs to make sense for the role.
+%facts Repairs are part of keeping the equipment useful.
+%facts Which piece are you comparing against it?
+%facts A set bonus can complicate a simple-looking choice.
+%facts Requirements matter before the shiny numbers do.
+%facts It's worth looking at what you lose as well as what you gain.
+%facts Some upgrades are much easier on the purse than others.
+%facts Is this for PvP or your usual PvE setup?
+%facts The weapon choice tends to affect the rest of the setup.
+%facts A useful enchant still needs the right item underneath it.
+%facts Two pieces can be good for different jobs.
+%facts There's more to the choice than the colour of the name.
+%facts Are you trying to replace a weak slot first?
+%facts Equipment advice is easier with the actual item links.
+%facts A damaged item makes for a bad comparison.
+%facts Gear is supposed to help the plan, not become the entire plan.
+%facts Something you can use now may matter more than a distant upgrade.
+%facts What problem are you trying to solve with the replacement?
+%facts The expensive option isn't automatically the useful one.
+%facts Don't forget the cost of getting a new piece ready.
+%facts A spare can be useful without being the best piece you own.
+%facts Is there a particular stat you're short of?
+
+[class]
+%facts What role do you like playing?
+%facts Are you working out a group composition?
+%facts Is that the kind of build you were asking about?
+%facts What are you playing at the moment?
+%facts Are you comparing two specializations?
+%facts Do you prefer healing, tanking, or dealing damage?
+%facts What has your group been short of?
+%facts Are you planning a dungeon run?
+%facts Is this about a particular class ability?
+%facts What sort of encounters are you getting ready for?
+%facts Are you thinking of changing your own build?
+%facts Have you played this class yourself?
+%facts What do you find most useful in your regular group?
+%facts Is there a spell you wanted to ask about?
+%facts Are you putting together a raid roster?
+%facts Do you usually stick with one role?
+%facts What brought you to your current class?
+%facts Are you looking for someone to cover a mechanic?
+%facts Is this for PvE or PvP?
+%facts Do you have a talent build in mind?
+%facts What part of your class do you enjoy most?
+%facts Are you comparing class strengths or actual equipment?
+%facts Do you tend to play alone or with a regular party?
+%facts Is your group choosing a different strategy?
+%facts Have you tried playing the support roles?
+%facts What do you want your next character to do?
+%facts Are you checking roles before sending invitations?
+%facts Did you want to know what I've learned specifically?
+%facts Is there a matchup you're thinking about?
+%facts Do you like a complicated rotation or a simpler one?
+%facts What would complement the rest of your party?
+%facts Are you deciding who should take the lead on pulls?
+%facts Have you found a playstyle that suits your pace?
+%facts Are you choosing talents for leveling or for groups?
+%facts What role has been hardest for your guild to recruit?
+%facts Tell me which class detail you wanted to discuss.
+%facts The role matters when talking about how to play it.
+%facts A class label doesn't tell the whole story of a build.
+%facts Different fights ask for different priorities.
+%facts It's easier to discuss a particular ability than a whole class at once.
+%facts Which part of the class interests you?
+%facts Knowing when to hold something can matter as much as using it.
+%facts Class discussions get a lot clearer with a specific situation.
+%facts A rotation won't answer every movement problem.
+%facts There's usually a reason behind an ability choice.
+%facts Are you asking about solo play or a group role?
+%facts Good positioning makes a lot of class tools easier to use.
+%facts Experience with one build doesn't settle every other build.
+%facts Staying alive is still part of doing the job.
+%facts The interesting part is often adapting when the plan breaks.
+%facts Which ability were you comparing?
+%facts Knowing the tool and having it ready aren't the same thing.
+%facts Some choices make more sense with a particular group.
+%facts You learn a lot when an easy rotation stops being enough.
+%facts There's room for personal habits without forgetting the role.
+%facts What situation are you trying to handle better?
+%facts Class strengths don't remove the need to watch the fight.
+%facts A useful cooldown needs a useful moment.
+%facts Comfort with a class usually takes a few awkward fights.
+%facts Are you learning it or comparing it with another character?
+
+[guild]
+%facts What kind of guild are you looking for?
+%facts Do you mostly play with guildmates?
+%facts Are you interested in organized raids?
+%facts How has your own guild been doing?
+%facts Do you prefer a busy guild or a small one?
+%facts Are you trying to find people on your schedule?
+%facts What do you enjoy doing with guildmates?
+%facts Are you asking about recruitment?
+%facts Is there a particular guild event you have in mind?
+%facts Do you usually quest together?
+%facts Are you looking for a regular dungeon group?
+%facts What makes a guild feel like a good fit to you?
+%facts Do you like helping people level?
+%facts Are you looking for a progression group?
+%facts Does your guild organize battlegrounds?
+%facts How important is a regular raid night to you?
+%facts Do you usually know people before joining a guild?
+%facts Are you trying to get a repeat group together?
+%facts What sort of activities keep your guild busy?
+%facts Are you more interested in company or scheduled runs?
+%facts Do your guildmates help with professions?
+%facts Is there a role your regular group is short of?
+%facts How long have you played with your current group?
+%facts Do you prefer talking in guild chat or keeping to a party?
+%facts Are you organizing something for the weekend?
+%facts Have you found a group that plays at the same pace?
+%facts What would you want from a new guild?
+%facts Do you run with the same people often?
+%facts Are you asking for yourself or a friend?
+%facts How do you usually meet new guildmates?
+%facts Is your group focused on PvE or PvP?
+%facts Do you like keeping things casual between runs?
+%facts Have you been planning any guild activities?
+%facts Would you rather join an established group or build one?
+%facts What have you enjoyed most about guild life?
+%facts Tell me what sort of group you're hoping to find.
+%facts A guild is more than the name over someone's head.
+%facts Regular company makes the ordinary errands more pleasant.
+%facts It's useful when people want similar things from the game.
+%facts Being clear about expectations prevents a lot of arguments.
+%facts What kind of atmosphere are you hoping for?
+%facts Some people want organised runs; others just want familiar chat.
+%facts Helping out occasionally makes a guild feel like a guild.
+%facts Not everyone needs to be available for every activity.
+%facts A good fit matters more than a long roster.
+%facts Are you after regular events or a quieter social group?
+%facts People tend to remember how they're treated during a bad run.
+%facts Nobody enjoys finding out the rules halfway through a disagreement.
+%facts A friendly name in chat can improve an ordinary session.
+%facts Plans work better when people say whether they can actually come.
+%facts Are there activities you'd want to organise yourself?
+%facts The everyday conversations are part of the reason to stay.
+%facts It's easier to help when the request is specific.
+%facts Being in the same guild doesn't mean everyone has the same goals.
+%facts A little patience helps when people are learning together.
+%facts What's made you start looking at guilds?
+%facts Reliability counts for something beyond gear.
+%facts A group that treats mistakes sensibly is worth finding.
+%facts It's nice when assistance isn't treated like a debt.
+%facts Are you hoping to play with the same people regularly?
+
+[friend]
+It's good running into familiar people.
+What name would I know you by?
+Have we grouped before?
+Were we talking earlier?
+Remind me where we crossed paths.
+Are you asking about adding each other?
+Always nice to make a connection.
+What were we doing last time?
+I don't want to mix you up with someone else.
+Were you on another character?
+It's easier to remember a shared adventure than a name.
+When do you usually play?
+Do you tend to stick to the same areas?
+What do you like doing with friends in game?
+Are you looking for people to group with regularly?
+Were we in the same party?
+Give me a little reminder.
+Who do you usually play with?
+Are we talking about a previous run?
+Do you have a regular group already?
+What brought you back this way?
+Are you hoping to organize something together?
+Good company makes the grind easier.
+Was that on this character?
+Did we meet through a guild?
+I'd rather ask than pretend to remember.
+Was it a quest group or a dungeon?
+What time are you normally around?
+People make the world more interesting.
+Do you like keeping a small friends list?
+Are you reconnecting after a break?
+We might have crossed paths while travelling.
+What were we chatting about before?
+Are you trying to find a particular person?
+I'm happy to hear what you've been up to.
+Help me place the name and the occasion.
+A name helps me place a conversation better than a hint.
+I don't want to invent a shared adventure we didn't have.
+It's easier to get familiar after a few proper conversations.
+You might have to remind me which meeting you mean.
+What were we talking about when we crossed paths?
+I prefer being honest when a memory is fuzzy.
+Some people are easier to place once the context comes back.
+Was it a group, a trade, or just conversation?
+I'm happy to get acquainted from here.
+Give me something more specific than a familiar-looking name.
+It's good when an area starts having familiar people in it.
+I'm not certain which previous meeting you mean.
+We can get past the stranger stage with a little conversation.
+A shared name alone can be misleading.
+Were you on this character at the time?
+I'd rather ask than confidently remember the wrong person.
+What would connect your name with that earlier meeting?
+I'm listening; help me place the story.
+Running into the same people does make the world feel smaller.
+Was somebody else with us when that happened?
+Let's start with where you remember meeting.
+Familiarity usually comes from more than a single hello.
+There's no harm in introducing ourselves properly now.
+Which part of our earlier conversation are you thinking of?
+
+[ready]
+Ready for what exactly?
+What are we getting ready to do?
+Is this for the next pull?
+Are you checking supplies or just who's here?
+Which part needs a ready check?
+What's the next step you're checking on?
+Are we about to head somewhere?
+Do you mean ready to start the run?
+What should everyone have prepared?
+Is the group waiting on something specific?
+Are you checking that people know the plan?
+Have the assignments been explained?
+What are we preparing for?
+Do you mean ready to travel?
+Are people checking buffs and resources?
+What's the starting point?
+Is there a plan everyone should know?
+Are we checking roles before starting?
+What needs to happen before we begin?
+Do you mean the whole group or just me?
+What's the call we're waiting for?
+Are you asking about the next attempt?
+Is this a proper ready check?
+What should I be ready for?
+Are we about to change plans?
+Do you need confirmation about a particular thing?
+What is everyone preparing to do?
+Are you checking whether we're still around?
+Have you finished explaining the approach?
+Do you want people to check their bags?
+What's the immediate plan?
+Are you asking before a pull or before travelling?
+Is there anything special to prepare?
+What are we waiting to start?
+Do you mean ready for another try?
+Give me the context for the ready check.
+Tell me what we're checking readiness for.
+Ready can mean supplied, nearby, or just willing.
+Let's make sure everyone means the same next step.
+Are you asking about me or checking the whole group?
+I'd want the actual activity clear before saying yes.
+What needs to be ready before we begin?
+Is this a pull check or a travel check?
+One person's ready doesn't account for the rest of the party.
+Let's confirm the job rather than rush the word.
+Are we preparing to move, queue, or fight?
+Check that nobody is still explaining something.
+Does the group know what's happening immediately after the check?
+Ready checks are useful when people can answer honestly.
+What's the next action you're waiting to start?
+Would anybody need supplies before this begins?
+An agreed plan makes that easier to answer.
+Are people already in position for it?
+Let's establish which part is meant to be ready.
+Does this include waiting for the people still travelling?
+Are you checking the roster or the pull?
+No shame in asking for another moment to prepare.
+What's left to sort out before we go?
+It helps if the check has a clear purpose.
+Let's avoid a ready check that surprises half the group.
+
+[wait]
+What's the hold-up?
+How long do you need?
+Are we waiting for someone?
+Is something missing before we go?
+Do you need a quick break?
+What's keeping things paused?
+Are you sorting your bags?
+Is someone still on the way?
+Do you need to repair first?
+What should people wait for?
+Is it a short pause?
+Are you checking something before continuing?
+Do you want a moment to explain the plan?
+How much time are you thinking?
+Are you waiting on a cooldown?
+Is someone catching up?
+What's the reason for the pause?
+Are we stopping here for a minute?
+Do you need time to get supplies?
+Is there a problem we should know about?
+Are you taking a break from the screen?
+Do you need a little space to sort something?
+Is the group waiting together?
+What's the next thing we're waiting on?
+Are you about to change the plan?
+Do you need a drink or food break?
+Are we pausing the next pull?
+Is everyone meant to stop?
+Any idea when we can continue?
+Are you still travelling over?
+Do you want to regroup before moving?
+What's the time frame for the wait?
+Are we holding for another person?
+Do you need a chance to catch your breath?
+What are we giving time for?
+Let me know what the pause is about.
+Take the moment you need; what's holding things up?
+Is this a quick pause or a change of plans?
+Let people know if the delay is going to be longer.
+There's no benefit in rushing someone who isn't prepared.
+Are we waiting on travel or something else?
+I'd rather understand the pause than keep guessing.
+A little notice saves a lot of impatient running around.
+How much should the group put on hold?
+It's fine to ask for breathing room.
+Are you sorting bags, supplies, or a real-life interruption?
+We should make sure everyone heard the pause.
+What's the thing we're waiting to happen?
+No sense starting the next part with somebody missing.
+Would a short break cover it?
+Let's keep the reason for the pause clear.
+Better a brief delay than an avoidable reset.
+Are you expecting someone else to arrive?
+People handle waiting better when they know why.
+Is the current plan still the one you want afterward?
+A pause doesn't need to turn into an argument.
+Let the group know when the situation changes.
+Are you asking for a moment or asking us to stop entirely?
+There's room for a sensible break between jobs.
+What would need to be sorted before continuing?
+
+[follow]
+Where are you heading?
+What's the destination?
+Are you asking to meet somewhere?
+Which route are you taking?
+How far is it from here?
+Are you going to an entrance or a quest?
+Where would you want to meet?
+What's the plan once you get there?
+Are we talking about a nearby spot?
+Can you name the place?
+Is there a flight route involved?
+What zone are you heading into?
+Are you on foot or mounted?
+Where exactly did you mean?
+Is the path safe for our levels?
+Are you going somewhere I can reach?
+What brings you that way?
+Which direction should I be looking?
+Have you got a meeting point?
+Do you mean travelling together?
+Are you trying to find the way there?
+What's the closest landmark?
+Are we crossing to another map?
+How are you planning to get there?
+Are you looking for company on the trip?
+Is it a quick walk?
+Do you know the route already?
+What should I look for on the map?
+Are you meeting other people there too?
+What part of the area are you going to?
+Is there anything to do before travelling?
+What's your current destination called?
+Do you want to compare routes?
+Which side of the zone is it on?
+Are you asking about the next leg of the trip?
+Tell me where you're going first.
+I need an actual destination before making travel plans.
+Are you leading to a quest, a town, or an entrance?
+Let's work out the route before people start moving.
+Where does the journey need to finish?
+Are you nearby, or would meeting take a while?
+Following someone isn't much help if the destination keeps changing.
+Is there a safe route you have in mind?
+Tell me where you're trying to meet up.
+Do you need company on the road or help once you arrive?
+We should allow time for anyone coming from farther away.
+Is the group moving together or meeting at the end?
+What landmark are you using for the meeting?
+Let's not turn a simple trip into searching for each other.
+Are we talking about the next street or another continent?
+Does everybody have access to that route?
+I'd start by naming where we're going.
+Which side of the entrance are people meeting on?
+Are you expecting a flight or a walk?
+A clear meeting point would help with that.
+Is there anything needed before making the trip?
+The destination matters more than the word follow.
+Where should someone coming from town head first?
+Are you asking me to meet you or explaining where you're going?
+Let's choose a place both people can actually reach.
+
+[stop]
+What do you want to stop?
+Are you changing the plan?
+Which part should be cancelled?
+Do you mean stop moving or stop the activity?
+Has something gone wrong?
+Are you calling off the group?
+What changed?
+Do you need everyone to hold up?
+Are we ending the run?
+Which action are you talking about?
+Is this just a pause?
+What are we putting aside?
+Are you asking for a different approach?
+Do you want to explain before anything continues?
+What's the thing you want to cancel?
+Are you stopping for a reason we should know?
+Is everyone meant to halt?
+What's the revised plan?
+Do you mean leave that objective alone?
+Are you calling a break?
+Should we be discussing something first?
+What needs to change right now?
+Is the activity finished on your end?
+Are you asking to end the conversation?
+Do you need a moment to sort something?
+Which plan isn't working for you?
+Are you backing out of an arrangement?
+Is this about the next pull?
+What exactly are you saying no to?
+Do you want to set a new destination?
+Are you done for the session?
+What's the concern?
+Are we stopping because someone isn't ready?
+Do you want to call it there?
+Which commitment are we discussing?
+Tell me what you want changed.
+Which part of the plan needs to end?
+Let's untangle whether you're cancelling or just pausing.
+Are you finished with the activity or changing how it works?
+Tell me what you no longer want to do.
+There's no need to keep a bad plan just because it started.
+Does this cancel the meeting as well?
+I don't want to misunderstand a change of plans.
+Are you asking about the conversation or the activity?
+What should the group consider cancelled?
+Let's be clear about which commitment is ending.
+Changing your mind is easier when people hear the reason.
+Is something going wrong that we should deal with first?
+We can discuss a different plan if this one doesn't fit.
+Which thing are you trying to interrupt?
+People need to know whether they should still come over.
+Are we stopping altogether or taking a breather?
+Let's make sure nobody keeps working toward the old plan.
+What's the immediate thing you'd like changed?
+Is the original arrangement no longer useful?
+You can say the plan isn't working without making a fight of it.
+What should happen after the stop?
+I'd rather clarify than cancel the wrong thing.
+Does anyone else need to hear about the change?
+Are you calling off the job or only the next attempt?
+
+[combat]
+What happened in that fight?
+Which target are you talking about?
+Are you asking about aggro?
+Is something attacking you right now?
+What went wrong with the pull?
+Are you running low on resources?
+Which mob is causing trouble?
+What's the immediate danger?
+Do you need to regroup?
+Are you talking about a spell to interrupt?
+What's your target doing?
+Is there more than one pack involved?
+Are the healers under pressure?
+Which enemy should people be watching?
+What's the plan for controlling that pack?
+Are you trying to avoid another pull?
+What did you see happen?
+Is positioning the issue?
+Are you discussing the last fight or the next one?
+What's the biggest problem right now?
+Are people focusing the same target?
+Do you need time to recover first?
+Which ability are you worried about?
+Is something breaking crowd control?
+Are you trying to get out of combat?
+What's making the fight difficult?
+Are adds coming from somewhere?
+Is the tank getting a chance to establish threat?
+What would you like the group to change?
+Are you asking about a particular mechanic?
+Which part of the fight should we discuss?
+Are people standing somewhere dangerous?
+What's the next safe move?
+Are you short on health or mana?
+What is the enemy doing that concerns you?
+Give me the fight details when there's a moment.
+That's a lot easier to discuss when the fight has a name.
+Are the extra enemies the problem, or the main target?
+Oom is a useful warning before the next pull, not after it.
+Where is the pressure landing in that fight?
+Sometimes the safest damage is the damage you can keep doing.
+Are you losing health too quickly or running out of resources?
+What changed just before it got messy?
+An interrupt plan is better than everyone guessing at once.
+Is movement making it difficult to stay in range?
+The target matters more than winning an argument about damage.
+What are the enemies doing that you can't handle?
+Are people hitting the same thing or splitting everywhere?
+Another pack isn't always the solution to a slow pull.
+Can the healer actually see the people taking damage?
+What's the part of the fight you'd change first?
+It's worth knowing whether the trouble is damage or positioning.
+A short explanation beats a long blame session.
+Were people prepared before that pull started?
+We don't need to turn one awkward fight into the whole evening.
+Which ability or cast is causing the trouble?
+There may be a better answer than standing closer and hoping.
+Are you trying to survive it or finish it faster?
+That sounds like a fight where the details matter.
+What's the next practical thing the group could do differently?
+
+[death]
+Where did it happen?
+Was it a bad pull?
+Are you able to get back to your corpse?
+What got you?
+Is the area still dangerous?
+Did anyone else go down?
+Are you waiting for a resurrection?
+How far is the corpse run?
+Was there a patrol involved?
+Did you get caught while travelling?
+Are you trying to recover or figure out what happened?
+Is there something blocking your way back?
+What happened just before you died?
+Do you need directions from the graveyard?
+Was it another player or a creature?
+Are you taking a moment before going back?
+Is your equipment getting worn down?
+Did the fight get out of hand quickly?
+Are you able to reach a safe place?
+Was the enemy higher level than expected?
+What are you planning to do next?
+Is this about the death or getting back afterward?
+Did you release already?
+Are you stuck in a dangerous spot?
+Was someone trying to help you?
+Do you know where the corpse is?
+Are you looking for a resurrection or advice?
+What part of the recovery is the problem?
+Did you run into an unexpected group?
+Is there a safer route back?
+Are you in an instance at the moment?
+What do you think caused it?
+Are you trying the same thing again?
+Do you need time to recover properly?
+Was there a way to avoid that pull?
+Tell me what happened and where.
+Oof. Was there a way back without another fight?
+The repair vendor has an unfortunate business model.
+Did you go down alone or with the group?
+No need to make the recovery harder by rushing it.
+Were there still enemies between you and the corpse?
+A death is annoying enough without an argument afterward.
+Was that the same spot causing trouble again?
+Sometimes a corpse run is the break nobody asked for.
+What happened immediately before you went down?
+Is the group still fighting or already recovering?
+One bad pull doesn't need to ruin the session.
+Was it something you saw coming?
+Getting back safely matters more than getting back instantly.
+That's rough. Are you trying to recover the attempt?
+Did the route turn out nastier than expected?
+A little caution on the return trip won't hurt.
+The long walk gives people plenty of time to rethink the pull.
+Was it an add, a fall, or the target itself?
+There's no prize for dying twice in the same place.
+Are you waiting on a resurrection or heading for the corpse?
+Those sudden deaths tend to feel more expensive.
+What would make the next attempt less unpleasant?
+It helps when the group agrees how to recover.
+Were you able to see what actually finished you?
+
+[wipe]
+What went wrong on that attempt?
+Was it a mechanic or a messy pull?
+Are you taking a minute to regroup?
+What should change before the next try?
+Did everyone see the same problem?
+Are supplies holding up?
+Which part of the attempt fell apart?
+Is the group discussing assignments?
+Was there an unexpected add?
+Are repairs becoming an issue?
+What happened first when it went wrong?
+Did people have enough time to react?
+Are you planning another attempt?
+Is there a particular mechanic to explain?
+What's the most useful thing to fix first?
+Did the tank go down or did people get separated?
+Are people ready to talk through it?
+Was the positioning different that time?
+What did you notice during the attempt?
+Are you changing the approach?
+Is there a resource problem to solve?
+Who was handling the important assignments?
+Are you looking for a fresh perspective?
+What would make the next pull cleaner?
+Did people know what to expect?
+Are you taking the same route back?
+Was it close at the end?
+What's the group's plan now?
+Are there any mechanics people are unsure about?
+Did someone get caught by a patrol?
+What does the group need before continuing?
+Are people still up for trying?
+Was there a missed interrupt or dispel?
+How much time does everyone have left?
+What can we learn from that attempt?
+Tell me the sequence rather than just the result.
+Let's work out one useful change rather than blame five people.
+Repeating the pull faster won't necessarily fix it.
+Was everyone ready when that attempt started?
+One calm explanation could save another corpse run.
+Where did the attempt first start going wrong?
+We don't have to solve every mistake at once.
+Did the extra enemies come before or after things fell apart?
+The recovery is a good time to agree on the next pull.
+Did people know what to watch for in that fight?
+A reset is frustrating, but the argument can be worse.
+Which change would have the biggest effect next time?
+Was it a bad start or a problem near the end?
+Let's not hurry the same mistake into happening again.
+Was anyone still sorting something when the pull began?
+Some attempts teach more than they pay for in loot.
+Are people able to explain what happened from their side?
+Check supplies and equipment before adding another repair bill.
+What should the group do differently on the return?
+We can be honest about mistakes without making it personal.
+Was the plan clear to everyone involved?
+The next attempt needs an adjustment, not just optimism.
+Did anybody notice a mechanic that wasn't being handled?
+A rough attempt doesn't automatically mean a hopeless group.
+Let's pick the first problem to fix and start there.
+
+[joke]
+The true final boss is finding room in your bags.
+My favourite stat is fewer repair bills.
+Every road leads somewhere. Usually another quest giver.
+One quick quest is how entire evenings disappear.
+The rarest drop is a group that starts on time.
+Inventory management deserves its own talent tree.
+If walking counted as a profession, everyone would be rich.
+The map looks smaller before you start travelling.
+Nothing says adventure like running out of bag space.
+The auction house is where optimism gets a price tag.
+A good cloak hides a surprising number of questionable choices.
+The fastest mount is whatever everyone else has already bought.
+My favourite dungeon mechanic is remembering the entrance.
+Somewhere there's a vendor wondering why we carry so much junk.
+Every suspicious cave contains either a quest or a repair bill.
+The perfect route always includes one accidental detour.
+I respect anyone who can keep their bank organized.
+Apparently the real treasure was the stuff we vendored.
+Quest rewards are excellent at filling the last bag slot.
+The most dangerous words are 'just one more pull'.
+There's always another hill between you and the quest marker.
+Even the best plan eventually meets a wandering patrol.
+The backpack is smaller on the inside.
+Nothing makes a road feel longer like forgetting something at the bank.
+A fishing pole is a very optimistic weapon.
+The hardest escort is getting five people to the same entrance.
+Some loot is just a repair bill in disguise.
+Every mailbox looks close until you're carrying everything.
+The secret to saving gold is apparently not looking at auctions.
+A short trip is any trip you've already finished.
+The weather's free. Everything else has a vendor price.
+You can tell a veteran by how quickly they recognize vendor trash.
+Some quests are really a test of your shoe durability.
+I think bags have a hidden attraction to completely useless items.
+The flight master always looks relaxed for someone responsible for so much travel.
+The most consistent group buff is someone asking who has food.
+Bag space is a resource bar with much worse regeneration.
+The shortest route always has a quest giver on it somehow.
+Every vendor is conveniently located where I was ten minutes ago.
+I'm fairly sure repair vendors sponsor dangerous quests.
+The real profession pairing is gathering and running out of space.
+Nothing says adventure like comparing two nearly identical belts.
+A stack of something useless is still apparently essential luggage.
+I've never met a hill that looked as steep on the map.
+Quest rewards have a remarkable talent for being the wrong armour type.
+The auction house is where spare gold goes to reconsider its life.
+My bags are an archaeological record of interrupted plans.
+Somewhere a wolf is wondering who keeps asking for its teeth.
+The phrase just one more quest has never respected a clock.
+I suspect the innkeeper has heard every version of quick trip.
+Travel time is the world's way of making you value flight paths.
+A locked chest is a very confident way to advertise disappointment.
+The best camouflage is apparently standing behind a quest marker.
+Every spare bag slot is just a future mistake waiting to happen.
+You can tell it's a valuable herb by how inconvenient the hill is.
+The hearthstone always knows when you're in a hurry.
+A repair bill is just a receipt for confidence.
+The mailbox is a treasure chest with administrative responsibilities.
+The map says nearby. The mountain has filed an objection.
+I admire a vendor who can buy eight broken teeth without questions.
+My bags have a strict policy against the one thing I need next.
+Every shortcut comes with an optional corpse run.
+The expensive part of adventuring is pretending repairs are a surprise.
+A quick run is a unit of time nobody has agreed on.
+Group planning is five people asking what everyone else wants.
+The rarest drop is everyone being ready at once.
+My favorite strategy is remembering the strategy before the pull.
+Someone saying 'probably fine' always adds tension.
+
+[smalltalk]
+How's your day going?
+What are you working on today?
+Anyone found something interesting lately?
+Are you taking it easy or pushing for something?
+What's been the best part of your session?
+Do you prefer questing alone or with company?
+What brought you to this part of the world?
+Anyone else get distracted halfway through a plan?
+What's your favourite zone to spend time in?
+Do you listen to music while playing?
+Are you here for a long session?
+What's on everyone's list today?
+Do you ever just take the scenic route?
+What's the next thing you're hoping to achieve?
+Anyone taking a break from the grind?
+Do you like exploring places you've already outlevelled?
+What keeps you coming back to your class?
+Is today a productive day or a wandering day?
+What's a place you never get tired of visiting?
+Does anyone actually enjoy organizing their bank?
+What kind of runs do you enjoy most?
+Anyone have a good story from a recent group?
+Are you saving for something in particular?
+What's a little goal you've been putting off?
+Do you prefer busy towns or quiet zones?
+Anyone else lose track of time while travelling?
+What's your favourite way to make some gold?
+Are you a collector or do you keep your bags empty?
+What was the first class you tried?
+Do you like having a plan before logging in?
+What's an activity you haven't tried yet?
+Anyone else tempted by every gathering node?
+Are you playing with friends today?
+What makes a good group for you?
+Got anything fun planned after this?
+What's one thing you'd recommend doing around here?
+Anyone else take the scenic route by accident?
+It's funny how a quick errand turns into the whole session.
+What's the most useful thing you've found lately?
+The map feels much smaller before you start walking.
+How do you decide what to work on when there's too much to do?
+There's something pleasant about a quiet bit between fights.
+Do you keep spare materials or sell everything you aren't using?
+Some days the practical errands are the whole adventure.
+What's been the highlight of your session so far?
+I wonder how many quests begin with someone losing something nearby.
+Anyone working toward a particular piece of gear?
+The ordinary roads are busier than people give them credit for.
+What made you choose the character you're playing?
+A useful conversation can improve a fairly uneventful trip.
+Do you prefer getting one big thing done or lots of small things?
+There's always one more NPC someone wants you to speak to.
+Anyone else ever forget why they came into town?
+What's the least glamorous job on your list today?
+The scenery gets more interesting when it isn't trying to kill you.
+Are you playing for a while or fitting in a short session?
+It's nice when an errand ends somewhere with an inn.
+What's the thing you keep putting off getting done?
+A bit of company makes a long road feel shorter.
+Have you ended up somewhere you didn't originally plan to visit?
+
+Would you rather make your own supplies or pay someone else to handle it?
+Which part of your class took the longest to get comfortable with?
+Do you save useful drops for friends or put them straight on the auction house?
+What's usually the first thing you sort out before joining a group?
+Do you stick with familiar people or enjoy meeting a new party?
+When a run goes badly, do you want another attempt or a change of pace?
+How do you decide whether an upgrade is worth the gold?
+Do you have a profession project you're slowly collecting things for?
+Would a bit of company help with what you're working on?
+Is there anything practical you wish people asked before inviting you?
+Do you prefer being the one who starts a group or joining someone else's plan?
+What makes you want to play with the same people again?
+Anything on your list you keep putting off?
+What made you pick your class?
+Do you usually play with a regular group?
+What counts as a good session for you?
+Are you chasing something specific or seeing where you end up?
+Which part of the game do you always come back to?
+Would you rather have a quick run or take your time?
+What's one thing you wish people explained sooner?
+
+[disagree]
+I see it a bit differently.
+I'm not sure I agree with that part.
+What makes you think so?
+Could be, but I'd like to hear the reasoning.
+I can see another side to it.
+That's not quite how I'd approach it.
+Maybe we're talking about different situations.
+What are you basing that on?
+I'm open to being convinced.
+I don't think we're using the same assumptions.
+Can you explain the bit I might be missing?
+I'd want to check before saying that's right.
+There might be more to it than that.
+I'm not completely sold on the idea.
+What would happen in the other case?
+I get the point, even if I don't fully agree.
+Maybe there's a middle ground here.
+I'd rather work through it than argue.
+Are you sure that applies in this situation?
+That's an interesting way to look at it.
+I think the details matter here.
+We might just prefer different approaches.
+I'm not dismissing it; I just have questions.
+What would change your mind about it?
+I'd like to understand where you're coming from.
+I don't think it's quite that simple.
+Could you give a concrete example?
+Maybe I misunderstood what you meant.
+I'm happy to compare the options.
+That doesn't match what I expected.
+I think we're disagreeing on the important bit.
+Let's make sure we're discussing the same thing.
+What's the strongest reason for that approach?
+I can hear you out without agreeing immediately.
+There may be a better way to settle it.
+Can we work through the reasoning together?
+I understand the argument, but that part doesn't convince me.
+There may be another explanation for what happened.
+I'd want to check that before treating it as settled.
+We can disagree without making the conversation unpleasant.
+That doesn't quite match how I'm reading the situation.
+What makes you confident that's the reason?
+I'm willing to hear the case; I'm not sold yet.
+The conclusion seems stronger than what we actually know.
+I can follow your point without sharing the conclusion.
+Which part of that have you been able to confirm?
+I wouldn't make the whole plan depend on that assumption.
+Let's separate what happened from what we're guessing.
+You might be right, but I don't have enough to say so.
+There's a difference between possible and certain.
+I'd approach that a little differently.
+Could we work through the bit we disagree about?
+I'm not trying to argue, but that detail matters.
+That answer leaves something unexplained for me.
+We don't have to agree on every preference.
+Which part of the evidence would you weigh differently?
+I'd rather leave that open than pretend it's obvious.
+There are tradeoffs there that I wouldn't ignore.
+I'm happy to reconsider if there's something I've missed.
+We may just be valuing different parts of the plan.
+I'd probably go about that another way.
+I get the idea, but the timing worries me.
+That sounds good until something goes wrong.
+Maybe. I'm less convinced by the last part.
+I'd rather keep a little room for mistakes.
+That depends on who we're playing with.
+I'm willing to hear the case for it.
+I don't think that works equally well for every group.
+
+[clarify]
+Which part do you mean?
+Could you be more specific?
+What would you like me to clarify?
+Are you asking about the same thing as before?
+What detail are you after?
+Do you mean that literally?
+Can you give me an example?
+What are we agreeing to exactly?
+Which option were you thinking of?
+I want to make sure I've understood you.
+What should I be taking from that?
+Are you correcting something I said?
+Did you mean to change the subject?
+What does that refer to?
+Can you point out the part that's unclear?
+Are you saying yes to a specific plan?
+What do you mean by that in this context?
+Could you explain it another way?
+Which thing are we discussing now?
+Do you want details or a quick answer?
+What's the important bit for you?
+Are you asking a new question?
+What exactly needs sorting out?
+Do you mean the item, the place, or the plan?
+I'd rather check than assume.
+What did you want to change?
+Could you name the thing you're referring to?
+Are we still on the previous topic?
+What outcome are you looking for?
+Can you narrow down the question?
+Do you want me to explain the reason?
+Which detail did I miss?
+Are you asking for confirmation?
+What's the context I should be using?
+What should I know before answering?
+Let's pin down what you mean first.
+Do you mean the item itself or what to do with it?
+I need the subject of that sentence, not just the yes or no.
+Which of the things we mentioned are you referring to?
+Let's put a name to it before carrying on.
+Are you correcting the earlier message or adding another request?
+I could answer two different questions from that wording.
+What's the one thing you want me to respond to first?
+A link would remove most of the guesswork here.
+I'm not sure that means the same thing to both of us.
+Is that a question about the plan or a change to it?
+Tell me the exact item, place, or activity you mean.
+We should settle that ambiguity before making arrangements.
+Are you saying you do want it, or that you don't?
+I think a word may have gone missing there.
+Can you distinguish the first request from the second one?
+Let's make the amount clear before talking about the price.
+Which part of the earlier answer were you asking about?
+I'm not going to interpret a vague yes as an agreement to everything.
+Do you want information or an actual invitation?
+Name the destination so I can follow the plan.
+Are we still on the previous subject?
+That sounds like it could be a different topic now.
+I'm missing which person you're talking about.
+What's the clearest way to phrase the request in one sentence?
+Do you mean the item, or what I was doing?
+Which one are you pointing at? A link would help.
+Are you asking what I know, or asking me to do something?
+What would you like me to do with it?
+I can read that two ways. Which did you mean?
+Give me the name of the thing you mean.
+Was that a correction to the last bit, or a new question?
+You lost me at the last part. Could you rephrase it?
+
+[smalltalk_answer]
+Taking it one thing at a time. %facts
+Keeping myself occupied, mostly. %facts
+There's always something to work toward. %facts
+Nothing too dramatic right now. %facts
+Trying to make a little progress today. %facts
+Seeing how much I can get done. %facts
+Taking the session as it comes. %facts
+I've got a few things in mind. %facts
+Keeping the plan fairly simple. %facts
+I like having something to aim for. %facts
+Still making my way through things. %facts
+A little progress is good enough for me. %facts
+There's plenty to keep me busy. %facts
+Just going at my own pace. %facts
+I'm working through the practical stuff first. %facts
+Trying not to get too sidetracked. %facts
+I've got something to focus on at least. %facts
+One task usually leads to another. %facts
+Keeping an eye on what needs doing. %facts
+There's no shortage of things to do. %facts
+I'm seeing what the next little goal brings. %facts
+Mostly just enjoying being around. %facts
+It helps to have a direction. %facts
+Nothing wrong with a quieter session. %facts
+Getting the little things sorted out. %facts
+There's a bit of a plan, anyway. %facts
+I'm not trying to do everything at once. %facts
+Making room for whatever comes next. %facts
+I'd like to get something useful done. %facts
+It's nice having something on the list. %facts
+I'm taking care of what I can. %facts
+We'll see how the session goes. %facts
+I'm keeping a few possibilities open. %facts
+Just finding my rhythm for today. %facts
+Trying to keep things moving along. %facts
+There's something I want to take care of. %facts
+%facts Nothing dramatic to report from my side.
+%facts Trying not to let the errands multiply too much.
+%facts A fairly ordinary bit of adventuring.
+%facts Keeping the expectations sensible today.
+%facts There's always something useful to sort out.
+%facts The grand adventure includes a lot of small jobs.
+%facts Not every moment needs to be a race.
+%facts Seeing how much of the plan survives contact with the world.
+%facts Enough to keep the session moving along.
+%facts It's nice to get a little conversation in between.
+%facts Trying to keep one errand from becoming six.
+%facts No elaborate story behind it, really.
+%facts A decent day doesn't have to be an extraordinary one.
+%facts The useful things aren't always the exciting things.
+%facts That's the current chapter of the adventure.
+%facts Taking the practical jobs as they come.
+%facts Better than standing around wondering what to do.
+%facts There's usually another job waiting afterward.
+%facts Leaving a little room for the unexpected.
+%facts The whole session doesn't need planning down to the second.
+%facts That's enough of a plan for the moment.
+%facts Making something of the time available.
+%facts Plenty of adventure hidden between the errands.
+%facts Ordinary progress still counts for something.
+
+%facts If someone has a compatible plan, I'd hear them out.
+%facts Trying to leave enough supplies for whatever comes after it.
+%facts A decent conversation makes the preparation less dull.
+%facts I'm more interested in a useful next step than a grand promise.
+%facts I might change course if a friend needs a reasonable hand.
+%facts Getting the basics sorted makes everything afterward easier.
+%facts I like knowing what I've agreed to before a group sets off.
+%facts There's usually a sensible stopping point between jobs.
+%facts Some days the little errands end up being the whole session.
+%facts I'm open to company if we can make the timing work.
+%facts I'd rather ask what people need than guess and waste their time.
+%facts It leaves room for a change of plan when something interesting happens.
+Fairly quiet on my end. %facts
+Got a few things to chip away at. %facts
+Trying to keep the session simple. %facts
+Still deciding what deserves my attention next. %facts
+A bit of progress would do me nicely. %facts
+Nothing dramatic to report from me. %facts
+Keeping an eye on what I actually need. %facts
+I'll see where this takes me. %facts
+
+[acknowledge]
+Got it.
+Makes sense.
+Fair enough.
+Ah, okay.
+I see what you mean.
+That clears it up.
+Understood.
+Right, I follow.
+Good to know.
+Thanks for explaining that.
+That helps put it in context.
+Okay, that answers my question.
+Sounds reasonable.
+I'm with you now.
+Alright then.
+That makes things clearer.
+I can see that.
+Right, that figures.
+Thanks for the detail.
+I'll keep that in mind.
+Okay, we're on the same page.
+I hadn't thought of that.
+That explains it.
+Right, I get the picture.
+Seems straightforward enough.
+Good, that's useful to know.
+Alright, I understand now.
+That sounds about right.
+Thanks for clearing that up.
+I can work with that information.
+That puts things in perspective.
+Okay, I hear you.
+I appreciate the explanation.
+Now it makes more sense.
+Right, that's what I was wondering.
+Okay, thanks for letting me know.
+Alright, I understand what you're getting at.
+That clears up what you meant.
+I can follow that version of the plan.
+Okay, that puts the conversation in context.
+Right, we're talking about the same thing now.
+Fair enough; that's clear to me.
+I understand the distinction you're making.
+That answers the bit I was unsure about.
+Alright, thanks for spelling it out.
+Now I see where you were going with that.
+Okay, that's a more concrete explanation.
+Understood, the wording makes sense now.
+That helps put the earlier message in perspective.
+Right, I had been reading that differently.
+I see the idea behind it now.
+Okay, I know which part you meant.
+That makes the situation easier to follow.
+Alright, we're past that misunderstanding.
+I can see what matters to you there.
+That's a reasonable point to keep in mind.
+Right, let's keep that part clear.
+I understand the concern, even if the answer takes thought.
+That gives me a better picture of it.
+Okay, I won't confuse those two things.
+Understood. Thanks for clearing it up.
+Okay, that makes more sense now.
+Fair enough, I follow you.
+Right, we're on the same page.
+Gotcha. I'll keep that in mind.
+Alright, message received.
+Makes sense when you put it that way.
+Okay. No need to overcomplicate it.
+
+[group_offer]
+Anyone want to group for %facts?
+Looking for some company around %facts.
+Anyone else working on %facts?
+Could use a questing partner for %facts.
+Anyone interested in doing %facts together?
+Putting a small group together around %facts.
+I'd be up for some company for %facts.
+Anyone nearby doing %facts?
+Looking to team up for %facts.
+Who else has %facts on their list?
+Anyone fancy grouping around %facts?
+Wouldn't mind a partner for %facts.
+Anyone want to work through %facts as a group?
+I'm interested in a quest group for %facts.
+Could be nice to have company for %facts.
+Anyone still need to do %facts?
+Looking for a few people around %facts.
+Anyone free to group up for %facts?
+I'd like to find some company for %facts.
+Who wants to take on %facts together?
+Anyone looking for a questing partner around %facts?
+Might as well see if anyone wants to group for %facts.
+Anyone up for some teamwork on %facts?
+I'm thinking about grouping for %facts.
+Anyone nearby want to work on %facts together?
+Looking for other people interested in %facts.
+A group for %facts could be fun.
+Anyone around with time for %facts?
+I'd enjoy some company while working on %facts.
+Who else is interested in a group around %facts?
+Anyone want a partner for %facts?
+Trying to find a few people for %facts.
+There's room for some teamwork around %facts.
+Anyone passing through and interested in %facts?
+Would anyone like to team up around %facts?
+Looking to make a small quest group for %facts.
+Anyone want to work on %facts together?
+Some company for %facts would make the trip less quiet.
+Could use a questing partner around %facts.
+Anyone making plans near %facts?
+Looking to compare objectives around %facts before grouping.
+If someone needs company for %facts, we could discuss a party.
+Would anyone want to team up for %facts for a bit?
+I could be interested in sharing the work around %facts.
+Anyone else heading toward %facts with questing in mind?
+We could see whether our objectives line up near %facts.
+Looking for somebody with a similar plan around %facts.
+Would working together on %facts suit your session?
+Anyone fancy a small quest party for %facts?
+Might be easier to find some company for %facts.
+Is anybody else trying to get %facts sorted out?
+Happy to discuss a group if you're interested in %facts.
+Anyone near %facts want to compare what needs doing?
+Could be worth teaming up around %facts rather than going separately.
+Would you be interested in some company for %facts?
+Anyone doing similar work around %facts at the moment?
+Looking at %facts; a suitable questing partner might be useful.
+We could work out a party plan for %facts if that suits you.
+Anybody thinking of going toward %facts for quests?
+I'd consider teaming up for %facts if our plans fit.
+
+[progress]
+Ding! Level %facts.
+Just reached level %facts!
+There we go, level %facts.
+Finally hit level %facts.
+One more level down. %facts!
+Made it to %facts.
+That's level %facts sorted.
+Another bit of progress: level %facts.
+Level %facts at last.
+Hey, I'm level %facts now!
+Just got to %facts.
+The level counter says %facts now.
+Another milestone, level %facts.
+Sweet, level %facts!
+That's another ding. Level %facts.
+I'm up to level %facts.
+Got the level! %facts.
+Just dinged %facts.
+Happy with that, level %facts.
+There's my level %facts.
+New level, new things to sort out. %facts!
+Level %facts came through.
+Made some progress today: level %facts.
+That puts me at %facts.
+A little celebration for level %facts.
+One more step along the way. Level %facts.
+Nice, I reached %facts.
+That was the ding I was waiting for. Level %facts.
+The next level is here: %facts.
+I can tick off level %facts.
+Good feeling, hitting level %facts.
+Up another level to %facts.
+That's a proper bit of progress. Level %facts.
+Just crossed into level %facts.
+Another level earned. %facts!
+Well, hello level %facts.
+Level %facts reached. Little bit of progress there.
+That's level %facts on the character sheet now.
+Hey, level %facts. That feels good.
+Made it to %facts without the adventure ending yet.
+Level %facts! The errands are apparently paying off.
+Up to %facts now. I'll take that.
+That's another earned level on the way through: %facts.
+That's %facts. A good moment in an ordinary session.
+Just hit %facts; nice to see the number move.
+Level %facts is in the books.
+Well, that's %facts reached at last.
+There's level %facts. Something to show for the trip.
+Up another level, sitting at %facts now.
+Level %facts! One of the better messages to get.
+Reached %facts. The character sheet has caught up.
+That's a little milestone: %facts.
+Made %facts during the adventure.
+Level %facts now, which improves the mood a bit.
+There's my progress for the moment: %facts.
+Hit %facts. Good reason for a quick celebration.
+Another step along; level %facts.
+Got to %facts. The journey continues.
+Well then, %facts! Always nice when that happens.
+Level %facts earned. That's a decent result.
+
+[trade_offer]
+Here's the offer: %facts
+What I can offer is %facts
+For that trade, %facts
+These are the terms I have in mind: %facts
+I'd propose this: %facts
+The deal I'm offering is %facts
+Here's what I'm discussing: %facts
+To be clear about the offer, %facts
+My offer would be %facts
+Here's the practical part: %facts
+For the item and amount, %facts
+This is the offer on my side: %facts
+If you're interested, %facts
+The terms are %facts
+Here's what I have in mind: %facts
+Let's put an actual offer to it: %facts
+The price and quantity I'm offering: %facts
+For a direct trade, %facts
+This would be my offer: %facts
+Here's the deal to consider: %facts
+My proposed terms are %facts
+To spell out the trade, %facts
+What I'm offering right now: %facts
+Here's the amount and price: %facts
+On my side of the trade, %facts
+If that suits you, %facts
+This is the specific offer: %facts
+For discussing a deal, %facts
+The offer I've got is %facts
+Here's where I stand on it: %facts
+My side of the proposal is %facts
+To put numbers to the trade, %facts
+This is what I'm proposing: %facts
+Here's an offer we can talk about: %facts
+For the quantity involved, %facts
+The offer to work from is %facts
+%facts That's the concrete offer on the table.
+%facts Let me know which term you want to discuss.
+%facts We can compare the amount before agreeing.
+%facts That's an offer, rather than a completed exchange.
+%facts Does that match the quantity you meant?
+%facts I'd rather keep the terms clear from the start.
+%facts We still need to meet and open a trade window.
+%facts Those are the goods and price being discussed.
+%facts Is that useful for what you're trying to buy?
+%facts We should agree before anybody starts travelling.
+%facts Let me know if the item isn't the one you meant.
+%facts The quantity is part of the offer, too.
+%facts We can talk about it without rushing the exchange.
+%facts That's what I'm proposing at the moment.
+%facts Does the whole amount suit what you need?
+%facts Any change needs to be agreed before the trade.
+%facts We can settle the details here first.
+%facts A clear agreement saves confusion at the trade window.
+%facts Is the price unit clear on your side?
+%facts Tell me if you were asking about something different.
+%facts That's the offer I'd want us both to understand.
+%facts No goods change hands just from discussing the price.
+%facts Have a look at the actual terms before deciding.
+%facts Does that sound worth arranging a trade for?
+
+[group_accept]
+Sure, I could use a quest group.
+I'd be up for teaming up.
+Sounds good, let's see about a group.
+Some company would be nice.
+I'm interested in grouping for a bit.
+We could give it a go together.
+I'd like to team up for some questing.
+I'm up for a little teamwork.
+Sure, a small group sounds good.
+I could use a questing partner too.
+That sounds worth grouping for.
+I'm interested if you're still looking.
+I'd be happy to work together.
+Some help would make things easier for both of us.
+Let's see if a group works out.
+I'm willing to team up.
+I was thinking about finding some company anyway.
+That could make for a good quest group.
+I'm happy to try working together.
+I'm up for some shared questing.
+Yeah, a partner would be useful.
+I'd enjoy having someone to group with.
+I'm interested in a small questing group.
+Sounds like a reason to team up.
+I'm not against a bit of company.
+We might get more done together.
+I'd be glad to have a questing partner.
+That sounds like something we could group for.
+I'm up for finding out how we work together.
+Sure, let's try some questing as a group.
+I'd rather have some company for this.
+Happy to see about teaming up.
+A group could be a nice change of pace.
+I'm interested in taking that on together.
+I could make room for a little teamwork.
+Sounds good to me; let's sort out a group.
+I'm open to a quest party; let's sort out the invitation.
+That sounds like something we could team up for.
+Alright, grouping could make sense for that plan.
+I'd be willing to try working together on it.
+Let's make sure the invitation goes to the right character.
+That seems a reasonable basis for teaming up.
+I'd rather agree on the job and then form the party.
+I'm interested in sharing the quest work.
+Let's get the party invitation sorted out first.
+Sounds worth trying as a party.
+I'd be up for some company on that job.
+Alright, let's see about putting the party together.
+That's a plan I could consider joining.
+Teaming up for that sounds sensible to me.
+Let's get a group formed before treating it as arranged.
+I'm interested; we should sort out who invites whom.
+Questing together seems worth a try here.
+I'd be happy to discuss the route once the party is formed.
+That sounds like a practical reason to group.
+Alright, a party would be useful for that.
+I'm willing to give the shared plan a go.
+Let's handle the invitation rather than just assume we're grouped.
+I'd consider that a good reason to team up.
+We can try working together once the group is arranged.
+
+[trade_cancel]
+Let's cancel that trade for now.
+I can't complete that deal right now.
+That offer isn't going ahead, sorry.
+I'm calling off that trade.
+We'll have to leave that deal for now.
+Sorry, that trade is cancelled.
+Let's put that offer aside.
+I can't go through with that offer now.
+That deal isn't happening this time.
+I'll have to withdraw that offer.
+Let's leave the trade there.
+That offer is no longer open.
+We should cancel that arrangement.
+I'm closing out that offer.
+Sorry, we haven't been able to finish that trade.
+I'm taking that offer off the table.
+Let's call that deal off.
+That trade hasn't worked out, sorry.
+I'm cancelling the pending offer.
+We'll need to make a fresh arrangement another time.
+That particular deal is cancelled.
+I can't keep that offer open.
+Let's stop this trade rather than leave it hanging.
+That offer has come to an end.
+Sorry, this trade isn't going through.
+I'm withdrawing from that arrangement.
+We haven't completed the deal, so let's cancel it.
+I'll leave that trade for another time.
+That deal is closed without a trade.
+I'm ending the offer here.
+Let's consider that trade cancelled.
+I'm not going ahead with that deal now.
+We'll have to drop that offer.
+That arrangement is off for now.
+No trade this time; I'm cancelling the offer.
+Sorry, let's close out that deal.
+We should call off this deal rather than leave it hanging.
+This arrangement isn't going ahead in its current form.
+Let's leave the goods where they are and cancel the deal.
+I'd rather end the arrangement clearly than keep you waiting.
+We haven't got a workable exchange here now.
+This offer needs to be treated as cancelled.
+Let's stop arranging this particular trade.
+The agreement isn't something I can carry through right now.
+There's no reason to keep meeting for a cancelled exchange.
+We should release each other from this trade plan.
+This one isn't going to reach a completed trade.
+Let's not mistake an old offer for a current agreement.
+I'm calling this deal off before it gets more confusing.
+The exchange won't go ahead on those terms.
+Best to end this arrangement plainly.
+We'll need a fresh agreement if we discuss another trade.
+Let's put a clear end to this particular offer.
+I can't leave this sounding like an active deal.
+We should stop counting on this exchange happening.
+This trade arrangement is being called off.
+Let's cancel this one and avoid a wasted trip.
+The earlier offer shouldn't be relied on now.
+No completed deal here; this arrangement is ending.
+I'd rather cancel cleanly than promise a trade I can't finish.
+
+[friend_remembered]
+Yes, your name rings a bell. How have things been?
+We've crossed paths before. What are you up to now?
+I remember you. Are you staying around here today?
+You're a familiar face! How's the session going?
+I recognize the name. Got anything planned?
+We've run into each other already. Nice seeing you around.
+Oh, it's you. What brings you this way?
+I haven't forgotten you. How are your adventures going?
+I remember crossing paths. Looking for company again?
+Your name stuck with me. What are you working on?
+I know we've met. Remind me what you're planning today?
+I recognize you from before. Everything going alright?
+Yes, we've had a bit of history. What's new?
+You're someone I recognize around here. Need a hand with something?
+I remember running into you. Still keeping busy?
+We've encountered each other before. Where are you headed?
+That name is familiar. How's your character coming along?
+I do remember you. Tell me how things are going on your end.
+You don't have to introduce yourself again. What's happening?
+I've seen you before. What are you in the mood to do?
+I remember our paths crossing. Have you got a plan for the evening?
+I recognize the name, though I won't pretend to remember every detail.
+We've met already. Are you looking to do something together?
+You're familiar to me. How has the world been treating you?
+I remember you being around. Are you working on anything interesting?
+I haven't lost track of that name. What do you need today?
+Yes, I remember you from earlier. How did things turn out for you?
+We've had an encounter or two. What are you after this time?
+I know the name when I see it. Staying in this area for a while?
+I remember you. Want to catch up while we've got a moment?
+You're someone I've come across before. Everything still going well?
+I recognize you, yes. What would you like to talk about?
+I remember having something to do with you before. What's the next adventure?
+You're not a complete stranger to me. What have you been doing lately?
+We've crossed paths, and the name stayed with me. How are you getting on?
+I remember meeting you. Got time to stop for a chat?
+Your name is familiar from our earlier conversations.
+I do recognise you. Good to cross paths again.
+We aren't complete strangers any more, at least.
+Yes, I can place the name. How's the adventure going?
+I remember having you around before.
+There's a familiar name in the conversation.
+We've spoken before; nice to hear from you again.
+I recognise you without needing another introduction.
+Yes, you're somebody I've crossed paths with.
+Good to run into a name I already know.
+I remember you. What's brought you this way today?
+We have a little history rather than a blank introduction.
+You're familiar to me, yes.
+It's pleasant when the world produces a familiar face.
+I haven't forgotten the name from before.
+We've met, and it's good to hear from you again.
+There's a name I can put to an earlier meeting.
+I do remember our paths crossing.
+You don't need to start from hello stranger with me.
+Yes, we've had a conversation before this one.
+I can place you among the people I've met.
+Good to see the same person turn up again.
+I recognise the name. What have you been working on?
+We've crossed the introduction stage already.
+Hey, familiar face. What's the latest?
+I remember you. Picking up where we left off?
+We've chatted before. How are things going?
+Good to cross paths again. Got a plan?
+Your name's familiar. What are you working on now?
+Oh, it's you again. What's happening?
+We've run into each other before. Same sort of session today?
+Yes, I remember. What brings you back this way?
+
+[quest_known]
+I've checked what I can: %facts
+Here's what I can tell you about it: %facts
+For that quest, %facts
+I can tell you this much: %facts
+As far as my own character goes, %facts
+On that particular quest: %facts
+Looking at that one now: %facts
+Here's the situation: %facts
+I won't guess about your progress, but: %facts
+On my side of things, %facts
+Here's what I've recorded: %facts
+For a concrete update, %facts
+For the specific quest you mean, %facts
+Let me check the details. %facts
+Going by what I can verify, %facts
+I've got an answer for that part: %facts
+The status I can verify is: %facts
+Checking the details I have, %facts
+I can give you this information: %facts
+Here's where that leaves me: %facts
+The short quest update is: %facts
+I can speak for myself here: %facts
+For the quest we're discussing, %facts
+That one's clear enough to check. %facts
+For an objective update, %facts
+This is what I can confirm: %facts
+I've checked rather than guessed: %facts
+Here's the part I can establish: %facts
+I know which quest you mean now. %facts
+About that specific quest: %facts
+What I know about it is: %facts
+For my character, the situation is: %facts
+Here's the bit I can answer reliably: %facts
+I've looked at the quest you mentioned. %facts
+That gives us something specific to discuss. %facts
+I can answer that much: %facts
+%facts That's what I can check from the quest itself.
+%facts I'd rather work from the log than guess.
+%facts That's the part I can verify for you.
+%facts The exact quest makes the answer much clearer.
+%facts Does that match the step you meant?
+%facts That's my current understanding from the actual quest.
+%facts We should keep the objective and turn-in separate.
+%facts A little planning can still save an unnecessary trip.
+%facts That's what the information available to me supports.
+%facts Is that the bit you were trying to establish?
+%facts A different quest stage could give a different answer.
+%facts That's the useful detail I can give you.
+%facts I don't want to confuse an objective with a finished hand-in.
+%facts That's the state I can account for right now.
+%facts Are you comparing it with your own quest log?
+%facts The link helped pin down what we were discussing.
+%facts That's more reliable than remembering a similar quest.
+%facts We can use that as a starting point for the plan.
+%facts That's as far as I can be definite about it.
+%facts Were you asking about another stage as well?
+%facts The quest text and current state are what I'm going by.
+%facts Better to check that than confidently send you somewhere wrong.
+%facts That should explain the part I actually know.
+%facts Is there a particular detail you'd like to narrow down?
+
+[item_known]
+%facts Were you looking for a spare?
+%facts Are you collecting those too?
+%facts Is that for a quest you're on?
+%facts Did you need it for crafting?
+%facts What were you planning to use it for?
+%facts Are you comparing it with your current gear?
+%facts Is someone in your group looking for one?
+%facts Are you checking before a dungeon run?
+%facts Did you want to talk about a trade?
+%facts If you're after one, what quantity do you need?
+%facts Are you trying to finish a set?
+%facts Is that the exact item you meant?
+%facts Do you have a recipe that uses it?
+%facts Did you find a good place to get those?
+%facts Have you checked what you already have banked?
+%facts Are you looking to buy or just asking?
+%facts What's your current alternative?
+%facts Is it an upgrade for you?
+%facts Does your profession need that material?
+%facts Are you saving those for later?
+%facts Would another item serve the same purpose?
+%facts Is this for your main character?
+%facts Have you had much luck finding it?
+%facts Did it come up on your shopping list?
+%facts Do you need it before we head out?
+%facts Are you looking for the item or its recipe?
+%facts Has your group been short of those?
+%facts Is there a particular reason you're after it?
+%facts Are you checking my gear for the group?
+%facts Have you tried asking your guild about it?
+%facts Is this something you use often?
+%facts Are you replacing something that broke?
+%facts How many have you managed to collect?
+%facts Are you checking prices on those?
+%facts Are you keeping one as a spare?
+%facts Tell me what you need it for.
+%facts That's what I can actually account for.
+%facts A link makes it easier to avoid mixing up similar items.
+%facts The item name alone can hide a lot of different versions.
+%facts Is it for your own use or a recipe?
+%facts Better to check what is really there than guess.
+%facts That's the inventory side of the answer.
+%facts That doesn't necessarily mean I've got one for sale.
+%facts Were you trying to work out a quantity?
+%facts Items have a way of turning into errands.
+%facts That's what I can tell you about this particular item.
+%facts Using it and selling it are different questions.
+%facts Are you looking at a requirement for something else?
+%facts I'm going by the actual item rather than a similar-looking name.
+%facts That's the concrete part I can check.
+%facts A spare item can be useful for more than one plan.
+%facts Does that answer the stock question you meant?
+%facts The details help when discussing a particular piece.
+%facts I wouldn't want to claim an item based on memory alone.
+%facts That doesn't by itself settle a price or an exchange.
+%facts Were you comparing it with something in your own bags?
+%facts That's the information available from checking it.
+%facts There's a difference between knowing an item and carrying one.
+%facts We can keep the item and the trade terms separate.
+%facts Is there another detail about it you were trying to establish?
+
+[spell_known]
+%facts Are you asking for our next pull?
+%facts Is that the ability you were thinking of?
+%facts Are you planning a group around it?
+%facts What target did you have in mind?
+%facts Are you comparing it with your class abilities?
+%facts Did you want to coordinate cooldowns?
+%facts Is this about a quest encounter?
+%facts Are you checking what help I can offer?
+%facts Did your group need that ability?
+%facts Is that for an arena setup?
+%facts Are you working out a rotation?
+%facts Have you used that spell yourself?
+%facts What's the situation you're preparing for?
+%facts Are we discussing a boss mechanic?
+%facts Did you mean that rank specifically?
+%facts Are you figuring out our roles?
+%facts Is there a particular enemy you're worried about?
+%facts Are you asking before we queue?
+%facts Is this for a battleground plan?
+%facts Were you looking for another caster?
+%facts Does your group have a timing in mind?
+%facts Are you checking my build?
+%facts Is there another spell you wanted to compare?
+%facts What are you trying to accomplish with it?
+%facts Are you asking about an interrupt rotation?
+%facts Is it important for the route you're taking?
+%facts Have you been trying a different build?
+%facts Did someone recommend that ability to you?
+%facts Is this about surviving the next fight?
+%facts Are you deciding who should cover a mechanic?
+%facts Do you need it for something right away?
+%facts Are you asking for a pull timer?
+%facts Does your strategy depend on that spell?
+%facts Are you planning something with your guild?
+%facts Did you want to compare what we've learned?
+%facts Tell me what you're planning.
+%facts Knowing an ability and having an opening for it are different things.
+%facts That's the part I can check without guessing.
+%facts The specific ability matters more than the class label.
+%facts Were you asking about timing or whether I've learned it?
+%facts Some abilities need more than just pressing the button.
+%facts That's my current answer for the linked spell.
+%facts I don't want to promise a cast the situation won't allow.
+%facts What situation did you want to use it for?
+%facts A spell link avoids confusion over similar names.
+%facts Whether it's useful depends on the actual fight.
+%facts That's what I can establish about the ability itself.
+%facts Were you planning around a particular mechanic?
+%facts A useful spell still needs the right target and moment.
+%facts The ability name is only the start of a plan.
+%facts Knowing that doesn't mean every cast is currently possible.
+%facts Are you checking before putting a group together?
+%facts I'd rather be clear about it than pretend every tool is available.
+%facts That's the learned-ability side of the question.
+%facts We should leave room for the spell's actual restrictions.
+%facts Is there another ability you want to compare it with?
+%facts A good plan accounts for when the ability can't be used.
+%facts The spell's current state matters as much as its name.
+%facts The target and timing still need to work for the cast.
+%facts Was there a specific job you wanted that spell to cover?
+
+[pvp_focus]
+%facts Can we put pressure on one target together?
+%facts Let's avoid splitting damage across everyone.
+%facts Which target can we reach without overextending?
+%facts Watch where our front line is committing.
+%facts A clean switch could be better than chasing.
+%facts Keep an eye on anyone dropping low.
+%facts We should make their healing work harder.
+%facts Can the ranged players reach the same target?
+%facts Don't run behind their whole team for a kill.
+%facts I'd rather keep pressure where we have support.
+%facts Check line of sight before using a big cooldown.
+%facts Is our current target getting too much support?
+%facts Save an interrupt for an actual cast.
+%facts We can switch when the current pressure stops working.
+%facts Try to keep our damage within healing range.
+%facts A low target is useful only if we can reach them.
+%facts Watch for a defensive before committing everything.
+%facts Don't break crowd control just to pad damage.
+%facts Can we make the next switch together?
+%facts Keep the objective in mind while fighting.
+%facts We don't need to chase every retreating player.
+%facts Who has a clear angle for pressure?
+%facts Let's make them react instead of spreading out.
+%facts If they're immune, find another opening.
+%facts Follow the fight we can actually support.
+%facts Don't leave a teammate stranded during the switch.
+%facts Are we close enough to help each other here?
+%facts Look for pressure that doesn't cost us the flag.
+%facts It helps when our attacks land on the same player.
+%facts Keep a way back to the team.
+%facts We can force a response without chasing to spawn.
+%facts Check whether our healer can still see us.
+%facts Let's not waste damage into an obvious immunity.
+%facts A reachable target beats a distant perfect one.
+%facts Watch their casts rather than guessing their cooldowns.
+%facts Who can keep pressure from this position?
+%facts Let's make the damage count in the same place.
+%facts No need to scatter after three different kills.
+%facts Keep the pressure somewhere our support can reach.
+%facts Who can stay with that angle without getting stranded?
+%facts Watch the next cast before deciding on an interrupt.
+%facts A switch should have a reason beyond a new nameplate.
+%facts We can punish an opening without chasing forever.
+%facts Is the team close enough to make a shared push?
+%facts Save the tunnel vision for somewhere without objectives.
+%facts One target taking real pressure is better than five mild inconveniences.
+%facts Keep room to react if their team turns on us.
+%facts Which target gives us pressure without losing the formation?
+%facts Don't spend everything into a defensive you can already see.
+%facts Damage on the same target makes healing decisions harder.
+%facts Keep the fight close enough that our control can matter.
+%facts Can we avoid chasing that past our own team?
+%facts Breaking a good control effect is an expensive way to start a switch.
+%facts We should recognise when the target stops being reachable.
+%facts An opening doesn't stay open because we want it to.
+%facts Who has a clear route to keep pressure up?
+%facts Don't trade the whole objective for one low health bar.
+%facts Let's keep the next few attacks pointed at a shared problem.
+%facts A sensible switch can do more than another long chase.
+%facts Are we still fighting where the team can help?
+
+[pvp_regroup]
+%facts Wait for a couple more teammates before pushing.
+%facts Going in one at a time is getting us nowhere.
+%facts Can we pull the fight back toward our team?
+%facts Keep a retreat route open.
+%facts Let's give the next push some support.
+%facts We can regroup without giving up on the objective.
+%facts Don't chase farther while we're spread out.
+%facts A short reset would help more than another solo charge.
+%facts Watch the gap between our front and back lines.
+%facts Let's get back within healing range.
+%facts We should stop feeding them isolated fights.
+%facts Wait until we can move as a group.
+%facts Back up enough that our teammates can help.
+%facts We don't have to fight on their terms.
+%facts Can we hold together for the next engagement?
+%facts Keep the slower players with us.
+%facts There's no need to take this fight alone.
+%facts Let's make room for people coming back.
+%facts A patient push is better than a scattered one.
+%facts Don't turn a retreat into a long chase.
+%facts We need a place where we can support each other.
+%facts Check who is actually nearby before charging.
+%facts Let the team close the distance first.
+%facts We can contest again once we're together.
+%facts Keep looking behind us while moving back.
+%facts Try not to strand the last person out.
+%facts Let's rebuild some pressure from a safer spot.
+%facts We can afford a moment to stop trickling in.
+%facts A retreat doesn't need to become a wipe.
+%facts Make them come into our support instead.
+%facts Stay close enough to cover each other.
+%facts We need teammates more than another risky chase.
+%facts Let's choose where the next fight happens.
+%facts Give the returning players a chance to catch up.
+%facts I'd like us together before spending more cooldowns.
+%facts Move back carefully rather than scattering everywhere.
+%facts Let's stop arriving in convenient little pieces.
+%facts We can push again when the team is actually here.
+%facts Pulling back a little beats making the same solo run again.
+%facts Is anyone still on the way back to the fight?
+%facts Don't sprint so far back that the group splits again.
+%facts We need a shared position, not five separate escapes.
+%facts A controlled reset gives the next push a chance.
+%facts Can we get the back line and front line together?
+%facts Let's use the ground where people can support each other.
+%facts There's no need to donate another isolated death.
+%facts Stay aware of anyone covering the retreat.
+%facts Are people close enough for a proper regroup?
+%facts One organised return is better than several desperate ones.
+%facts We can let them come toward the support for a change.
+%facts Moving back should give us options, not just more distance.
+%facts Who is still separated from the rest of us?
+%facts Let's stop the trickle before starting another push.
+%facts A bit of patience now can save another return trip.
+%facts Keep the people with less room to move in mind.
+%facts Can we leave enough space for everyone to get out?
+%facts No need to spend a whole team on a bad position.
+%facts Gather first, then decide how to pressure them.
+%facts Let's not make the recovery harder than it needs to be.
+%facts Is there room for the rest of the team to join us?
+
+[pvp_peel]
+%facts Can someone help take pressure off our back line?
+%facts A slow on the attacker could buy some room.
+%facts Don't chase past the teammate who needs help.
+%facts Keep the attacker away from our support.
+%facts We may need control here more than raw damage.
+%facts Try to give our teammate a way out.
+%facts Watch who is taking the pressure, not just the damage meter.
+%facts Can we turn on the threat to our team?
+%facts A short stun could make space if it's available.
+%facts Don't leave the back line alone for a distant kill.
+%facts Help keep the fight within our healing range.
+%facts We need room for our support to move.
+%facts It might be worth stopping this chase first.
+%facts Protecting a teammate can save the whole push.
+%facts Can anyone keep that attacker occupied?
+%facts Make the attacker work to stay connected.
+%facts We should cover the teammate getting pressured.
+%facts Try not to break a useful control effect.
+%facts Our next few seconds may be about staying alive.
+%facts A clean peel could turn this fight around.
+%facts Don't all run away from the person who needs help.
+%facts Keep an eye on our support's escape route.
+%facts We can pressure the attacker without overextending.
+%facts Give our teammate room to recover.
+%facts Who has control available for this pressure?
+%facts Let's keep their melee from sitting on our back line.
+%facts Helping here is worth more than chasing a low player.
+%facts Can we force the attacker to turn around?
+%facts Watch for the pressure shifting to someone else.
+%facts Use the space around our team instead of scattering.
+%facts We should make it harder to reach our support.
+%facts Don't pull the fight farther from the teammate in trouble.
+%facts A root or slow could create a useful gap.
+%facts Can we cover this before starting another chase?
+%facts Stay close enough that our control can help.
+%facts Let's take some pressure off before pushing again.
+%facts Let's give the pressured teammate more room than a sympathetic emote.
+%facts Slowing the chase could help without wasting a long cooldown.
+%facts Their pressure shouldn't get a free trip through our back line.
+%facts Who can help create a little separation?
+%facts Stay with the teammate rather than chasing the attacker away alone.
+%facts Turning that attacker can change the whole exchange.
+%facts Don't make the escape route lead into more enemies.
+%facts Is there control available to buy a few seconds?
+%facts We can cover each other without all abandoning the objective.
+%facts Watch whether the attacker switches to somebody else.
+%facts Make room for recovery before asking for more pressure.
+%facts Can we keep that chase inside our team's support?
+%facts A teammate with room to move is much easier to keep alive.
+%facts Let's make it inconvenient to sit on our support.
+%facts Don't let a tempting kill hide the pressure behind us.
+%facts Who can keep the attacker from staying connected?
+%facts Use the team around us instead of everyone running separately.
+%facts A short peel can be enough to change the next few seconds.
+%facts Keep control useful rather than breaking it for a small hit.
+%facts Can we turn this into a fight our teammate can survive?
+%facts The person under pressure needs space, not a damage lecture.
+%facts Helping the back line is still part of winning the fight.
+%facts Let's give our support a chance to do their job.
+%facts Who can cover the gap while our teammate moves?
+
+[advice]
+Honestly, do the quests in your zone first. The XP is better than grinding.
+Don't skip quest rewards, half my gear came from them.
+Pick up every quest in town before you head out, it saves a lot of walking.
+Find a group for the elites. Soloing them is a waste of repair money.
+I'd stick with one zone until the quests run dry.
+Rest at an inn between fights if you can. Rested XP adds up.
+Keep your professions leveling alongside, it pays off later.
+Try the dungeons if you can find a group, the gear is worth it.
+Don't forget to train new abilities every couple of levels.
+Sell the grey junk as you go so your bags don't clog up.
+Learn the flight paths early, it saves so much running.
+I'd read the quest text. Sometimes it tells you exactly where to go.
+Grind a few mobs near the quest area, you'll finish objectives faster.
+Check the vendors for bag upgrades. More room helps a lot.
+Do the group quests with someone, they go much quicker.
+Don't pull more than you can handle. Two at a time is plenty for me.
+Eat and drink between pulls, it's cheap and keeps you going.
+If a quest is red for you, come back a couple levels later.
+Pay attention to your gear. An upgrade now and then makes everything easier.
+I'd save the money for your mount at level 40.
+Take the long way round if there's a safer path, dying costs time.
+Ask in the city channel, someone is usually looking for a group.
+Stick to the roads when you're low on health.
+Kill what's near the quest first, then loot as you go.
+Try fishing or cooking, the food buffs are good.
+Don't stand in the fire. I learned that the hard way.
+Skin or mine what you pass if your professions allow it.
+Use your cooldowns on the tough ones, not the trash.
+Check what your class trainer has, you might be missing a spell.
+Turn in quests as you finish them so you don't forget.
+Keep an eye on durability. Repairs are cheaper than a wipe.
+I'd head to the next zone once the quests turn grey.
+Hearth back to restock when your bags are full.
+If you're stuck, just ask around. Players like helping.
+Try different routes, I found some good grinding spots that way.
+Take your time. Nobody's racing you.
+Level the easy way first, then push for the hard content.
+Mix it up, a bit of questing and a bit of dungeons keeps it fun.
+Make sure you've got the right talents for how you play.
+
+[emote]
+Sure thing.
+Ha, alright, here goes.
+Happy to.
+Why not.
+Okay, watch this.
+Give me a second.
+You got it.
+Sure, why not.
+Alright, alright.
+Here you go.
+Only because you asked nicely.
+That's an easy one.
+Okay, one for the road.
+Fine, but just one.
+Let's see how this looks.
+Consider it done.
+Okay, okay.
+Hope that works for you.
+Always ready for a bit of fun.
+Right, here goes nothing.
+Don't laugh.
+If you insist.
+I can do that.
+Do I get a tip for this?
+All yours.
+Hold on, getting into position.
+That's the easy request of the day.
+Sure, I've got a minute.
+As you wish.
+How's that?
+Going for it.
+You asked for it.
+Not my best, but here goes.
+Fair enough.
+Let me show you.
+That one's simple.
+Gladly.
+
+[duel]
+Maybe later, I'm in the middle of something.
+I'd lose, but sure, another time.
+Not right now, I'm saving my health for the road.
+Ha, you wouldn't want a piece of this. Maybe later.
+Not today, I'm not geared for it.
+I'd rather not, I just repaired.
+Let me finish this first and then we'll see.
+Honestly, I'm no good at duels.
+I'm not in the mood for a fight at the moment.
+Ask me again when I'm not busy.
+You'd probably beat me, but go on, ask me later.
+I don't have my cooldowns ready right now.
+Duels aren't really my thing.
+Another time, I'm on my way somewhere.
+Not now. I've got things to do.
+Tempting, but I'll pass for now.
+I'll take a rain check on that.
+I'm not going to risk my repair bill on a duel.
+Maybe once I've leveled a bit more.
+Sounds fun, just not at the moment.
+Catch me when I'm resting up.
+I'd rather save my mana for the quests.
+Hmm, I'd lose. Ask someone else.
+Can't, I'm heading to a quest.
+I'm not sure that's a fair fight.
+Let's do it another day.
+I'm a bit low on health right now.
+I'll keep it in mind. Not now though.
+I'd only embarrass myself.
+You've got more gear than me, that wouldn't be fair.
+Maybe when we're the same level.
+Give me a few minutes, I'm in the middle of things.
+My gear isn't ready for that.
+I've got to get moving, sorry.
+Not at the moment, but I appreciate the offer.
+I'm busy right now, ask again later.
+Ha, no. But nice try.
+Let's save it for another day.
+
+[gold]
+Not much on me right now, to be honest.
+Money's tight. I'm saving up for repairs.
+I'm saving for a mount, so I can't spare any.
+Barely enough to cover my repair bill.
+I'm not rolling in gold, if that's what you're asking.
+I could use more gold myself.
+Not enough to lend out, sorry.
+I just spent most of it at the vendor.
+I'll admit, my purse is pretty light at the moment.
+I'd rather not talk about my finances.
+I keep what I earn for repairs and bags.
+Enough to get by, not enough to give away.
+Gold has a way of disappearing in this game.
+I'm saving for something, so I can't help with that.
+I wish I had more to share.
+Sorry, I'm skint right now.
+I can't spare any, but good luck.
+My money's all tied up in gear.
+Not enough to be handing it out.
+A little. I'm trying to save it.
+Honestly, I'm always short of gold.
+I don't carry much around.
+I've got a bit, but it's earmarked.
+Money's the one thing I never have enough of.
+I spent my last bit on potions.
+If I had spare gold I'd share. I don't.
+Not really in a position to lend.
+Ask me when I've sold some loot.
+I'm broke until I vendor these items.
+I can't help with gold, but I might be able to help another way.
+I'm barely getting by on quest rewards.
+That's a bit personal, don't you think?
+I'd rather keep it for repairs.
+I'm saving every copper right now.
+I don't have a lot to spare, sorry.
+Sorry, but I need what I've got.
+If you need gold, try selling some of your drops.
+
+[opinion]
+Honestly, I like all of them for different reasons.
+That's a tough one. I'd say it depends on the day.
+I'm partial to the quieter zones, to be honest.
+Depends what you want from it, but I'd pick the old classics.
+I think it comes down to personal taste.
+I'd say it's a toss-up between a couple of them.
+Hard to say, I haven't tried them all.
+Ask ten players, you'd get ten answers.
+Mine changes every few levels, really.
+I like the scenery best, if I'm honest.
+I'd go with whatever has the best quests.
+I'm still figuring out what I like.
+I think it's more about who you're playing with.
+Depends on how I'm feeling when I log in.
+Personally, I prefer the ones with good music.
+I have a soft spot for the starting areas.
+I don't think there's a wrong answer.
+That's a fun question. I'd have to think about it.
+I'd pick whichever one has a decent inn.
+I like places where I can fish and relax.
+Not sure I have a favorite, they all have something.
+I used to say one thing, now I'm not so sure.
+Honestly, I enjoy the leveling more than the end.
+I go back and forth on that.
+I think the best part is the first time through.
+My answer would change depending on the weather.
+I'd say the old zones hold up well.
+There's a lot to like about all of them.
+Mine's probably whichever I'm in right now.
+I like the ones that feel like a place.
+It's subjective, but I enjoy a good dungeon.
+I'm open to suggestions, what's yours?
+I'd say whichever has the fewest mobs.
+I'm a creature of habit, so I stick to what I know.
+I've got a few I keep coming back to.
+Honestly I'd have to ask my guild.
+
+[playtime]
+Feels like I've been at it for ages, honestly.
+A good while now. Time flies when you're questing.
+Long enough to know my way around.
+Not as long as some, but I've put in the hours.
+I lost track a while back, to be honest.
+A few weeks, maybe. It's been a good run.
+Enough to have worn out a few pairs of boots.
+Longer than I'd like to admit.
+I started a while ago and just kept going.
+Long enough that the old zones feel like home.
+It's been a decent stretch. I'm still enjoying it.
+I'd say a good few sessions now.
+Plenty of hours, but there's always more to see.
+Probably more hours than I should have.
+I'm not great at keeping track of that.
+A while, but I took some breaks along the way.
+I've been around since the early days of this character.
+Not long enough to see everything yet.
+Long enough to have favorite routes.
+I'd have to check the played time to say.
+It feels like I've been here forever.
+Quite a while. I took it slow.
+Long enough to wear my gear in.
+A fair bit. Slowly but surely.
+I came back after a break, so it's hard to say.
+A few evenings a week, mostly.
+Long enough to learn all the shortcuts.
+I've been playing on and off for a long time.
+I don't count the hours, I just enjoy it.
+Since the realm opened for me, more or less.
+Long enough to have opinions about every zone.
+A while. I started on a different character first.
+I couldn't tell you exactly, but it's been fun.
+More than a few sessions, anyway.
+I've put in a decent chunk of time.
+Longer than my last character, anyway.
+Time flies. I've been at it a good while.
+
+[summon]
+On it, give me a second.
+Sure, I'll help with the summon.
+Okay, heading to the stone.
+Yep, I'll click it when it's up.
+Happy to help, one moment.
+Alright, getting into position for the ritual.
+I'll lend a hand, just point me at the portal.
+Coming. Don't start without me.
+Sure thing, I'll be right there.
+Okay, I'll be one of the clickers.
+No problem, let me get over there.
+I'll get the summon going.
+Give me a moment, I'm on my way.
+Sure, I know the drill. Click, click, summon.
+Okay, I'll do my part.
+Got it. Heading over now.
+Alright, count me in for the ritual.
+Let me see if I can get that started.
+You got it, hang tight.
+Of course, I'll help get everyone together.
+I'll hop over to the stone now.
+Sure, give me a second to find it.
+On my way to help with the summon.
+Okay, you need a third? I'm in.
+Right, I'll do the summon. Stay put.
+Sure, let me get the group together.
+Alright, I'll click the portal when it appears.
+No worries, I'll help pull you over.
+I'll take care of it, give me a moment.
+Okay, let me get my shards ready.
+Yep, I can do that.
+I'm coming, keep the ritual going.
+Easy enough. Where's the portal?
+Okay, I'll help summon you.
+Leave it with me.
+One summon, coming right up.
+Fine by me, I was heading that way anyway.
+Right, give me a moment to get in range.

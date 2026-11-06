@@ -1,0 +1,6815 @@
+{
+  "format": 1,
+  "nodes": [
+    {
+      "id": 1375,
+      "class": 25,
+      "spec": 41,
+      "tab": "CORRUPTION",
+      "name": "Psychic Suppression",
+      "spells": [
+        800432
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 2174,
+      "class": 23,
+      "spec": 35,
+      "tab": "ANIMATION",
+      "name": "Putrifier",
+      "spells": [
+        302923
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 2312,
+      "class": 25,
+      "spec": 41,
+      "tab": "CORRUPTION",
+      "name": "Whispers of C'Thun",
+      "spells": [
+        807512
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 0,
+      "level": 30,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 4034,
+      "class": 23,
+      "spec": 34,
+      "tab": "DEATH",
+      "name": "Crypt Plague",
+      "spells": [
+        92121
+      ],
+      "required": [
+        29244
+      ],
+      "ae": 0,
+      "te": 0,
+      "level": 1,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 4035,
+      "class": 23,
+      "spec": 36,
+      "tab": "RIME",
+      "name": "Tundra Warriors",
+      "spells": [
+        92122
+      ],
+      "required": [
+        29787
+      ],
+      "ae": 0,
+      "te": 0,
+      "level": 1,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 4036,
+      "class": 23,
+      "spec": 35,
+      "tab": "ANIMATION",
+      "name": "Summoning Adept",
+      "spells": [
+        92123
+      ],
+      "required": [
+        29364
+      ],
+      "ae": 0,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 4040,
+      "class": 25,
+      "spec": 42,
+      "tab": "GODBLADE",
+      "name": "Obliteration",
+      "spells": [
+        92129
+      ],
+      "required": [
+        7608
+      ],
+      "ae": 0,
+      "te": 0,
+      "level": 1,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 4041,
+      "class": 25,
+      "spec": 41,
+      "tab": "CORRUPTION",
+      "name": "Corrupting Whispers",
+      "spells": [
+        92130
+      ],
+      "required": [
+        29470
+      ],
+      "ae": 0,
+      "te": 0,
+      "level": 10,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 4042,
+      "class": 25,
+      "spec": 40,
+      "tab": "INFLUENCE",
+      "name": "Herald of the Depths",
+      "spells": [
+        92131
+      ],
+      "required": [
+        29265
+      ],
+      "ae": 0,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 4196,
+      "class": 25,
+      "spec": 40,
+      "tab": "INFLUENCE",
+      "name": "Void Power",
+      "spells": [
+        574147
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 0,
+      "level": 40,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 4235,
+      "class": 23,
+      "spec": 35,
+      "tab": "ANIMATION",
+      "name": "Diabolical",
+      "spells": [
+        704723
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 0,
+      "level": 40,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 4236,
+      "class": 23,
+      "spec": 35,
+      "tab": "ANIMATION",
+      "name": "Deadly Bond",
+      "spells": [
+        704724
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 0,
+      "level": 20,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 4237,
+      "class": 23,
+      "spec": 35,
+      "tab": "ANIMATION",
+      "name": "Summoning Expert",
+      "spells": [
+        807494
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 0,
+      "level": 30,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 4238,
+      "class": 23,
+      "spec": 35,
+      "tab": "ANIMATION",
+      "name": "Plague Horde",
+      "spells": [
+        802986
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 4392,
+      "class": 25,
+      "spec": 41,
+      "tab": "CORRUPTION",
+      "name": "Dark Revelation",
+      "spells": [
+        300313
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 0,
+      "level": 40,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 4393,
+      "class": 25,
+      "spec": 41,
+      "tab": "CORRUPTION",
+      "name": "Blessing of C'Thun",
+      "spells": [
+        301255
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 0,
+      "level": 50,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 4436,
+      "class": 23,
+      "spec": 36,
+      "tab": "RIME",
+      "name": "Ice Mastery",
+      "spells": [
+        560045
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 0,
+      "level": 20,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 4437,
+      "class": 23,
+      "spec": 36,
+      "tab": "RIME",
+      "name": "Frozen Power",
+      "spells": [
+        301303
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 0,
+      "level": 30,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 4438,
+      "class": 23,
+      "spec": 36,
+      "tab": "RIME",
+      "name": "Lich Form",
+      "spells": [
+        500981
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 0,
+      "level": 40,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 4496,
+      "class": 25,
+      "spec": 40,
+      "tab": "INFLUENCE",
+      "name": "Power of Yogg-Saron",
+      "spells": [
+        806264
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 0,
+      "level": 50,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 4536,
+      "class": 25,
+      "spec": 40,
+      "tab": "INFLUENCE",
+      "name": "Persistent Prayers",
+      "spells": [
+        302072,
+        302919
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 4615,
+      "class": 23,
+      "spec": 36,
+      "tab": "RIME",
+      "name": "Blood and Ice",
+      "spells": [
+        561164
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 782311,
+      "flags": 24
+    },
+    {
+      "id": 4619,
+      "class": 23,
+      "spec": 35,
+      "tab": "ANIMATION",
+      "name": "Flesh Symbiosis",
+      "spells": [
+        301207
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 4620,
+      "class": 23,
+      "spec": 34,
+      "tab": "DEATH",
+      "name": "Mutation",
+      "spells": [
+        500342
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 4623,
+      "class": 23,
+      "spec": 34,
+      "tab": "DEATH",
+      "name": "Withering",
+      "spells": [
+        301250
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 0,
+      "level": 40,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 4810,
+      "class": 25,
+      "spec": 42,
+      "tab": "GODBLADE",
+      "name": "Voidforged Edge",
+      "spells": [
+        704871,
+        707749,
+        707785
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 4845,
+      "class": 25,
+      "spec": 42,
+      "tab": "GODBLADE",
+      "name": "Residual Energy",
+      "spells": [
+        681389
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 4868,
+      "class": 25,
+      "spec": 40,
+      "tab": "INFLUENCE",
+      "name": "Corrupt Fate",
+      "spells": [
+        520810
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 893211,
+      "flags": 24
+    },
+    {
+      "id": 4934,
+      "class": 25,
+      "spec": 40,
+      "tab": "INFLUENCE",
+      "name": "Blade of the Depths",
+      "spells": [
+        300753
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 5172,
+      "class": 25,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Entropic Singularity",
+      "spells": [
+        800430
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 5176,
+      "class": 25,
+      "spec": 41,
+      "tab": "CORRUPTION",
+      "name": "Ancient Curse",
+      "spells": [
+        500712
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 5254,
+      "class": 25,
+      "spec": 41,
+      "tab": "CORRUPTION",
+      "name": "Dark Magician",
+      "spells": [
+        563123
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 0,
+      "level": 20,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 5290,
+      "class": 23,
+      "spec": 35,
+      "tab": "ANIMATION",
+      "name": "Chomp",
+      "spells": [
+        707283
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 72431,
+      "flags": 24
+    },
+    {
+      "id": 5314,
+      "class": 23,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Command: Hook",
+      "spells": [
+        504316
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 5605,
+      "class": 23,
+      "spec": 36,
+      "tab": "RIME",
+      "name": "Frigid Death",
+      "spells": [
+        560851
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 362123,
+      "flags": 24
+    },
+    {
+      "id": 5766,
+      "class": 23,
+      "spec": 35,
+      "tab": "ANIMATION",
+      "name": "Depravity",
+      "spells": [
+        638403
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 72342,
+      "flags": 24
+    },
+    {
+      "id": 5781,
+      "class": 23,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Lich Commander",
+      "spells": [
+        704713
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 707739,
+      "flags": 24
+    },
+    {
+      "id": 5892,
+      "class": 23,
+      "spec": 36,
+      "tab": "RIME",
+      "name": "Army of the North",
+      "spells": [
+        561138
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 6272,
+      "class": 25,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Mass Nightmare",
+      "spells": [
+        805114
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 6274,
+      "class": 25,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Darkward",
+      "spells": [
+        706180,
+        706181
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 6275,
+      "class": 25,
+      "spec": 96,
+      "tab": "BULWARK",
+      "name": "Inner Darkness",
+      "spells": [
+        706182
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 6276,
+      "class": 25,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Eternal Grasp",
+      "spells": [
+        704878,
+        704879
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 6277,
+      "class": 25,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Embrace the Void",
+      "spells": [
+        582591
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 6278,
+      "class": 25,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Dismay",
+      "spells": [
+        704885
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 707747,
+      "flags": 24
+    },
+    {
+      "id": 6279,
+      "class": 25,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Void-Enchanted Armor",
+      "spells": [
+        804633
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 804633,
+      "flags": 24
+    },
+    {
+      "id": 6280,
+      "class": 25,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Grasp of Zek'voz",
+      "spells": [
+        573028
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 6281,
+      "class": 25,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Doomsayer",
+      "spells": [
+        704880
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 6283,
+      "class": 25,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Empire's Blessing",
+      "spells": [
+        704895
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 6290,
+      "class": 23,
+      "spec": 35,
+      "tab": "ANIMATION",
+      "name": "Fetid Mark",
+      "spells": [
+        706948
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 72431,
+      "flags": 24
+    },
+    {
+      "id": 6295,
+      "class": 23,
+      "spec": 34,
+      "tab": "DEATH",
+      "name": "Creeping Crypt",
+      "spells": [
+        300960
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 6310,
+      "class": 25,
+      "spec": 40,
+      "tab": "INFLUENCE",
+      "name": "Dark Reservoir",
+      "spells": [
+        300284
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 6312,
+      "class": 25,
+      "spec": 41,
+      "tab": "CORRUPTION",
+      "name": "Cunning Nature",
+      "spells": [
+        706915,
+        707784
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 6327,
+      "class": 25,
+      "spec": 41,
+      "tab": "CORRUPTION",
+      "name": "Feeding Darkness",
+      "spells": [
+        300302,
+        301347
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 6382,
+      "class": 25,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Hallucination",
+      "spells": [
+        560301
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 6458,
+      "class": 23,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Vampiric Aura",
+      "spells": [
+        300241
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 6459,
+      "class": 23,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Icecrown Scriptures",
+      "spells": [
+        300234,
+        301325
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 6488,
+      "class": 23,
+      "spec": 36,
+      "tab": "RIME",
+      "name": "Hoarfrost Hands",
+      "spells": [
+        803291
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 6542,
+      "class": 25,
+      "spec": 42,
+      "tab": "GODBLADE",
+      "name": "Hysterical Momentum",
+      "spells": [
+        300275
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 6543,
+      "class": 25,
+      "spec": 42,
+      "tab": "GODBLADE",
+      "name": "Abyssal Edge",
+      "spells": [
+        582836,
+        582856
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 6545,
+      "class": 25,
+      "spec": 96,
+      "tab": "BULWARK",
+      "name": "Void Strikes",
+      "spells": [
+        680609
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 6555,
+      "class": 23,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Cobalt-Plated Armor",
+      "spells": [
+        300945
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 804717,
+      "flags": 24
+    },
+    {
+      "id": 6557,
+      "class": 25,
+      "spec": 41,
+      "tab": "CORRUPTION",
+      "name": "Moment of Clarity",
+      "spells": [
+        706179,
+        707783
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 6559,
+      "class": 25,
+      "spec": 41,
+      "tab": "CORRUPTION",
+      "name": "Absolute Horror",
+      "spells": [
+        300309
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 6664,
+      "class": 25,
+      "spec": 42,
+      "tab": "GODBLADE",
+      "name": "Eldritch Obelisk",
+      "spells": [
+        560321
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 6666,
+      "class": 25,
+      "spec": 40,
+      "tab": "INFLUENCE",
+      "name": "Twisted Sanity",
+      "spells": [
+        706187
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 6771,
+      "class": 25,
+      "spec": 96,
+      "tab": "BULWARK",
+      "name": "Boon of Y'shaarj",
+      "spells": [
+        560080,
+        561335
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 6863,
+      "class": 23,
+      "spec": 34,
+      "tab": "DEATH",
+      "name": "Damnation",
+      "spells": [
+        806149,
+        807925
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 6885,
+      "class": 23,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Hulking Hordes",
+      "spells": [
+        300748,
+        301326
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 6886,
+      "class": 23,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Putrid Summoner",
+      "spells": [
+        560595
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 6887,
+      "class": 23,
+      "spec": 35,
+      "tab": "ANIMATION",
+      "name": "Unrelenting Army",
+      "spells": [
+        705747,
+        707880
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 6891,
+      "class": 23,
+      "spec": 36,
+      "tab": "RIME",
+      "name": "Necrotic Chains",
+      "spells": [
+        801733
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 803797,
+      "flags": 24
+    },
+    {
+      "id": 6892,
+      "class": 23,
+      "spec": 36,
+      "tab": "RIME",
+      "name": "Raising the Kirin Tor",
+      "spells": [
+        805649
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 6893,
+      "class": 23,
+      "spec": 36,
+      "tab": "RIME",
+      "name": "Glacial Impact",
+      "spells": [
+        704355
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 6897,
+      "class": 23,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Overwhelming Force",
+      "spells": [
+        531128
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 236112,
+      "flags": 24
+    },
+    {
+      "id": 6900,
+      "class": 23,
+      "spec": 36,
+      "tab": "RIME",
+      "name": "Champion of Kel'Thuzad",
+      "spells": [
+        807937
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 6901,
+      "class": 23,
+      "spec": 36,
+      "tab": "RIME",
+      "name": "Refreshing Chill",
+      "spells": [
+        300940
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 6903,
+      "class": 23,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Life For Power",
+      "spells": [
+        705746
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 6904,
+      "class": 23,
+      "spec": 34,
+      "tab": "DEATH",
+      "name": "Swarmer",
+      "spells": [
+        704528
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 6948,
+      "class": 25,
+      "spec": 40,
+      "tab": "INFLUENCE",
+      "name": "Yogg-Saron's Embrace",
+      "spells": [
+        301984
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 6959,
+      "class": 25,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Gift of C'Thun",
+      "spells": [
+        706189
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 6960,
+      "class": 23,
+      "spec": 34,
+      "tab": "DEATH",
+      "name": "Foul Contagion",
+      "spells": [
+        300965
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 802990,
+      "flags": 24
+    },
+    {
+      "id": 6961,
+      "class": 23,
+      "spec": 34,
+      "tab": "DEATH",
+      "name": "Festering Decay",
+      "spells": [
+        806324
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 6965,
+      "class": 23,
+      "spec": 34,
+      "tab": "DEATH",
+      "name": "Touch of Death",
+      "spells": [
+        707113
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 6982,
+      "class": 25,
+      "spec": 40,
+      "tab": "INFLUENCE",
+      "name": "Saronite Cube",
+      "spells": [
+        807307
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 800402,
+      "flags": 24
+    },
+    {
+      "id": 7052,
+      "class": 25,
+      "spec": 41,
+      "tab": "CORRUPTION",
+      "name": "Call of N'Zoth",
+      "spells": [
+        300306
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 301317,
+      "flags": 24
+    },
+    {
+      "id": 7056,
+      "class": 25,
+      "spec": 41,
+      "tab": "CORRUPTION",
+      "name": "Obliteration Beam",
+      "spells": [
+        805572
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7057,
+      "class": 25,
+      "spec": 41,
+      "tab": "CORRUPTION",
+      "name": "Corruptor's Gaze",
+      "spells": [
+        802048
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7058,
+      "class": 25,
+      "spec": 41,
+      "tab": "CORRUPTION",
+      "name": "Glimpse of Madness",
+      "spells": [
+        500719,
+        500767
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7071,
+      "class": 25,
+      "spec": 41,
+      "tab": "CORRUPTION",
+      "name": "Visions",
+      "spells": [
+        560526
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7072,
+      "class": 25,
+      "spec": 41,
+      "tab": "CORRUPTION",
+      "name": "Foulness",
+      "spells": [
+        706921
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7083,
+      "class": 25,
+      "spec": 40,
+      "tab": "INFLUENCE",
+      "name": "As The Prophecy Foretold",
+      "spells": [
+        504642
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7084,
+      "class": 25,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Dark Calling",
+      "spells": [
+        560715
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7112,
+      "class": 23,
+      "spec": 35,
+      "tab": "ANIMATION",
+      "name": "Crypt Keeper",
+      "spells": [
+        560596
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 704718,
+      "flags": 24
+    },
+    {
+      "id": 7117,
+      "class": 23,
+      "spec": 35,
+      "tab": "ANIMATION",
+      "name": "Master Animator",
+      "spells": [
+        504431
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7119,
+      "class": 23,
+      "spec": 35,
+      "tab": "ANIMATION",
+      "name": "Ghoul Mastery",
+      "spells": [
+        503740
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7141,
+      "class": 23,
+      "spec": 35,
+      "tab": "ANIMATION",
+      "name": "Summoning Ritual",
+      "spells": [
+        805038
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7143,
+      "class": 23,
+      "spec": 35,
+      "tab": "ANIMATION",
+      "name": "Bone King",
+      "spells": [
+        707175
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7145,
+      "class": 23,
+      "spec": 35,
+      "tab": "ANIMATION",
+      "name": "Runic Animation",
+      "spells": [
+        707445
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7146,
+      "class": 23,
+      "spec": 35,
+      "tab": "ANIMATION",
+      "name": "Skeletal Artillery",
+      "spells": [
+        302518,
+        302921
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7213,
+      "class": 23,
+      "spec": 36,
+      "tab": "RIME",
+      "name": "Frigid Winds",
+      "spells": [
+        504357
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 988800,
+      "flags": 24
+    },
+    {
+      "id": 7214,
+      "class": 23,
+      "spec": 36,
+      "tab": "RIME",
+      "name": "Heartchill",
+      "spells": [
+        801739
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7278,
+      "class": 25,
+      "spec": 40,
+      "tab": "INFLUENCE",
+      "name": "Saronite Blessing",
+      "spells": [
+        301262
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7298,
+      "class": 23,
+      "spec": 35,
+      "tab": "ANIMATION",
+      "name": "Army of the Dead",
+      "spells": [
+        525600
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 561232,
+      "flags": 24
+    },
+    {
+      "id": 7345,
+      "class": 23,
+      "spec": 35,
+      "tab": "ANIMATION",
+      "name": "Animate: Skeletal Archer",
+      "spells": [
+        805040
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7346,
+      "class": 23,
+      "spec": 35,
+      "tab": "ANIMATION",
+      "name": "Plague Protection",
+      "spells": [
+        570046,
+        570226
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7347,
+      "class": 23,
+      "spec": 35,
+      "tab": "ANIMATION",
+      "name": "Scourge Disciple",
+      "spells": [
+        531126
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7348,
+      "class": 23,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Raise: Decaying Colossus",
+      "spells": [
+        500989
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7350,
+      "class": 23,
+      "spec": 35,
+      "tab": "ANIMATION",
+      "name": "Corpse Wagon",
+      "spells": [
+        503738
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7371,
+      "class": 23,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Phylactery",
+      "spells": [
+        500933
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7404,
+      "class": 25,
+      "spec": 96,
+      "tab": "BULWARK",
+      "name": "Twilight Shieldtoss",
+      "spells": [
+        524876
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7465,
+      "class": 25,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Eyes of Eternity",
+      "spells": [
+        706188
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 302015,
+      "flags": 24
+    },
+    {
+      "id": 7512,
+      "class": 25,
+      "spec": 96,
+      "tab": "BULWARK",
+      "name": "Dreadnought",
+      "spells": [
+        680750
+      ],
+      "required": [
+        7608
+      ],
+      "ae": 0,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7554,
+      "class": 25,
+      "spec": 42,
+      "tab": "GODBLADE",
+      "name": "Voidseeker",
+      "spells": [
+        560320
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7555,
+      "class": 25,
+      "spec": 42,
+      "tab": "GODBLADE",
+      "name": "Empire's Grasp",
+      "spells": [
+        500704
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7556,
+      "class": 25,
+      "spec": 42,
+      "tab": "GODBLADE",
+      "name": "Teachings of Mythrax",
+      "spells": [
+        561035
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7557,
+      "class": 25,
+      "spec": 42,
+      "tab": "GODBLADE",
+      "name": "Who Needs Sanity?",
+      "spells": [
+        681106
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 783231,
+      "flags": 24
+    },
+    {
+      "id": 7558,
+      "class": 25,
+      "spec": 42,
+      "tab": "GODBLADE",
+      "name": "Voidborne",
+      "spells": [
+        681104
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7559,
+      "class": 25,
+      "spec": 42,
+      "tab": "GODBLADE",
+      "name": "Eye of N'zoth",
+      "spells": [
+        802728
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7563,
+      "class": 25,
+      "spec": 42,
+      "tab": "GODBLADE",
+      "name": "Twilight's Call",
+      "spells": [
+        301180
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 0,
+      "level": 30,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7564,
+      "class": 25,
+      "spec": 42,
+      "tab": "GODBLADE",
+      "name": "Nutcase",
+      "spells": [
+        805117
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7565,
+      "class": 25,
+      "spec": 42,
+      "tab": "GODBLADE",
+      "name": "Book of N'Zoth",
+      "spells": [
+        806768
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7606,
+      "class": 25,
+      "spec": 96,
+      "tab": "BULWARK",
+      "name": "Eldritch Bastion",
+      "spells": [
+        560091,
+        561336
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7608,
+      "class": 25,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Abyssal Ward",
+      "spells": [
+        804670
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7609,
+      "class": 25,
+      "spec": 42,
+      "tab": "GODBLADE",
+      "name": "Seething Void",
+      "spells": [
+        524804
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7610,
+      "class": 25,
+      "spec": 96,
+      "tab": "BULWARK",
+      "name": "Voidwarding",
+      "spells": [
+        560002
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7611,
+      "class": 25,
+      "spec": 96,
+      "tab": "BULWARK",
+      "name": "Everpresent",
+      "spells": [
+        300272
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7612,
+      "class": 25,
+      "spec": 96,
+      "tab": "BULWARK",
+      "name": "Adaptive Combatant",
+      "spells": [
+        300268,
+        301348
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7614,
+      "class": 25,
+      "spec": 96,
+      "tab": "BULWARK",
+      "name": "Bulwark of Y'shaarj",
+      "spells": [
+        680558
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7615,
+      "class": 25,
+      "spec": 96,
+      "tab": "BULWARK",
+      "name": "Wavering Hope",
+      "spells": [
+        560502
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7616,
+      "class": 25,
+      "spec": 96,
+      "tab": "BULWARK",
+      "name": "General of Y'shaarj",
+      "spells": [
+        680581
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7617,
+      "class": 25,
+      "spec": 96,
+      "tab": "BULWARK",
+      "name": "Malignant Armor",
+      "spells": [
+        680569
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7618,
+      "class": 25,
+      "spec": 96,
+      "tab": "BULWARK",
+      "name": "Void-Enhanced Shield",
+      "spells": [
+        680555
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7619,
+      "class": 25,
+      "spec": 96,
+      "tab": "BULWARK",
+      "name": "In And Out of Insanity",
+      "spells": [
+        582308
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7620,
+      "class": 25,
+      "spec": 96,
+      "tab": "BULWARK",
+      "name": "Bulwark of Horror",
+      "spells": [
+        300278
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7621,
+      "class": 25,
+      "spec": 96,
+      "tab": "BULWARK",
+      "name": "Blessing of Y'Shaarj",
+      "spells": [
+        801968
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 0,
+      "level": 50,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7622,
+      "class": 25,
+      "spec": 96,
+      "tab": "BULWARK",
+      "name": "Dreadful",
+      "spells": [
+        680579
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7624,
+      "class": 25,
+      "spec": 96,
+      "tab": "BULWARK",
+      "name": "Shadowy Symbiosis",
+      "spells": [
+        680574
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7625,
+      "class": 25,
+      "spec": 96,
+      "tab": "BULWARK",
+      "name": "Void Augmentation",
+      "spells": [
+        680575
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7626,
+      "class": 25,
+      "spec": 96,
+      "tab": "BULWARK",
+      "name": "Embodiment of Y'shaarj",
+      "spells": [
+        681088
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7627,
+      "class": 25,
+      "spec": 96,
+      "tab": "BULWARK",
+      "name": "Twilight Guardian",
+      "spells": [
+        704889
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7629,
+      "class": 25,
+      "spec": 96,
+      "tab": "BULWARK",
+      "name": "Eldritch Force",
+      "spells": [
+        681474
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7785,
+      "class": 23,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Lich Essence",
+      "spells": [
+        802988
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7807,
+      "class": 23,
+      "spec": 34,
+      "tab": "DEATH",
+      "name": "Fiend",
+      "spells": [
+        707627
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7808,
+      "class": 23,
+      "spec": 34,
+      "tab": "DEATH",
+      "name": "Rotting Flesh",
+      "spells": [
+        301304
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7894,
+      "class": 25,
+      "spec": 40,
+      "tab": "INFLUENCE",
+      "name": "Abyssal Covenant",
+      "spells": [
+        500751
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7899,
+      "class": 25,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Mind Games",
+      "spells": [
+        582589
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7900,
+      "class": 25,
+      "spec": 40,
+      "tab": "INFLUENCE",
+      "name": "Dark Protection",
+      "spells": [
+        704897
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 51121,
+      "flags": 24
+    },
+    {
+      "id": 7901,
+      "class": 25,
+      "spec": 40,
+      "tab": "INFLUENCE",
+      "name": "Dark Prophet",
+      "spells": [
+        301209
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7938,
+      "class": 25,
+      "spec": 41,
+      "tab": "CORRUPTION",
+      "name": "Horrorbolt Volley",
+      "spells": [
+        704892
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7940,
+      "class": 25,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Twisted Seal",
+      "spells": [
+        525065
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 7941,
+      "class": 25,
+      "spec": 42,
+      "tab": "GODBLADE",
+      "name": "Twilight Domination",
+      "spells": [
+        520405
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 8100,
+      "class": 23,
+      "spec": 36,
+      "tab": "RIME",
+      "name": "Arch Lich",
+      "spells": [
+        707588
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 9223,
+      "class": 23,
+      "spec": 34,
+      "tab": "DEATH",
+      "name": "Rotting Flesh",
+      "spells": [
+        574138
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 0,
+      "level": 30,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 9295,
+      "class": 25,
+      "spec": 40,
+      "tab": "INFLUENCE",
+      "name": "Shadow Training",
+      "spells": [
+        805607
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 0,
+      "level": 20,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 9296,
+      "class": 25,
+      "spec": 40,
+      "tab": "INFLUENCE",
+      "name": "Void-Touched",
+      "spells": [
+        300286
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 0,
+      "level": 30,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 9298,
+      "class": 25,
+      "spec": 42,
+      "tab": "GODBLADE",
+      "name": "Void Strength",
+      "spells": [
+        805121
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 0,
+      "level": 40,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 9299,
+      "class": 25,
+      "spec": 96,
+      "tab": "BULWARK",
+      "name": "Strength of the Sha",
+      "spells": [
+        804286
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 0,
+      "level": 20,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 9301,
+      "class": 25,
+      "spec": 96,
+      "tab": "BULWARK",
+      "name": "Deep Secrets",
+      "spells": [
+        582307
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 0,
+      "level": 30,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 9302,
+      "class": 25,
+      "spec": 96,
+      "tab": "BULWARK",
+      "name": "Void Reaver",
+      "spells": [
+        800463
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 9759,
+      "class": 25,
+      "spec": 96,
+      "tab": "BULWARK",
+      "name": "Y'Shaarj's Enforcer",
+      "spells": [
+        803236
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 97411,
+      "flags": 24
+    },
+    {
+      "id": 9934,
+      "class": 23,
+      "spec": 35,
+      "tab": "ANIMATION",
+      "name": "Grave Mastery",
+      "spells": [
+        504439
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 0,
+      "level": 50,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 9935,
+      "class": 25,
+      "spec": 41,
+      "tab": "CORRUPTION",
+      "name": "Dread",
+      "spells": [
+        301315
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 9953,
+      "class": 25,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Overwhelming Void",
+      "spells": [
+        707429
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 10495,
+      "class": 23,
+      "spec": 35,
+      "tab": "ANIMATION",
+      "name": "Animate: Bone Wraith",
+      "spells": [
+        805032
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 805032,
+      "flags": 24
+    },
+    {
+      "id": 10918,
+      "class": 23,
+      "spec": 34,
+      "tab": "DEATH",
+      "name": "Death Commander",
+      "spells": [
+        300235
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 10983,
+      "class": 25,
+      "spec": 42,
+      "tab": "GODBLADE",
+      "name": "Touch of the Void",
+      "spells": [
+        680508
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 11112,
+      "class": 23,
+      "spec": 35,
+      "tab": "ANIMATION",
+      "name": "Unrelenting",
+      "spells": [
+        704718
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 704718,
+      "flags": 24
+    },
+    {
+      "id": 11297,
+      "class": 25,
+      "spec": 42,
+      "tab": "GODBLADE",
+      "name": "Shadow of the Void",
+      "spells": [
+        574318
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 0,
+      "level": 20,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 11298,
+      "class": 25,
+      "spec": 42,
+      "tab": "GODBLADE",
+      "name": "Blessing of N'Zoth",
+      "spells": [
+        681107
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 0,
+      "level": 50,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 11438,
+      "class": 23,
+      "spec": 36,
+      "tab": "RIME",
+      "name": "Champion of Kel'thuzad",
+      "spells": [
+        704676
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 0,
+      "level": 50,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 11619,
+      "class": 23,
+      "spec": 35,
+      "tab": "ANIMATION",
+      "name": "Animate: Bone Construct",
+      "spells": [
+        531130
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 11623,
+      "class": 23,
+      "spec": 34,
+      "tab": "DEATH",
+      "name": "Unholy Erosion",
+      "spells": [
+        807700
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 0,
+      "level": 50,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 11880,
+      "class": 25,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Rapid Incantations",
+      "spells": [
+        301181
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 215678,
+      "flags": 24
+    },
+    {
+      "id": 11892,
+      "class": 25,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Eldritch Screams",
+      "spells": [
+        525049
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 525049,
+      "flags": 24
+    },
+    {
+      "id": 11904,
+      "class": 23,
+      "spec": 34,
+      "tab": "DEATH",
+      "name": "Cycle of Death",
+      "spells": [
+        560727
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 11935,
+      "class": 25,
+      "spec": 41,
+      "tab": "CORRUPTION",
+      "name": "Horrific Visions",
+      "spells": [
+        707753
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 12165,
+      "class": 23,
+      "spec": 35,
+      "tab": "ANIMATION",
+      "name": "Sepulchral Might",
+      "spells": [
+        706472,
+        572638
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 12212,
+      "class": 23,
+      "spec": 36,
+      "tab": "RIME",
+      "name": "Command: Bonefreeze",
+      "spells": [
+        504489
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 12219,
+      "class": 25,
+      "spec": 96,
+      "tab": "BULWARK",
+      "name": "Dreadfall",
+      "spells": [
+        806175
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 12381,
+      "class": 23,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Corpse Commander",
+      "spells": [
+        707739
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 707739,
+      "flags": 24
+    },
+    {
+      "id": 12444,
+      "class": 25,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Disdain",
+      "spells": [
+        707747
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 707747,
+      "flags": 24
+    },
+    {
+      "id": 12453,
+      "class": 25,
+      "spec": 40,
+      "tab": "INFLUENCE",
+      "name": "Visions of the Empire",
+      "spells": [
+        806384
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 12562,
+      "class": 25,
+      "spec": 42,
+      "tab": "GODBLADE",
+      "name": "Warrior of the Old Gods",
+      "spells": [
+        802047
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 12891,
+      "class": 23,
+      "spec": 36,
+      "tab": "RIME",
+      "name": "Ner'zhul's Blessing",
+      "spells": [
+        803797
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 803797,
+      "flags": 24
+    },
+    {
+      "id": 12975,
+      "class": 25,
+      "spec": 40,
+      "tab": "INFLUENCE",
+      "name": "Dark Matter",
+      "spells": [
+        806382
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 12982,
+      "class": 25,
+      "spec": 40,
+      "tab": "INFLUENCE",
+      "name": "Devour Curse",
+      "spells": [
+        800402
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 800402,
+      "flags": 24
+    },
+    {
+      "id": 13052,
+      "class": 25,
+      "spec": 41,
+      "tab": "CORRUPTION",
+      "name": "Call of C'Thun",
+      "spells": [
+        301317
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 301317,
+      "flags": 24
+    },
+    {
+      "id": 13897,
+      "class": 25,
+      "spec": 42,
+      "tab": "GODBLADE",
+      "name": "Glory to N'Zoth",
+      "spells": [
+        681326
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 681102,
+      "flags": 24
+    },
+    {
+      "id": 19222,
+      "class": 23,
+      "spec": 34,
+      "tab": "DEATH",
+      "name": "Plague Science",
+      "spells": [
+        704163
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 0,
+      "level": 20,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 19778,
+      "class": 23,
+      "spec": 36,
+      "tab": "RIME",
+      "name": "Frozen Bodies",
+      "spells": [
+        707562
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 29196,
+      "class": 23,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Tears of Lordaeron",
+      "spells": [
+        705752
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 236112,
+      "flags": 24
+    },
+    {
+      "id": 29241,
+      "class": 23,
+      "spec": 34,
+      "tab": "DEATH",
+      "name": "Crypt Explosion",
+      "spells": [
+        500572
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 29242,
+      "class": 23,
+      "spec": 34,
+      "tab": "DEATH",
+      "name": "Putricide's Formula",
+      "spells": [
+        707001,
+        707882
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 29244,
+      "class": 23,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Fetid Ward",
+      "spells": [
+        680388
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 29263,
+      "class": 25,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Empire Commander",
+      "spells": [
+        704887,
+        707781,
+        712470
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 29265,
+      "class": 25,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Void Shield",
+      "spells": [
+        500715
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 29266,
+      "class": 25,
+      "spec": 41,
+      "tab": "CORRUPTION",
+      "name": "Sunderer of Realities",
+      "spells": [
+        301068
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 29267,
+      "class": 25,
+      "spec": 40,
+      "tab": "INFLUENCE",
+      "name": "Eldritch Eye",
+      "spells": [
+        802049
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 29268,
+      "class": 25,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Shadow Words",
+      "spells": [
+        706928
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 29270,
+      "class": 25,
+      "spec": 41,
+      "tab": "CORRUPTION",
+      "name": "Unrelenting Void",
+      "spells": [
+        704527
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 704527,
+      "flags": 24
+    },
+    {
+      "id": 29272,
+      "class": 25,
+      "spec": 42,
+      "tab": "GODBLADE",
+      "name": "End Times",
+      "spells": [
+        805115
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 29273,
+      "class": 25,
+      "spec": 96,
+      "tab": "BULWARK",
+      "name": "Eldritch Strength",
+      "spells": [
+        680600
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 29275,
+      "class": 25,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Vision of Doom",
+      "spells": [
+        520388
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 29317,
+      "class": 23,
+      "spec": 36,
+      "tab": "RIME",
+      "name": "Soulfreeze",
+      "spells": [
+        572023
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 29344,
+      "class": 25,
+      "spec": 40,
+      "tab": "INFLUENCE",
+      "name": "Dark Veil",
+      "spells": [
+        520345
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 29364,
+      "class": 23,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Raise: Abomination",
+      "spells": [
+        500335
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 29453,
+      "class": 25,
+      "spec": 40,
+      "tab": "INFLUENCE",
+      "name": "Dark Chants",
+      "spells": [
+        712471
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 29455,
+      "class": 25,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Shroud of Pride",
+      "spells": [
+        805126
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 29470,
+      "class": 25,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Corrupt Mind",
+      "spells": [
+        560109
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 29471,
+      "class": 25,
+      "spec": 41,
+      "tab": "CORRUPTION",
+      "name": "Eldritch Devastation",
+      "spells": [
+        802727
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 29476,
+      "class": 25,
+      "spec": 41,
+      "tab": "CORRUPTION",
+      "name": "Apocalyptic Skies",
+      "spells": [
+        301200
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 29477,
+      "class": 25,
+      "spec": 41,
+      "tab": "CORRUPTION",
+      "name": "Yawning Decay",
+      "spells": [
+        706909
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 29478,
+      "class": 25,
+      "spec": 41,
+      "tab": "CORRUPTION",
+      "name": "Embrace the Void",
+      "spells": [
+        300307
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 29479,
+      "class": 25,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Ungodly Blessing",
+      "spells": [
+        301241
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 804633,
+      "flags": 24
+    },
+    {
+      "id": 29520,
+      "class": 23,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Game of Bones",
+      "spells": [
+        301198
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 29654,
+      "class": 25,
+      "spec": 96,
+      "tab": "BULWARK",
+      "name": "Void Tolerance",
+      "spells": [
+        680570
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 29772,
+      "class": 23,
+      "spec": 36,
+      "tab": "RIME",
+      "name": "Permafrost",
+      "spells": [
+        704681
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 29773,
+      "class": 23,
+      "spec": 36,
+      "tab": "RIME",
+      "name": "Glacier Lord",
+      "spells": [
+        560852
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 29774,
+      "class": 23,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Bone Tithe",
+      "spells": [
+        802121
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 29778,
+      "class": 23,
+      "spec": 36,
+      "tab": "RIME",
+      "name": "Giant Bones",
+      "spells": [
+        805427
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 29779,
+      "class": 23,
+      "spec": 36,
+      "tab": "RIME",
+      "name": "Frigidness",
+      "spells": [
+        704669,
+        707742
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 29787,
+      "class": 23,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Glacial Tap",
+      "spells": [
+        805369
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 29788,
+      "class": 23,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Death's Due",
+      "spells": [
+        807796
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 29861,
+      "class": 23,
+      "spec": 34,
+      "tab": "DEATH",
+      "name": "Rot Fetishist",
+      "spells": [
+        805675
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 29864,
+      "class": 23,
+      "spec": 34,
+      "tab": "DEATH",
+      "name": "Plague Revenant",
+      "spells": [
+        806321
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 29865,
+      "class": 23,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Gravedigger",
+      "spells": [
+        704715
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 29866,
+      "class": 23,
+      "spec": 34,
+      "tab": "DEATH",
+      "name": "Flesh to Worms",
+      "spells": [
+        500338
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 29880,
+      "class": 25,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Mind Leak",
+      "spells": [
+        300270
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 215678,
+      "flags": 24
+    },
+    {
+      "id": 29882,
+      "class": 25,
+      "spec": 96,
+      "tab": "BULWARK",
+      "name": "Tentacle of Y'shaarj",
+      "spells": [
+        802044
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 29915,
+      "class": 25,
+      "spec": 40,
+      "tab": "INFLUENCE",
+      "name": "Void Barrier",
+      "spells": [
+        300291
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 29916,
+      "class": 25,
+      "spec": 96,
+      "tab": "BULWARK",
+      "name": "Eldritch Entities",
+      "spells": [
+        681425
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 29918,
+      "class": 25,
+      "spec": 96,
+      "tab": "BULWARK",
+      "name": "Twilight Incarnate",
+      "spells": [
+        681087
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 29920,
+      "class": 25,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Split Mind",
+      "spells": [
+        572064
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 29943,
+      "class": 23,
+      "spec": 35,
+      "tab": "ANIMATION",
+      "name": "March of the Dead",
+      "spells": [
+        707007
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 29946,
+      "class": 23,
+      "spec": 34,
+      "tab": "DEATH",
+      "name": "Parasite Plague",
+      "spells": [
+        560730
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 30022,
+      "class": 23,
+      "spec": 35,
+      "tab": "ANIMATION",
+      "name": "Graverobber",
+      "spells": [
+        503757
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 30036,
+      "class": 25,
+      "spec": 40,
+      "tab": "INFLUENCE",
+      "name": "Dark Infusion",
+      "spells": [
+        500721
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 30205,
+      "class": 25,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Crystalline Reflection",
+      "spells": [
+        525060
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 30238,
+      "class": 23,
+      "spec": 35,
+      "tab": "ANIMATION",
+      "name": "Long March",
+      "spells": [
+        704717
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 30323,
+      "class": 25,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Wicked Thoughts",
+      "spells": [
+        706190
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 30355,
+      "class": 23,
+      "spec": 36,
+      "tab": "RIME",
+      "name": "Death and Ice",
+      "spells": [
+        560012
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 782311,
+      "flags": 24
+    },
+    {
+      "id": 30487,
+      "class": 23,
+      "spec": 35,
+      "tab": "ANIMATION",
+      "name": "Summoner",
+      "spells": [
+        706953
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 30488,
+      "class": 23,
+      "spec": 35,
+      "tab": "ANIMATION",
+      "name": "Anti-Magic Shell",
+      "spells": [
+        504866
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 30495,
+      "class": 23,
+      "spec": 35,
+      "tab": "ANIMATION",
+      "name": "Animate: Tomb King",
+      "spells": [
+        805044
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 805032,
+      "flags": 24
+    },
+    {
+      "id": 30497,
+      "class": 23,
+      "spec": 35,
+      "tab": "ANIMATION",
+      "name": "Forbidden Technique",
+      "spells": [
+        561215
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 30511,
+      "class": 25,
+      "spec": 42,
+      "tab": "GODBLADE",
+      "name": "Tentacle of N'Zoth",
+      "spells": [
+        572103
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 30512,
+      "class": 25,
+      "spec": 42,
+      "tab": "GODBLADE",
+      "name": "Abyssal Cleave",
+      "spells": [
+        707604,
+        707748
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 30515,
+      "class": 25,
+      "spec": 42,
+      "tab": "GODBLADE",
+      "name": "Oblivion's Embrace",
+      "spells": [
+        680500
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 30516,
+      "class": 25,
+      "spec": 42,
+      "tab": "GODBLADE",
+      "name": "Shadow Fiend",
+      "spells": [
+        680487
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 30520,
+      "class": 25,
+      "spec": 96,
+      "tab": "BULWARK",
+      "name": "Crushing Dissonance",
+      "spells": [
+        804056
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 30522,
+      "class": 25,
+      "spec": 40,
+      "tab": "INFLUENCE",
+      "name": "Shadow Pennant",
+      "spells": [
+        706926,
+        525307
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 30523,
+      "class": 25,
+      "spec": 40,
+      "tab": "INFLUENCE",
+      "name": "Blessing of Yogg-Saron",
+      "spells": [
+        807128
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 30526,
+      "class": 25,
+      "spec": 42,
+      "tab": "GODBLADE",
+      "name": "Instilling Fear",
+      "spells": [
+        527268
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 30599,
+      "class": 23,
+      "spec": 36,
+      "tab": "RIME",
+      "name": "Dominion of Frost",
+      "spells": [
+        537208
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 30600,
+      "class": 23,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Animate: Frost Wyrm",
+      "spells": [
+        805428
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 30605,
+      "class": 23,
+      "spec": 36,
+      "tab": "RIME",
+      "name": "Freeze Dry",
+      "spells": [
+        704680
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 362123,
+      "flags": 24
+    },
+    {
+      "id": 30617,
+      "class": 23,
+      "spec": 36,
+      "tab": "RIME",
+      "name": "Crown's Call",
+      "spells": [
+        805429,
+        807924
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 30619,
+      "class": 23,
+      "spec": 36,
+      "tab": "RIME",
+      "name": "Deathly Chill",
+      "spells": [
+        805424
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 30620,
+      "class": 23,
+      "spec": 36,
+      "tab": "RIME",
+      "name": "Harrowing Winds",
+      "spells": [
+        705745
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 30621,
+      "class": 23,
+      "spec": 36,
+      "tab": "RIME",
+      "name": "Icecrown",
+      "spells": [
+        531135
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 30622,
+      "class": 23,
+      "spec": 36,
+      "tab": "RIME",
+      "name": "Raise: Skeletal Mage",
+      "spells": [
+        500331
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 30671,
+      "class": 25,
+      "spec": 41,
+      "tab": "CORRUPTION",
+      "name": "Dark Revelation",
+      "spells": [
+        706245
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 30804,
+      "class": 23,
+      "spec": 34,
+      "tab": "DEATH",
+      "name": "Virulency",
+      "spells": [
+        801938
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 30821,
+      "class": 23,
+      "spec": 34,
+      "tab": "DEATH",
+      "name": "Dark Harvester",
+      "spells": [
+        807960
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 30822,
+      "class": 23,
+      "spec": 34,
+      "tab": "DEATH",
+      "name": "Raise: Gargoyle",
+      "spells": [
+        500329
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 30833,
+      "class": 23,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Living Dead",
+      "spells": [
+        302888,
+        302920
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 30835,
+      "class": 23,
+      "spec": 34,
+      "tab": "DEATH",
+      "name": "Necrosis",
+      "spells": [
+        802990
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 802990,
+      "flags": 24
+    },
+    {
+      "id": 30845,
+      "class": 25,
+      "spec": 42,
+      "tab": "GODBLADE",
+      "name": "Encroaching Presence",
+      "spells": [
+        300280
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 30881,
+      "class": 25,
+      "spec": 42,
+      "tab": "GODBLADE",
+      "name": "Netherstrike",
+      "spells": [
+        806222
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 30912,
+      "class": 23,
+      "spec": 34,
+      "tab": "DEATH",
+      "name": "Lichplague",
+      "spells": [
+        802132
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 30915,
+      "class": 23,
+      "spec": 34,
+      "tab": "DEATH",
+      "name": "Muck Summoner",
+      "spells": [
+        806086
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 30917,
+      "class": 23,
+      "spec": 34,
+      "tab": "DEATH",
+      "name": "Creeping Plagues",
+      "spells": [
+        572130
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 30919,
+      "class": 23,
+      "spec": 34,
+      "tab": "DEATH",
+      "name": "Apothecary's Cauldron",
+      "spells": [
+        560537
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 30935,
+      "class": 25,
+      "spec": 40,
+      "tab": "INFLUENCE",
+      "name": "Ancient Rituals",
+      "spells": [
+        807877
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 30936,
+      "class": 25,
+      "spec": 40,
+      "tab": "INFLUENCE",
+      "name": "Forbidden Strength",
+      "spells": [
+        301258
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 931112,
+      "flags": 24
+    },
+    {
+      "id": 31048,
+      "class": 23,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Reclaimed Life",
+      "spells": [
+        707670
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 31123,
+      "class": 25,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Devourer",
+      "spells": [
+        300265
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 31143,
+      "class": 23,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Ner'zhul's Blessing",
+      "spells": [
+        704729
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 31185,
+      "class": 23,
+      "spec": 36,
+      "tab": "RIME",
+      "name": "Ice Barrage",
+      "spells": [
+        801760
+      ],
+      "required": [
+        4035,
+        29787
+      ],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 31189,
+      "class": 25,
+      "spec": 42,
+      "tab": "GODBLADE",
+      "name": "Rift",
+      "spells": [
+        806250
+      ],
+      "required": [
+        4040
+      ],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 31190,
+      "class": 25,
+      "spec": 41,
+      "tab": "CORRUPTION",
+      "name": "Darkwither",
+      "spells": [
+        800446
+      ],
+      "required": [
+        4041,
+        29470
+      ],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 31191,
+      "class": 25,
+      "spec": 40,
+      "tab": "INFLUENCE",
+      "name": "Malevolence",
+      "spells": [
+        500714
+      ],
+      "required": [
+        4042,
+        29265
+      ],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 31245,
+      "class": 23,
+      "spec": 34,
+      "tab": "DEATH",
+      "name": "Plague of Undeath",
+      "spells": [
+        801945
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 31324,
+      "class": 25,
+      "spec": 40,
+      "tab": "INFLUENCE",
+      "name": "Malevolent Power",
+      "spells": [
+        301183
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 31356,
+      "class": 25,
+      "spec": 41,
+      "tab": "CORRUPTION",
+      "name": "Occultism",
+      "spells": [
+        300305
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33720,
+      "class": 23,
+      "spec": 36,
+      "tab": "RIME",
+      "name": "Runic Reservoir",
+      "spells": [
+        704670,
+        803850
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33723,
+      "class": 23,
+      "spec": 36,
+      "tab": "RIME",
+      "name": "Chilling Presence",
+      "spells": [
+        300958
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33725,
+      "class": 23,
+      "spec": 36,
+      "tab": "RIME",
+      "name": "Bone Legion",
+      "spells": [
+        707006,
+        707881
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33731,
+      "class": 23,
+      "spec": 36,
+      "tab": "RIME",
+      "name": "Frigid Power",
+      "spells": [
+        560620
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33732,
+      "class": 23,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Foul Invocation",
+      "spells": [
+        804371
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33733,
+      "class": 23,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Winds of Northrend",
+      "spells": [
+        301333
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33738,
+      "class": 23,
+      "spec": 36,
+      "tab": "RIME",
+      "name": "Master Lich",
+      "spells": [
+        560848
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33740,
+      "class": 23,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Deadly Defense",
+      "spells": [
+        300580
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33748,
+      "class": 23,
+      "spec": 35,
+      "tab": "ANIMATION",
+      "name": "Animate: Plaguefather",
+      "spells": [
+        805048
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33749,
+      "class": 23,
+      "spec": 35,
+      "tab": "ANIMATION",
+      "name": "Underking",
+      "spells": [
+        704701
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33750,
+      "class": 23,
+      "spec": 34,
+      "tab": "DEATH",
+      "name": "Waking Crypts",
+      "spells": [
+        570136
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33751,
+      "class": 23,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Dead Man Walking",
+      "spells": [
+        300233
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33752,
+      "class": 23,
+      "spec": 34,
+      "tab": "DEATH",
+      "name": "Master of Death",
+      "spells": [
+        806328
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33753,
+      "class": 23,
+      "spec": 34,
+      "tab": "DEATH",
+      "name": "Unholy Runes",
+      "spells": [
+        561353
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33759,
+      "class": 23,
+      "spec": 34,
+      "tab": "DEATH",
+      "name": "Pandemic",
+      "spells": [
+        560798
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33760,
+      "class": 23,
+      "spec": 34,
+      "tab": "DEATH",
+      "name": "Wormfood",
+      "spells": [
+        560800
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33761,
+      "class": 23,
+      "spec": 34,
+      "tab": "DEATH",
+      "name": "Fleshcrafting",
+      "spells": [
+        300941
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33763,
+      "class": 23,
+      "spec": 34,
+      "tab": "DEATH",
+      "name": "Expediting Death",
+      "spells": [
+        300236
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33764,
+      "class": 23,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Command: Blight",
+      "spells": [
+        504050
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33766,
+      "class": 23,
+      "spec": 35,
+      "tab": "ANIMATION",
+      "name": "Mindless Fury",
+      "spells": [
+        805674
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 72342,
+      "flags": 24
+    },
+    {
+      "id": 33771,
+      "class": 23,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Frost Runes",
+      "spells": [
+        705750
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33772,
+      "class": 23,
+      "spec": 35,
+      "tab": "ANIMATION",
+      "name": "Lich's Prodigy",
+      "spells": [
+        302519
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33773,
+      "class": 23,
+      "spec": 35,
+      "tab": "ANIMATION",
+      "name": "Unstoppable Frenzy",
+      "spells": [
+        573426
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 561232,
+      "flags": 24
+    },
+    {
+      "id": 33774,
+      "class": 23,
+      "spec": 35,
+      "tab": "ANIMATION",
+      "name": "Summoning Prodigy",
+      "spells": [
+        704682
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33775,
+      "class": 23,
+      "spec": 35,
+      "tab": "ANIMATION",
+      "name": "Raise: Ghoul",
+      "spells": [
+        500971
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33777,
+      "class": 23,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Raise: Banshee",
+      "spells": [
+        504861
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33778,
+      "class": 23,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Mass Grave",
+      "spells": [
+        803741
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33780,
+      "class": 23,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Naxxramas Prodigy",
+      "spells": [
+        560622
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 804717,
+      "flags": 24
+    },
+    {
+      "id": 33784,
+      "class": 23,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Disciple of Kel'thuzad",
+      "spells": [
+        560615,
+        560616
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33886,
+      "class": 25,
+      "spec": 40,
+      "tab": "INFLUENCE",
+      "name": "Horrific Revelations",
+      "spells": [
+        524877
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33887,
+      "class": 25,
+      "spec": 40,
+      "tab": "INFLUENCE",
+      "name": "Lead the Covenant",
+      "spells": [
+        704884
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 51121,
+      "flags": 24
+    },
+    {
+      "id": 33888,
+      "class": 25,
+      "spec": 96,
+      "tab": "BULWARK",
+      "name": "Bouncing Thoughts",
+      "spells": [
+        680607
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 97411,
+      "flags": 24
+    },
+    {
+      "id": 33889,
+      "class": 25,
+      "spec": 42,
+      "tab": "GODBLADE",
+      "name": "God Blade",
+      "spells": [
+        680377
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33890,
+      "class": 25,
+      "spec": 96,
+      "tab": "BULWARK",
+      "name": "Strength of the Black Empire",
+      "spells": [
+        680557
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 0,
+      "level": 40,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33892,
+      "class": 25,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Stare Into The Abyss",
+      "spells": [
+        525019
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 525049,
+      "flags": 24
+    },
+    {
+      "id": 33893,
+      "class": 25,
+      "spec": 96,
+      "tab": "BULWARK",
+      "name": "Entropic Retaliation",
+      "spells": [
+        802043
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33894,
+      "class": 25,
+      "spec": 42,
+      "tab": "GODBLADE",
+      "name": "Hand of N'Zoth",
+      "spells": [
+        704869
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33896,
+      "class": 25,
+      "spec": 96,
+      "tab": "BULWARK",
+      "name": "Bulwark of Shadow",
+      "spells": [
+        301182
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33925,
+      "class": 25,
+      "spec": 40,
+      "tab": "INFLUENCE",
+      "name": "Protection From Light",
+      "spells": [
+        704434
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 707788,
+      "flags": 24
+    },
+    {
+      "id": 33926,
+      "class": 25,
+      "spec": 40,
+      "tab": "INFLUENCE",
+      "name": "Hand of Yogg-Saron",
+      "spells": [
+        704476
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33928,
+      "class": 25,
+      "spec": 40,
+      "tab": "INFLUENCE",
+      "name": "Tales of Woe",
+      "spells": [
+        520682
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 893211,
+      "flags": 24
+    },
+    {
+      "id": 33930,
+      "class": 25,
+      "spec": 40,
+      "tab": "INFLUENCE",
+      "name": "Prophetic Compulsion",
+      "spells": [
+        300264
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33931,
+      "class": 25,
+      "spec": 40,
+      "tab": "INFLUENCE",
+      "name": "Saronite Mind",
+      "spells": [
+        806266,
+        807879
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33934,
+      "class": 25,
+      "spec": 40,
+      "tab": "INFLUENCE",
+      "name": "Forbidden Resilience",
+      "spells": [
+        300287
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 931112,
+      "flags": 24
+    },
+    {
+      "id": 33935,
+      "class": 25,
+      "spec": 40,
+      "tab": "INFLUENCE",
+      "name": "Blade of Yogg-Saron",
+      "spells": [
+        524887,
+        525078
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33936,
+      "class": 25,
+      "spec": 41,
+      "tab": "CORRUPTION",
+      "name": "Depths of Madness",
+      "spells": [
+        706911
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33937,
+      "class": 25,
+      "spec": 41,
+      "tab": "CORRUPTION",
+      "name": "Servant of C'Thun",
+      "spells": [
+        300296
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33938,
+      "class": 25,
+      "spec": 41,
+      "tab": "CORRUPTION",
+      "name": "Worrysome Idol",
+      "spells": [
+        706917
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33939,
+      "class": 25,
+      "spec": 41,
+      "tab": "CORRUPTION",
+      "name": "Mind Rot",
+      "spells": [
+        300300
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 704527,
+      "flags": 24
+    },
+    {
+      "id": 33942,
+      "class": 25,
+      "spec": 41,
+      "tab": "CORRUPTION",
+      "name": "Terror",
+      "spells": [
+        300304
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33945,
+      "class": 25,
+      "spec": 41,
+      "tab": "CORRUPTION",
+      "name": "Inner Turmoil",
+      "spells": [
+        706722
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33947,
+      "class": 25,
+      "spec": 42,
+      "tab": "GODBLADE",
+      "name": "Void Rage",
+      "spells": [
+        681102
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 681102,
+      "flags": 24
+    },
+    {
+      "id": 33949,
+      "class": 25,
+      "spec": 42,
+      "tab": "GODBLADE",
+      "name": "Netherborne",
+      "spells": [
+        801539
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 783231,
+      "flags": 24
+    },
+    {
+      "id": 33951,
+      "class": 25,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Black Prayer",
+      "spells": [
+        805110
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33952,
+      "class": 25,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Void Hunger",
+      "spells": [
+        524879
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33953,
+      "class": 25,
+      "spec": 41,
+      "tab": "CORRUPTION",
+      "name": "Abyssal Destruction",
+      "spells": [
+        300308
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33957,
+      "class": 25,
+      "spec": 41,
+      "tab": "CORRUPTION",
+      "name": "Misery",
+      "spells": [
+        300298
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33959,
+      "class": 25,
+      "spec": 41,
+      "tab": "CORRUPTION",
+      "name": "Dark Whispers",
+      "spells": [
+        560977
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33965,
+      "class": 25,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Lost in the Void",
+      "spells": [
+        704881
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33966,
+      "class": 25,
+      "spec": 40,
+      "tab": "INFLUENCE",
+      "name": "Forbidden Ritual",
+      "spells": [
+        800105
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33967,
+      "class": 25,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Improved Sermon of Dread",
+      "spells": [
+        706177
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33968,
+      "class": 25,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Eldritch Command",
+      "spells": [
+        302015
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 302015,
+      "flags": 24
+    },
+    {
+      "id": 33969,
+      "class": 25,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Embodied Presences",
+      "spells": [
+        803283
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 33975,
+      "class": 25,
+      "spec": 40,
+      "tab": "INFLUENCE",
+      "name": "Dark Rites",
+      "spells": [
+        300290
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 707788,
+      "flags": 24
+    },
+    {
+      "id": 33976,
+      "class": 25,
+      "spec": 42,
+      "tab": "GODBLADE",
+      "name": "Shadow Strikes",
+      "spells": [
+        707640
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 34976,
+      "class": 23,
+      "spec": 36,
+      "tab": "RIME",
+      "name": "Piercing Icicles",
+      "spells": [
+        524687
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 988800,
+      "flags": 24
+    },
+    {
+      "id": 34977,
+      "class": 23,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Improved Mandates",
+      "spells": [
+        560613
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 34978,
+      "class": 23,
+      "spec": 36,
+      "tab": "RIME",
+      "name": "Curse of the Lich",
+      "spells": [
+        300240
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 34980,
+      "class": 23,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Create Frozen Reliquary",
+      "spells": [
+        803772
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 34981,
+      "class": 23,
+      "spec": 0,
+      "tab": "CLASS",
+      "name": "Study of Death",
+      "spells": [
+        704721
+      ],
+      "required": [],
+      "ae": 1,
+      "te": 0,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    },
+    {
+      "id": 34982,
+      "class": 23,
+      "spec": 34,
+      "tab": "DEATH",
+      "name": "Expunge",
+      "spells": [
+        705754
+      ],
+      "required": [],
+      "ae": 0,
+      "te": 1,
+      "level": 0,
+      "group": 0,
+      "flags": 24
+    }
+  ],
+  "specs": [
+    {
+      "id": 34,
+      "class": 23,
+      "tab": "DEATH",
+      "role": "caster",
+      "identity": 4034,
+      "signature_spell": 680388,
+      "primary_stats": [
+        "Intellect",
+        "None",
+        "None"
+      ]
+    },
+    {
+      "id": 35,
+      "class": 23,
+      "tab": "ANIMATION",
+      "role": "summoner",
+      "identity": 4036,
+      "signature_spell": 500335,
+      "primary_stats": [
+        "Intellect",
+        "None",
+        "None"
+      ]
+    },
+    {
+      "id": 36,
+      "class": 23,
+      "tab": "RIME",
+      "role": "caster",
+      "identity": 4035,
+      "signature_spell": 805369,
+      "primary_stats": [
+        "Intellect",
+        "None",
+        "None"
+      ]
+    },
+    {
+      "id": 40,
+      "class": 25,
+      "tab": "INFLUENCE",
+      "role": "healer",
+      "identity": 4042,
+      "signature_spell": 500715,
+      "primary_stats": [
+        "Intellect",
+        "Strength",
+        "None"
+      ]
+    },
+    {
+      "id": 41,
+      "class": 25,
+      "tab": "CORRUPTION",
+      "role": "caster",
+      "identity": 4041,
+      "signature_spell": 560109,
+      "primary_stats": [
+        "Intellect",
+        "None",
+        "None"
+      ]
+    },
+    {
+      "id": 42,
+      "class": 25,
+      "tab": "GODBLADE",
+      "role": "melee",
+      "identity": 4040,
+      "signature_spell": 804670,
+      "primary_stats": [
+        "Strength",
+        "None",
+        "None"
+      ]
+    },
+    {
+      "id": 96,
+      "class": 25,
+      "tab": "BULWARK",
+      "role": "tank",
+      "identity": 7512,
+      "signature_spell": 804670,
+      "primary_stats": [
+        "Strength",
+        "Stamina",
+        "None"
+      ]
+    }
+  ],
+  "budgets": [
+    {
+      "class": 23,
+      "level": 1,
+      "ae": 0,
+      "te": 0
+    },
+    {
+      "class": 23,
+      "level": 2,
+      "ae": 0,
+      "te": 0
+    },
+    {
+      "class": 23,
+      "level": 3,
+      "ae": 0,
+      "te": 0
+    },
+    {
+      "class": 23,
+      "level": 4,
+      "ae": 0,
+      "te": 0
+    },
+    {
+      "class": 23,
+      "level": 5,
+      "ae": 0,
+      "te": 0
+    },
+    {
+      "class": 23,
+      "level": 6,
+      "ae": 0,
+      "te": 0
+    },
+    {
+      "class": 23,
+      "level": 7,
+      "ae": 0,
+      "te": 0
+    },
+    {
+      "class": 23,
+      "level": 8,
+      "ae": 0,
+      "te": 0
+    },
+    {
+      "class": 23,
+      "level": 9,
+      "ae": 0,
+      "te": 0
+    },
+    {
+      "class": 23,
+      "level": 10,
+      "ae": 1,
+      "te": 0
+    },
+    {
+      "class": 23,
+      "level": 11,
+      "ae": 1,
+      "te": 1
+    },
+    {
+      "class": 23,
+      "level": 12,
+      "ae": 2,
+      "te": 1
+    },
+    {
+      "class": 23,
+      "level": 13,
+      "ae": 2,
+      "te": 2
+    },
+    {
+      "class": 23,
+      "level": 14,
+      "ae": 3,
+      "te": 2
+    },
+    {
+      "class": 23,
+      "level": 15,
+      "ae": 3,
+      "te": 3
+    },
+    {
+      "class": 23,
+      "level": 16,
+      "ae": 4,
+      "te": 3
+    },
+    {
+      "class": 23,
+      "level": 17,
+      "ae": 4,
+      "te": 4
+    },
+    {
+      "class": 23,
+      "level": 18,
+      "ae": 5,
+      "te": 4
+    },
+    {
+      "class": 23,
+      "level": 19,
+      "ae": 5,
+      "te": 5
+    },
+    {
+      "class": 23,
+      "level": 20,
+      "ae": 6,
+      "te": 5
+    },
+    {
+      "class": 23,
+      "level": 21,
+      "ae": 6,
+      "te": 6
+    },
+    {
+      "class": 23,
+      "level": 22,
+      "ae": 7,
+      "te": 6
+    },
+    {
+      "class": 23,
+      "level": 23,
+      "ae": 7,
+      "te": 7
+    },
+    {
+      "class": 23,
+      "level": 24,
+      "ae": 8,
+      "te": 7
+    },
+    {
+      "class": 23,
+      "level": 25,
+      "ae": 8,
+      "te": 8
+    },
+    {
+      "class": 23,
+      "level": 26,
+      "ae": 9,
+      "te": 8
+    },
+    {
+      "class": 23,
+      "level": 27,
+      "ae": 9,
+      "te": 9
+    },
+    {
+      "class": 23,
+      "level": 28,
+      "ae": 10,
+      "te": 9
+    },
+    {
+      "class": 23,
+      "level": 29,
+      "ae": 10,
+      "te": 10
+    },
+    {
+      "class": 23,
+      "level": 30,
+      "ae": 11,
+      "te": 10
+    },
+    {
+      "class": 23,
+      "level": 31,
+      "ae": 11,
+      "te": 11
+    },
+    {
+      "class": 23,
+      "level": 32,
+      "ae": 12,
+      "te": 11
+    },
+    {
+      "class": 23,
+      "level": 33,
+      "ae": 12,
+      "te": 12
+    },
+    {
+      "class": 23,
+      "level": 34,
+      "ae": 13,
+      "te": 12
+    },
+    {
+      "class": 23,
+      "level": 35,
+      "ae": 13,
+      "te": 13
+    },
+    {
+      "class": 23,
+      "level": 36,
+      "ae": 14,
+      "te": 13
+    },
+    {
+      "class": 23,
+      "level": 37,
+      "ae": 14,
+      "te": 14
+    },
+    {
+      "class": 23,
+      "level": 38,
+      "ae": 15,
+      "te": 14
+    },
+    {
+      "class": 23,
+      "level": 39,
+      "ae": 15,
+      "te": 15
+    },
+    {
+      "class": 23,
+      "level": 40,
+      "ae": 16,
+      "te": 15
+    },
+    {
+      "class": 23,
+      "level": 41,
+      "ae": 16,
+      "te": 16
+    },
+    {
+      "class": 23,
+      "level": 42,
+      "ae": 17,
+      "te": 16
+    },
+    {
+      "class": 23,
+      "level": 43,
+      "ae": 17,
+      "te": 17
+    },
+    {
+      "class": 23,
+      "level": 44,
+      "ae": 18,
+      "te": 17
+    },
+    {
+      "class": 23,
+      "level": 45,
+      "ae": 18,
+      "te": 18
+    },
+    {
+      "class": 23,
+      "level": 46,
+      "ae": 19,
+      "te": 18
+    },
+    {
+      "class": 23,
+      "level": 47,
+      "ae": 19,
+      "te": 19
+    },
+    {
+      "class": 23,
+      "level": 48,
+      "ae": 20,
+      "te": 19
+    },
+    {
+      "class": 23,
+      "level": 49,
+      "ae": 20,
+      "te": 20
+    },
+    {
+      "class": 23,
+      "level": 50,
+      "ae": 21,
+      "te": 20
+    },
+    {
+      "class": 23,
+      "level": 51,
+      "ae": 21,
+      "te": 21
+    },
+    {
+      "class": 23,
+      "level": 52,
+      "ae": 22,
+      "te": 21
+    },
+    {
+      "class": 23,
+      "level": 53,
+      "ae": 22,
+      "te": 22
+    },
+    {
+      "class": 23,
+      "level": 54,
+      "ae": 23,
+      "te": 22
+    },
+    {
+      "class": 23,
+      "level": 55,
+      "ae": 23,
+      "te": 23
+    },
+    {
+      "class": 23,
+      "level": 56,
+      "ae": 24,
+      "te": 23
+    },
+    {
+      "class": 23,
+      "level": 57,
+      "ae": 24,
+      "te": 24
+    },
+    {
+      "class": 23,
+      "level": 58,
+      "ae": 25,
+      "te": 24
+    },
+    {
+      "class": 23,
+      "level": 59,
+      "ae": 25,
+      "te": 25
+    },
+    {
+      "class": 23,
+      "level": 60,
+      "ae": 26,
+      "te": 25
+    },
+    {
+      "class": 23,
+      "level": 61,
+      "ae": 26,
+      "te": 26
+    },
+    {
+      "class": 23,
+      "level": 62,
+      "ae": 27,
+      "te": 26
+    },
+    {
+      "class": 23,
+      "level": 63,
+      "ae": 27,
+      "te": 27
+    },
+    {
+      "class": 23,
+      "level": 64,
+      "ae": 28,
+      "te": 27
+    },
+    {
+      "class": 23,
+      "level": 65,
+      "ae": 28,
+      "te": 28
+    },
+    {
+      "class": 23,
+      "level": 66,
+      "ae": 29,
+      "te": 28
+    },
+    {
+      "class": 23,
+      "level": 67,
+      "ae": 29,
+      "te": 29
+    },
+    {
+      "class": 23,
+      "level": 68,
+      "ae": 30,
+      "te": 29
+    },
+    {
+      "class": 23,
+      "level": 69,
+      "ae": 30,
+      "te": 30
+    },
+    {
+      "class": 23,
+      "level": 70,
+      "ae": 31,
+      "te": 30
+    },
+    {
+      "class": 23,
+      "level": 71,
+      "ae": 31,
+      "te": 31
+    },
+    {
+      "class": 23,
+      "level": 72,
+      "ae": 32,
+      "te": 31
+    },
+    {
+      "class": 23,
+      "level": 73,
+      "ae": 32,
+      "te": 32
+    },
+    {
+      "class": 23,
+      "level": 74,
+      "ae": 33,
+      "te": 32
+    },
+    {
+      "class": 23,
+      "level": 75,
+      "ae": 33,
+      "te": 33
+    },
+    {
+      "class": 23,
+      "level": 76,
+      "ae": 34,
+      "te": 33
+    },
+    {
+      "class": 23,
+      "level": 77,
+      "ae": 34,
+      "te": 34
+    },
+    {
+      "class": 23,
+      "level": 78,
+      "ae": 35,
+      "te": 34
+    },
+    {
+      "class": 23,
+      "level": 79,
+      "ae": 35,
+      "te": 35
+    },
+    {
+      "class": 23,
+      "level": 80,
+      "ae": 36,
+      "te": 35
+    },
+    {
+      "class": 25,
+      "level": 1,
+      "ae": 0,
+      "te": 0
+    },
+    {
+      "class": 25,
+      "level": 2,
+      "ae": 0,
+      "te": 0
+    },
+    {
+      "class": 25,
+      "level": 3,
+      "ae": 0,
+      "te": 0
+    },
+    {
+      "class": 25,
+      "level": 4,
+      "ae": 0,
+      "te": 0
+    },
+    {
+      "class": 25,
+      "level": 5,
+      "ae": 0,
+      "te": 0
+    },
+    {
+      "class": 25,
+      "level": 6,
+      "ae": 0,
+      "te": 0
+    },
+    {
+      "class": 25,
+      "level": 7,
+      "ae": 0,
+      "te": 0
+    },
+    {
+      "class": 25,
+      "level": 8,
+      "ae": 0,
+      "te": 0
+    },
+    {
+      "class": 25,
+      "level": 9,
+      "ae": 0,
+      "te": 0
+    },
+    {
+      "class": 25,
+      "level": 10,
+      "ae": 1,
+      "te": 0
+    },
+    {
+      "class": 25,
+      "level": 11,
+      "ae": 1,
+      "te": 1
+    },
+    {
+      "class": 25,
+      "level": 12,
+      "ae": 2,
+      "te": 1
+    },
+    {
+      "class": 25,
+      "level": 13,
+      "ae": 2,
+      "te": 2
+    },
+    {
+      "class": 25,
+      "level": 14,
+      "ae": 3,
+      "te": 2
+    },
+    {
+      "class": 25,
+      "level": 15,
+      "ae": 3,
+      "te": 3
+    },
+    {
+      "class": 25,
+      "level": 16,
+      "ae": 4,
+      "te": 3
+    },
+    {
+      "class": 25,
+      "level": 17,
+      "ae": 4,
+      "te": 4
+    },
+    {
+      "class": 25,
+      "level": 18,
+      "ae": 5,
+      "te": 4
+    },
+    {
+      "class": 25,
+      "level": 19,
+      "ae": 5,
+      "te": 5
+    },
+    {
+      "class": 25,
+      "level": 20,
+      "ae": 6,
+      "te": 5
+    },
+    {
+      "class": 25,
+      "level": 21,
+      "ae": 6,
+      "te": 6
+    },
+    {
+      "class": 25,
+      "level": 22,
+      "ae": 7,
+      "te": 6
+    },
+    {
+      "class": 25,
+      "level": 23,
+      "ae": 7,
+      "te": 7
+    },
+    {
+      "class": 25,
+      "level": 24,
+      "ae": 8,
+      "te": 7
+    },
+    {
+      "class": 25,
+      "level": 25,
+      "ae": 8,
+      "te": 8
+    },
+    {
+      "class": 25,
+      "level": 26,
+      "ae": 9,
+      "te": 8
+    },
+    {
+      "class": 25,
+      "level": 27,
+      "ae": 9,
+      "te": 9
+    },
+    {
+      "class": 25,
+      "level": 28,
+      "ae": 10,
+      "te": 9
+    },
+    {
+      "class": 25,
+      "level": 29,
+      "ae": 10,
+      "te": 10
+    },
+    {
+      "class": 25,
+      "level": 30,
+      "ae": 11,
+      "te": 10
+    },
+    {
+      "class": 25,
+      "level": 31,
+      "ae": 11,
+      "te": 11
+    },
+    {
+      "class": 25,
+      "level": 32,
+      "ae": 12,
+      "te": 11
+    },
+    {
+      "class": 25,
+      "level": 33,
+      "ae": 12,
+      "te": 12
+    },
+    {
+      "class": 25,
+      "level": 34,
+      "ae": 13,
+      "te": 12
+    },
+    {
+      "class": 25,
+      "level": 35,
+      "ae": 13,
+      "te": 13
+    },
+    {
+      "class": 25,
+      "level": 36,
+      "ae": 14,
+      "te": 13
+    },
+    {
+      "class": 25,
+      "level": 37,
+      "ae": 14,
+      "te": 14
+    },
+    {
+      "class": 25,
+      "level": 38,
+      "ae": 15,
+      "te": 14
+    },
+    {
+      "class": 25,
+      "level": 39,
+      "ae": 15,
+      "te": 15
+    },
+    {
+      "class": 25,
+      "level": 40,
+      "ae": 16,
+      "te": 15
+    },
+    {
+      "class": 25,
+      "level": 41,
+      "ae": 16,
+      "te": 16
+    },
+    {
+      "class": 25,
+      "level": 42,
+      "ae": 17,
+      "te": 16
+    },
+    {
+      "class": 25,
+      "level": 43,
+      "ae": 17,
+      "te": 17
+    },
+    {
+      "class": 25,
+      "level": 44,
+      "ae": 18,
+      "te": 17
+    },
+    {
+      "class": 25,
+      "level": 45,
+      "ae": 18,
+      "te": 18
+    },
+    {
+      "class": 25,
+      "level": 46,
+      "ae": 19,
+      "te": 18
+    },
+    {
+      "class": 25,
+      "level": 47,
+      "ae": 19,
+      "te": 19
+    },
+    {
+      "class": 25,
+      "level": 48,
+      "ae": 20,
+      "te": 19
+    },
+    {
+      "class": 25,
+      "level": 49,
+      "ae": 20,
+      "te": 20
+    },
+    {
+      "class": 25,
+      "level": 50,
+      "ae": 21,
+      "te": 20
+    },
+    {
+      "class": 25,
+      "level": 51,
+      "ae": 21,
+      "te": 21
+    },
+    {
+      "class": 25,
+      "level": 52,
+      "ae": 22,
+      "te": 21
+    },
+    {
+      "class": 25,
+      "level": 53,
+      "ae": 22,
+      "te": 22
+    },
+    {
+      "class": 25,
+      "level": 54,
+      "ae": 23,
+      "te": 22
+    },
+    {
+      "class": 25,
+      "level": 55,
+      "ae": 23,
+      "te": 23
+    },
+    {
+      "class": 25,
+      "level": 56,
+      "ae": 24,
+      "te": 23
+    },
+    {
+      "class": 25,
+      "level": 57,
+      "ae": 24,
+      "te": 24
+    },
+    {
+      "class": 25,
+      "level": 58,
+      "ae": 25,
+      "te": 24
+    },
+    {
+      "class": 25,
+      "level": 59,
+      "ae": 25,
+      "te": 25
+    },
+    {
+      "class": 25,
+      "level": 60,
+      "ae": 26,
+      "te": 25
+    },
+    {
+      "class": 25,
+      "level": 61,
+      "ae": 26,
+      "te": 26
+    },
+    {
+      "class": 25,
+      "level": 62,
+      "ae": 27,
+      "te": 26
+    },
+    {
+      "class": 25,
+      "level": 63,
+      "ae": 27,
+      "te": 27
+    },
+    {
+      "class": 25,
+      "level": 64,
+      "ae": 28,
+      "te": 27
+    },
+    {
+      "class": 25,
+      "level": 65,
+      "ae": 28,
+      "te": 28
+    },
+    {
+      "class": 25,
+      "level": 66,
+      "ae": 29,
+      "te": 28
+    },
+    {
+      "class": 25,
+      "level": 67,
+      "ae": 29,
+      "te": 29
+    },
+    {
+      "class": 25,
+      "level": 68,
+      "ae": 30,
+      "te": 29
+    },
+    {
+      "class": 25,
+      "level": 69,
+      "ae": 30,
+      "te": 30
+    },
+    {
+      "class": 25,
+      "level": 70,
+      "ae": 31,
+      "te": 30
+    },
+    {
+      "class": 25,
+      "level": 71,
+      "ae": 31,
+      "te": 31
+    },
+    {
+      "class": 25,
+      "level": 72,
+      "ae": 32,
+      "te": 31
+    },
+    {
+      "class": 25,
+      "level": 73,
+      "ae": 32,
+      "te": 32
+    },
+    {
+      "class": 25,
+      "level": 74,
+      "ae": 33,
+      "te": 32
+    },
+    {
+      "class": 25,
+      "level": 75,
+      "ae": 33,
+      "te": 33
+    },
+    {
+      "class": 25,
+      "level": 76,
+      "ae": 34,
+      "te": 33
+    },
+    {
+      "class": 25,
+      "level": 77,
+      "ae": 34,
+      "te": 34
+    },
+    {
+      "class": 25,
+      "level": 78,
+      "ae": 35,
+      "te": 34
+    },
+    {
+      "class": 25,
+      "level": 79,
+      "ae": 35,
+      "te": 35
+    },
+    {
+      "class": 25,
+      "level": 80,
+      "ae": 36,
+      "te": 35
+    }
+  ],
+  "sha256": "0fb5939e2118e8049a526d6cdf503f29224fcffce587d9f8365e9c021ddee172"
+}

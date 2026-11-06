@@ -1,0 +1,45 @@
+#
+# Town Raids Configuration
+#
+
+[worldserver]
+
+#
+#    TownRaids.Enabled
+#        Description: Enable or disable the dynamic Town Raids system.
+#        Default:     1 (Enabled)
+#
+
+TownRaids.Enabled = 1
+
+#
+#    TownRaids.TimerMinHours
+#        Description: Minimum interval (in hours) between town raids for any individual town.
+#        Default:     6
+#
+
+TownRaids.TimerMinHours = 6
+
+#
+#    TownRaids.TimerMaxHours
+#        Description: Maximum interval (in hours) between town raids for any individual town.
+#        Default:     18
+#
+
+TownRaids.TimerMaxHours = 18
+
+#
+#    TownRaids.DurationMinutes
+#        Description: Maximum duration (in minutes) an active raid lasts before invaders retreat/despawn.
+#        Default:     25
+#
+
+TownRaids.DurationMinutes = 25
+
+#
+#    TownRaids.Announce
+#        Description: Broadcast server-wide and zone-wide alerts when town raids begin and end.
+#        Default:     1 (Enabled)
+#
+
+TownRaids.Announce = 1

@@ -1,0 +1,21 @@
+#
+# Cut Content Restored Module Configuration
+#
+
+[worldserver]
+
+#
+# CutContent.Enable
+# Description: Enables or disables the Cut Content Restored module (Karazhan Crypts, custom BGs, teleporters).
+# Default: 1 (Enabled)
+#
+
+CutContent.Enable = 1
+
+#
+# CutContent.TeleportCommands.Enable
+# Description: Enables players/GMs to use .tele crypts, .tele azshara, .tele hillsbradbg, etc.
+# Default: 1 (Enabled)
+#
+
+CutContent.TeleportCommands.Enable = 1

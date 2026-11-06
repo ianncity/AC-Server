@@ -1,0 +1,11 @@
+{
+  "format": 1,
+  "description": "Client compatibility metadata for the installed 3.3.5 client. Required class models, visuals, textures, and audio must resolve from the installed client or the pinned Ascension source archives; bundle generation fails on any missing reference. The pinned backup contains the original class creature displays.",
+  "source_sha256": {
+    "SpellVisualEffectName.dbc": "5ced128862d297c60a1a06fb44c1c5861615317edffe70a0e645d48581398b29",
+    "CreatureModelData.dbc": "2b0c9de931b92c60b029cf50a70d5febe04a7eadb408a8caf1b86c6072f9e24f",
+    "CreatureDisplayInfo.dbc": "0ff00f000dbe8de488681785815bebcf3091208c9235bbc577fe2c4fc9cc2d98",
+    "SoundEntries.dbc": "b50c036703835018c327b466d2f22c0262a396a3ded34d3c765e41627c4802bc"
+  },
+  "world_snapshot_sha256": "08068a707e456b0b0b9594dace291f6626076f6548f4c318d8417a1aa912536a"
+}

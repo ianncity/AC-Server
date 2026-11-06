@@ -1,0 +1,15 @@
+[
+  {"id":363410,"source":116,"name":"Necromantic Frostbolt","level":4,"mana_percent":3,"cooldown":0,"damage":12,"damage_per_level":3.0},
+  {"id":363411,"source":688,"name":"Raise Skeletal Initiate","level":1,"mana_percent":6,"cooldown":30000,"summon":95000},
+  {"id":363412,"source":49222,"name":"Bone Shield","level":20,"mana_percent":6,"cooldown":60000,"duration":20000,"charges":0},
+  {"id":363413,"source":49158,"name":"Corpse Explosion","level":30,"mana_percent":8,"cooldown":10000,"damage":75,"damage_per_level":4.0,"script":"spell_dk_corpse_explosion"},
+  {"id":363414,"source":47541,"name":"Necromantic Death Coil","level":40,"mana_percent":4,"cooldown":8000,"damage":160,"damage_per_level":5.0,"script":"spell_dk_death_coil"},
+  {"id":363415,"source":45477,"name":"Necromantic Icy Touch","level":10,"mana_percent":3,"cooldown":6000,"damage":18,"damage_per_level":3.0},
+  {"id":363416,"source":688,"name":"Raise Grave Mage","level":20,"mana_percent":8,"cooldown":30000,"summon":95001},
+  {"id":363417,"source":688,"name":"Raise Skeletal Archer","level":36,"mana_percent":8,"cooldown":30000,"summon":95002},
+  {"id":363418,"source":688,"name":"Raise Flesh Golem","level":50,"mana_percent":10,"cooldown":60000,"summon":95003,"reagent":6265},
+  {"id":363419,"source":3110,"name":"Shadow Arrow","level":1,"mana_percent":0,"mana_cost":10,"mana_per_level":1,"cooldown":0,"damage":8,"damage_per_level":2.5,"school":32},
+  {"id":363420,"source":34433,"name":"Bind Tentacle","level":19,"mana_percent":8,"cooldown":120000,"duration":30000,"summon":95010},
+  {"id":363421,"source":34433,"name":"Bind Faceless Servant","level":39,"mana_percent":10,"cooldown":120000,"duration":30000,"summon":95011},
+  {"id":363422,"source":6660,"name":"Grave Shot","level":1,"mana_percent":0,"cooldown":2000,"damage":6,"damage_per_level":2.0,"school":1}
+]

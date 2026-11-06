@@ -1,0 +1,7 @@
+[worldserver]
+
+#
+# Expanded Race and Class Combinations Module Configuration
+#
+
+ExpandedRaces.Enable = 1

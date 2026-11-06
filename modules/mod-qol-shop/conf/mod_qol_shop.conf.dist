@@ -1,0 +1,9 @@
+#
+# QoL Playtime Shop Configuration (AzerothCore 3.3.5a)
+#
+
+[worldserver]
+
+QoLShop.Enable = 1
+QoLShop.MinutesPerDP = 10
+QoLShop.XPDraughtDurationSeconds = 3600

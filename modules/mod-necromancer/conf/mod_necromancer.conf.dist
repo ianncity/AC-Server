@@ -1,0 +1,31 @@
+#
+# Necromancer Module Configuration (AzerothCore 3.3.5a)
+#
+
+[worldserver]
+
+#
+#    Necromancer.Enable
+#        Description: Enable or disable the Necromancer class module.
+#        Default:     1 (Enabled)
+#                     0 (Disabled)
+#
+
+Necromancer.Enable = 1
+
+#
+#    Necromancer.AnnounceOnLogin
+#        Description: Announce Necromancer module and commands on player login.
+#        Default:     1 (Enabled)
+#                     0 (Disabled)
+#
+
+Necromancer.AnnounceOnLogin = 1
+
+#
+#    Necromancer.MaxSummonDuration
+#        Description: Maximum duration in seconds for summoned undead minions.
+#        Default:     3600 (1 hour)
+#
+
+Necromancer.MaxSummonDuration = 3600

@@ -1,0 +1,29 @@
+#
+# Prestige System Module Configuration
+#
+
+[worldserver]
+
+#
+# Prestige.Enable
+# Description: Enables or disables the Prestige mechanic.
+# Default: 1 (Enabled)
+#
+
+Prestige.Enable = 1
+
+#
+# Prestige.RequiredLevel
+# Description: The required level to prestige (reset to Level 1).
+# Default: 80
+#
+
+Prestige.RequiredLevel = 80
+
+#
+# Prestige.AnnounceGlobal
+# Description: Broadcast a global server announcement when a player prestiges.
+# Default: 1 (Enabled)
+#
+
+Prestige.AnnounceGlobal = 1

@@ -1,0 +1,124 @@
+{
+  "format": 1,
+  "source_sha256": "240d77e9b3e9cd09196618aa00ecc5f28612bce29f5dee2ae8da9f20b6d7eb1c",
+  "description": "Explicit authored repairs for dangling visual records in the installed client. These are build-time content definitions, not runtime substitution. Same-name siblings retain their existing effect; three absent effects are authored from class visual components. Exact upstream visual parity is not claimed.",
+  "visuals": [
+    {
+      "id": 804558,
+      "template": 11259,
+      "ability": "Rotling Explosion",
+      "reason": "Use the installed visual of the identically named Rotling Explosion sibling."
+    },
+    {
+      "id": 989853,
+      "template": 701058,
+      "ability": "Reaving Blade",
+      "reason": "Author the missing blade impact from the Cultist Blade of the Empire visual."
+    },
+    {
+      "id": 854251,
+      "template": 1554,
+      "ability": "Slumberquell Emenation",
+      "reason": "Use the installed visual of the identically named Slumberquell sibling."
+    },
+    {
+      "id": 1000105,
+      "template": 1000103,
+      "ability": "Arctic Blast",
+      "reason": "Use the installed visual of the identically named Arctic Blast sibling."
+    },
+    {
+      "id": 1000324,
+      "template": 701062,
+      "ability": "Void Burst / Psychic Burst",
+      "reason": "Author the missing Cultist burst from its Entropic Slam area impact."
+    },
+    {
+      "id": 989751,
+      "template": 984755,
+      "ability": "Winds of Northrend",
+      "reason": "Use the installed visual of the identically named Winds of Northrend sibling."
+    },
+    {
+      "id": 75246,
+      "template": 989761,
+      "ability": "Test of Pride",
+      "reason": "Use the installed visual of the identically named Test of Pride sibling."
+    },
+    {
+      "id": 1000127,
+      "template": 1452,
+      "ability": "Plaguebringer",
+      "reason": "Author the missing plague empowerment from the Necromancer Lichplague visual."
+    }
+  ],
+  "icon_source_sha256": "0352754bcfe62dcbe5d52a4ea8deedf1914dadaeebc0849267d881cba40d7d29",
+  "icons": [
+    {
+      "id": 23123,
+      "template": 15682,
+      "ability": "Reaving Blade",
+      "reason": "Explicitly author the missing icon from the corresponding class ability or a related class component."
+    },
+    {
+      "id": 22863,
+      "template": 27330,
+      "ability": "Abyssal Reconstruction",
+      "reason": "Explicitly author the missing icon from the corresponding class ability or a related class component."
+    },
+    {
+      "id": 64262,
+      "template": 24629,
+      "ability": "Glacial Pact",
+      "reason": "Explicitly author the missing icon from the corresponding class ability or a related class component."
+    },
+    {
+      "id": 63724,
+      "template": 5683,
+      "ability": "Abyssal Protection",
+      "reason": "Explicitly author the missing icon from the corresponding class ability or a related class component."
+    },
+    {
+      "id": 25200,
+      "template": 629,
+      "ability": "Feardrinker",
+      "reason": "Explicitly author the missing icon from the corresponding class ability or a related class component."
+    },
+    {
+      "id": 50996,
+      "template": 8654,
+      "ability": "Nether Speed",
+      "reason": "Explicitly author the missing icon from the corresponding class ability or a related class component."
+    },
+    {
+      "id": 20811,
+      "template": 54931,
+      "ability": "Plaguebringer",
+      "reason": "Explicitly author the missing icon from the corresponding class ability or a related class component."
+    }
+  ],
+  "effect_source_sha256": "5ced128862d297c60a1a06fb44c1c5861615317edffe70a0e645d48581398b29",
+  "effects": [
+    {
+      "id": 54527,
+      "template": 653,
+      "ability": "Eye of N'Zoth",
+      "reason": "Supply the missing eye effect using the installed N'Zoth eye model."
+    },
+    {
+      "id": 120241,
+      "template": 143134,
+      "ability": "Feardrinker",
+      "reason": "Supply the missing psychic chest effect using the installed shattered psyche impact."
+    }
+  ],
+  "kit_source_sha256": "b3cc54988a31a1a052e6c82531eaafbec6f65d211039210d4e77def4d0e218da",
+  "kits": [
+    {
+      "id": 121491,
+      "template": 300080,
+      "ability": "Abyssal Protection",
+      "reason": "Supply the absent protection visual kit from the installed Cultist Void Shield state kit."
+    }
+  ]
+}

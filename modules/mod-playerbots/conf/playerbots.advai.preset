@@ -1,0 +1,42 @@
+# Merge these values into playerbots.conf using apps/advai/configure.py.
+# Existing characters retain their current progress. Generated characters are initialized only once.
+Playerbots.AdvAI.Enabled = 1
+Playerbots.AdvAI.BackgroundBudget = 100
+Playerbots.AdvAI.RotationSeconds = 300
+Playerbots.AdvAI.ChannelMessagesPerMinute = 12
+Playerbots.AdvAI.SaveSeconds = 60
+Playerbots.AdvAI.MemoryLimitMB = 10000
+Playerbots.AdvAI.Dracthyr = 1
+# Use the ported native Cultist/Necromancer classes and Dracthyr race.
+Playerbots.AdvAI.AscensionClasses = 1
+Playerbots.DisableRandomLevels = 0
+Playerbots.SyncLevelWithPlayers = 0
+Playerbots.MinRandomBots = 2000
+Playerbots.MaxRandomBots = 2000
+# Reserve identities for multi-week breaks; only the online population is initialized and simulated.
+Playerbots.RandomBotAccountCount = 3250
+Playerbots.DeleteRandomBotAccounts = 0
+Playerbots.BotCheats = ""
+Playerbots.SyncQuestWithPlayer = 0
+Playerbots.SyncQuestForPlayer = 0
+Playerbots.AutoLearnTrainerSpells = 0
+Playerbots.AutoLearnQuestSpells = 0
+Playerbots.AutoUpgradeEquip = 0
+Playerbots.AutoTeleportForLevel = 0
+Playerbots.SummonWhenGroup = 0
+Playerbots.LevelBrackets.Enabled = 0
+Playerbots.ResetBotLevel.Enabled = 0
+Playerbots.RandomBotXPRate = 1
+Playerbots.EnableNewRpgStrategy = 1
+Playerbots.EnablePeriodicOnlineOffline = 0
+Playerbots.RandomBotTalk = 1
+Playerbots.InviteChat = 0
+Playerbots.EnableBroadcasts = 0
+Playerbots.RandomBotSayWithoutMaster = 0
+Playerbots.MaintenanceCommand = 0
+Playerbots.AutoGearCommand = 0
+Playerbots.AutoGearBisCommand = 0
+Playerbots.RandomBotQuestIds = ""
+Playerbots.RandomBotConcentrateInPlayerZone = 0
+Playerbots.BotActiveAloneForceWhenInGuild = 0
+Playerbots.BotActiveAloneForceWhenIsFriend = 0
