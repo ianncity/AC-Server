@@ -225,7 +225,10 @@ void Scale(Player* player, Creature* minion, uint8 cost, float& inheritedSpeed)
 
     float casterStamina = player->GetStat(STAT_STAMINA);
     float tierFactor = (cost <= 1) ? 1.0f : (cost == 2 ? 1.75f : 2.6f);
-    float targetHp = (16.0f * player->GetLevel() + casterStamina * 5.25f) * tierFactor * overrankHpMult;
+    // Minions remain at one quarter of their previous health through level 20, then reach
+    // the established level-60 health curve as the owner levels.
+    float const earlyHealthScale = 0.25f + 0.75f * std::clamp((float(player->GetLevel()) - 20.0f) / 40.0f, 0.0f, 1.0f);
+    float targetHp = (16.0f * player->GetLevel() + casterStamina * 5.25f) * tierFactor * overrankHpMult * earlyHealthScale;
 
     minion->SetStatFlatModifier(UNIT_MOD_STAT_STAMINA, BASE_VALUE, targetHp / 10.0f);
     minion->SetStatFlatModifier(UNIT_MOD_STAT_INTELLECT, BASE_VALUE, intellect * 0.3f * weight);
