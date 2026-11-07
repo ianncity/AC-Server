@@ -2610,6 +2610,17 @@ void Manager::Deliver(PlayerbotAI* ai, std::shared_ptr<BotState> const& state, T
     PendingMessage pending;
     {
         std::lock_guard lock(state->Mutex);
+        // A live trade takes attention over a conversation with someone else. Keep
+        // other replies queued, while allowing a reply to the current trader through.
+        if (Player* trader = ai->GetBot()->GetTrader(); trader && !state->Messages.empty())
+        {
+            BotId peer = trader->GetGUID().GetCounter();
+            auto next = std::find_if(state->Messages.begin(), state->Messages.end(),
+                                     [peer](auto const& message) { return message.Sender == peer; });
+            if (next == state->Messages.end())
+                return;
+            std::rotate(state->Messages.begin(), next, std::next(next));
+        }
         if (!state->Messages.empty())
         {
             auto const& front = state->Messages.front();

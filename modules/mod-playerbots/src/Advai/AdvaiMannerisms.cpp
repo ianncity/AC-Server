@@ -121,7 +121,7 @@ void Manager::AttendToSpeaker(PlayerbotAI* ai, Player* speaker, std::shared_ptr<
     float turn = Position::NormalizeOrientation(bot->GetAngle(speaker) - bot->GetOrientation());
     if (turn > static_cast<float>(M_PI))
         turn -= 2.0f * static_cast<float>(M_PI);
-    TurnGradually(ai, turn, 4, urand(120, 200));
+    TurnGradually(ai, turn, 12, urand(45, 65));
 }
 
 void Manager::TravelMannerisms(PlayerbotAI* ai, std::shared_ptr<BotState> const& state, Timestamp now)
@@ -154,8 +154,8 @@ void Manager::TravelMannerisms(PlayerbotAI* ai, std::shared_ptr<BotState> const&
         {
             float const total =
                 (urand(0, 1) ? 1.0f : -1.0f) * (0.35f + static_cast<float>(urand(0, 100)) / 100.0f * 1.25f);
-            unsigned const steps = urand(2, 3);
-            TurnGradually(ai, total, steps, urand(180, 420));
+            unsigned const steps = urand(8, 12);
+            TurnGradually(ai, total, steps, urand(55, 85));
             return;
         }
     }
@@ -250,7 +250,7 @@ void Manager::TravelMannerisms(PlayerbotAI* ai, std::shared_ptr<BotState> const&
         float turn;
         if (BeginLookBehind(ai, turn))
         {
-            TurnGradually(ai, turn, 12, 150);
+            TurnGradually(ai, turn, 20, 90);
             return;
         }
     }

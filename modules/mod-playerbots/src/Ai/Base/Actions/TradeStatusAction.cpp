@@ -40,7 +40,7 @@ bool TradeStatusAction::Execute(Event event)
                 std::make_unique<Advai::TradeOperation>(bot->GetGUID(), *offer));
         if (!botAI->HasGameClientMaster())
             return PlayerbotWorldThreadProcessor::instance().QueueOperation(
-                std::make_unique<Advai::CancelTradeOperation>(bot->GetGUID(), trader->GetGUID().GetCounter()));
+                std::make_unique<Advai::CancelTradeOperation>(bot->GetGUID(), trader->GetGUID().GetCounter(), true));
     }
 
     bool const traderIsGameClientPlayer = IsRealPlayer(trader) || IsSelfBot(trader);

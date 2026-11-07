@@ -112,7 +112,7 @@ private:
 class CancelTradeOperation : public PlayerbotOperation
 {
 public:
-    CancelTradeOperation(ObjectGuid bot, BotId peer) : _bot(bot), _peer(peer) {}
+    CancelTradeOperation(ObjectGuid bot, BotId peer, bool notifyPeer = false) : _bot(bot), _peer(peer), _notifyPeer(notifyPeer) {}
     bool Execute() override;
     ObjectGuid GetBotGuid() const override { return _bot; }
     std::string GetName() const override { return "ADVAI cancel trade"; }
@@ -120,6 +120,7 @@ public:
 private:
     ObjectGuid _bot;
     BotId _peer;
+    bool _notifyPeer;
 };
 }  // namespace Advai
 

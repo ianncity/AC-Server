@@ -49,6 +49,9 @@ bool CancelTradeOperation::Execute()
         return false;
     if (bot->GetTrader() && bot->GetTrader()->GetGUID().GetCounter() == _peer)
     {
+        // The active trader, not a previous chat partner, owns this interaction.
+        if (_notifyPeer)
+            bot->Whisper("Let's agree on what to trade first.", LANG_UNIVERSAL, bot->GetTrader());
         WorldPacket packet(CMSG_CANCEL_TRADE);
         bot->GetSession()->HandleCancelTradeOpcode(packet);
     }

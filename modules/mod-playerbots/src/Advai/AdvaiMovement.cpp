@@ -151,7 +151,7 @@ void RoundCorners(Player* bot, MovementState& state, Movement::PointsArray& path
         auto incoming = b - rounded.back(), outgoing = path[i + 1] - b;
         float before = incoming.length(), after = outgoing.length();
         bool accepted = false;
-        if (before > 2.0f && after > 2.0f && examined < 6 && std::abs(incoming.z) < 0.5f && std::abs(outgoing.z) < 0.5f)
+        if (before > 0.8f && after > 0.8f && examined < 12 && std::abs(incoming.z) < 0.5f && std::abs(outgoing.z) < 0.5f)
         {
             auto u = incoming / before, v = outgoing / after;
             float cosine = u.dot(v);
@@ -164,9 +164,9 @@ void RoundCorners(Player* bot, MovementState& state, Movement::PointsArray& path
                 float cut = std::min({radius * sharpness, before * 0.3f, after * 0.3f});
                 auto a = b - u * cut, c = b + v * cut;
                 Movement::PointsArray curve{a};
-                for (unsigned j = 1; j <= 6; ++j)
+                for (unsigned j = 1; j <= 12; ++j)
                 {
-                    float t = static_cast<float>(j) / 6.0f;
+                    float t = static_cast<float>(j) / 12.0f;
                     curve.push_back(a * ((1 - t) * (1 - t)) + b * (2 * t * (1 - t)) + c * (t * t));
                 }
                 // The approach to A is a portion of the existing validated edge.
