@@ -898,12 +898,12 @@ public:
         if (packet.GetOpcode() != CMSG_CANCEL_AURA || packet.size() < sizeof(uint32) || !session)
             return true;
         Player* player = Owner(session->GetPlayer());
-        uint32 creature = OccupancyCreature(packet.read<uint32>(0));
-        if (!player || !creature || !player->IsInWorld())
+        uint32 aura = packet.read<uint32>(0);
+        if (!player || !OccupancyCreature(aura) || !player->IsInWorld())
             return true;
         auto minions = Minions(player, true);
         for (auto itr = minions.rbegin(); itr != minions.rend(); ++itr)
-            if ((*itr)->GetEntry() == creature && (*itr)->IsAlive())
+            if (OccupancyAura((*itr)->GetEntry()) == aura && (*itr)->IsAlive())
             {
                 (*itr)->DespawnOrUnsummon();
                 Sync(player);

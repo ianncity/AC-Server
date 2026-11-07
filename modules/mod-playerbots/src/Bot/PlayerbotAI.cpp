@@ -1325,7 +1325,9 @@ void PlayerbotAI::HandleBotOutgoingPacket(WorldPacket const& packet)
         case SMSG_GM_MESSAGECHAT:
         case SMSG_MESSAGECHAT:  // do not react to self or if not ready to reply
         {
-            if (!sPlayerbotAIConfig.RandomBotTalk)
+            // ADVAI has its own bounded conversation system and must receive chat even when
+            // the legacy random bot chatter is disabled.
+            if (!sPlayerbotAIConfig.RandomBotTalk && !Advai::Manager::Instance().Applies(bot))
                 return;
 
             if (!AllowActivity() && !Advai::Manager::Instance().Applies(bot))
@@ -1379,6 +1381,9 @@ void PlayerbotAI::HandleBotOutgoingPacket(WorldPacket const& packet)
                 if (Advai::Manager::Instance().ReceiveChat(this, msgtype, guid1.GetCounter(), message, chanName) ||
                     (Advai::Manager::Instance().Applies(bot) &&
                      Advai::Manager::Instance().IsDeliveredSpeech(guid1.GetCounter(), message)))
+                    return;
+
+                if (!sPlayerbotAIConfig.RandomBotTalk)
                     return;
 
                 if (chanName == "World")
