@@ -67,6 +67,7 @@ struct Histogram
 };
 Histogram OvershootYards, UndershootYards, CornerRadius, SwingTurnRadians, HurryDistribution;
 std::atomic<std::uint64_t> RoutesLaunched{0}, RoutesExact{0}, HabitTrips[6]{};
+std::atomic<std::uint64_t> PathsStarted{0}, ProgressSamples{0};
 
 // Mood drifts a little every trip (mean-reverting random walk) so one bot is not the same person every walk.
 float DriftHurry(MovementState& state)
@@ -446,6 +447,7 @@ void Launch(Player* bot, MovementState& state, Movement::PointsArray path, Unit*
         init.SetOrientationFixed(true);
     }
     init.Launch();
+    ++PathsStarted;
     state.Spline = bot->movespline->GetId();
     state.Speed = bot->GetSpeed(state.Backwards ? MOVE_RUN_BACK : bot->IsWalking() ? MOVE_WALK : MOVE_RUN);
     state.Facing = facing ? facing->GetGUID() : ObjectGuid::Empty;
@@ -934,6 +936,7 @@ void UpdatePlayerMovement(PlayerbotAI* ai)
     auto now = Now();
     if (Distance(PositionOf(bot), state->LastPosition) >= 0.6f)
     {
+        ++ProgressSamples;
         state->LastSafe = state->LastPosition;
         state->LastPosition = PositionOf(bot);
         state->ProgressAt = now;
@@ -1003,6 +1006,12 @@ std::string DescribeMovement(std::shared_ptr<MovementState> const& state)
         << " turnStyle=" << state->Persona.Seed % 3 << " swungTurns=" << state->SwungTurns
         << " overshoots=" << state->Overshoots << " undershoots=" << state->Undershoots;
     return out.str();
+}
+
+std::string MovementTelemetry()
+{
+    return " movement_paths=" + std::to_string(PathsStarted.load()) +
+           " movement_progress=" + std::to_string(ProgressSamples.load());
 }
 
 std::string DescribeMovementStats(bool reset)

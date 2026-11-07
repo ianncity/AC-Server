@@ -3571,7 +3571,7 @@ std::string Manager::Statistics() const
            " optional_hesitations=" + std::to_string(_hesitations.load()) +
            " pending_identity_writes=" + std::to_string(_pendingIdentities.load()) +
            " pending_profile_writes=" + std::to_string(_socialPersistence->PendingProfiles.load()) +
-           " background_budget=" + std::to_string(sPlayerbotAIConfig.AdvaiBackgroundBudget) + Metrics::Summary() +
+           " background_budget=" + std::to_string(sPlayerbotAIConfig.AdvaiBackgroundBudget) + MovementTelemetry() + Metrics::Summary() +
            MarketStatistics() + GuildTaskStatistics() + " resident_profiles=" + std::to_string(resident) +
            " archived_profiles=" + std::to_string(archived) + " archived_bytes=" + std::to_string(archivedBytes) +
            (sPlayerbotAIConfig.AdvaiLlmEnabled ? LlmStatistics() : "");

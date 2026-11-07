@@ -1,0 +1,886 @@
+"""Ambient chatter runtime processors.
+
+N9/N10 moved statement and conversation
+processing from the bridge.
+"""
+
+import logging
+import random
+import time
+from typing import List
+
+from chatter_constants import (
+    CAPITAL_CITY_ZONES,
+    AMBIENT_CHAT_TOPICS,
+    AMBIENT_CHAT_TOPICS_RP,
+)
+from chatter_shared import (
+    zone_cache,
+    parse_single_response,
+    parse_conversation_response,
+    extract_conversation_msg_count,
+    can_class_use_item,
+    query_zone_quests,
+    query_zone_loot,
+    query_zone_mobs,
+    query_bot_spells,
+    replace_placeholders,
+    cleanup_message,
+    strip_speaker_prefix,
+    call_llm,
+    insert_chat_message,
+    get_recent_zone_messages,
+    is_too_similar,
+    select_message_type,
+    calculate_dynamic_delay,
+    get_chatter_mode,
+    _zone_last_delivery,
+    _zone_delivery_delay,
+    get_zone_name,
+    get_zone_flavor,
+    get_subzone_name,
+    get_subzone_lore,
+    get_language_rule,
+)
+from chatter_shared import (
+    build_talent_context,
+    build_zone_metadata,
+    should_include_action,
+)
+from chatter_db import (
+    query_zone_bot_gossip_targets,
+    query_zone_npcs,
+)
+from chatter_group_general_reaction import (
+    maybe_queue_group_general_reaction,
+)
+from chatter_text import pick_statement_length
+from chatter_prompts import (
+    build_plain_statement_prompt,
+    build_quest_statement_prompt,
+    build_loot_statement_prompt,
+    build_quest_reward_statement_prompt,
+    build_spell_statement_prompt,
+    build_trade_statement_prompt,
+    build_plain_conversation_prompt,
+    build_quest_conversation_prompt,
+    build_loot_conversation_prompt,
+    build_trade_conversation_prompt,
+    build_spell_conversation_prompt,
+    build_gossip_statement_prompt,
+    build_gossip_conversation_prompt,
+)
+
+logger = logging.getLogger(__name__)
+
+_gossip_target_cooldowns = {}
+
+
+def _build_json_repair_prompt(prompt, bot_names):
+    """Build a conversation JSON repair prompt.
+
+    Plain-string repair prompts do not pass through the shared
+    JSON helpers, so append the configured language rule directly.
+    """
+    msg_count = extract_conversation_msg_count(prompt)
+    repair_prompt = (
+        "Your previous output was invalid JSON. "
+        "Output ONLY a JSON array of "
+        f"{msg_count if msg_count else 'the required number of'} "
+        f"messages with the speakers: "
+        f"{', '.join(bot_names)}. Use double quotes, "
+        "escape quotes/newlines, no trailing commas, "
+        "no code fences."
+    )
+    lang_rule = get_language_rule()
+    if lang_rule:
+        repair_prompt += lang_rule
+    return repair_prompt
+
+
+def _build_zone_metadata(zone_id, area_id=0):
+    """Build zone metadata dict for request logging.
+
+    Thin wrapper around build_zone_metadata() that
+    resolves zone/subzone names from IDs first.
+    """
+    return build_zone_metadata(
+        zone_name=get_zone_name(zone_id) or '',
+        zone_flavor=get_zone_flavor(zone_id) or '',
+        subzone_name=(
+            get_subzone_name(zone_id, area_id) or ''
+        ),
+        subzone_lore=(
+            get_subzone_lore(zone_id, area_id) or ''
+        ),
+    )
+
+
+def _fetch_loot_data(config, zone_id, level):
+    """Fetch and select a loot item for the zone.
+
+    Handles: query_zone_loot, cooldown filter,
+    quality weights, random.choices, mark_loot_seen.
+
+    Returns item_data dict or None if no loot found.
+    """
+    loot = query_zone_loot(config, zone_id, level)
+    if not loot:
+        return None
+    cooldown = int(config.get(
+        'LLMChatter.LootRecentCooldownSeconds', 0
+    ))
+    if cooldown > 0:
+        recent_ids = (
+            zone_cache.get_recent_loot_ids(
+                zone_id, cooldown
+            )
+        )
+        filtered = [
+            item for item in loot
+            if item.get('item_id')
+            not in recent_ids
+        ]
+        if filtered:
+            loot = filtered
+    quality_weights = {
+        0: 35, 1: 30, 2: 22, 3: 10, 4: 3
+    }
+    weights = [
+        quality_weights.get(
+            item.get('item_quality', 2), 10
+        )
+        for item in loot
+    ]
+    item_data = random.choices(
+        loot, weights=weights, k=1
+    )[0]
+    if cooldown > 0 and item_data.get('item_id'):
+        zone_cache.mark_loot_seen(
+            zone_id, item_data['item_id']
+        )
+    return item_data
+
+
+def _select_gossip_or_existing_type(config, conversation=False):
+    """Select ambient type with optional NPC/bot gossip gates."""
+    npc_chance = max(0, int(config.get(
+        'LLMChatter.AmbientNpcGossipChance', 5
+    )))
+    bot_chance = max(0, int(config.get(
+        'LLMChatter.AmbientBotGossipChance', 5
+    )))
+    roll = random.randint(1, 100)
+    if roll <= npc_chance:
+        return 'npc'
+    if roll <= npc_chance + bot_chance:
+        return 'bot'
+
+    if not conversation:
+        return select_message_type()
+
+    roll = random.randint(1, 100)
+    if roll <= 45:
+        return 'plain'
+    if roll <= 65:
+        return 'quest'
+    if roll <= 80:
+        return 'loot'
+    if roll <= 90:
+        return 'trade'
+    return 'spell'
+
+
+def _get_gossip_target_cooldown(config):
+    """Return gossip target cooldown in seconds."""
+    try:
+        return max(0, int(config.get(
+            'LLMChatter.AmbientGossipTargetCooldownSeconds',
+            1800,
+        )))
+    except (TypeError, ValueError):
+        return 1800
+
+
+def _gossip_target_key(target_type, zone_id, target):
+    """Build the recent-subject key for an NPC or bot."""
+    if target_type == "bot":
+        target_id = target.get('guid') or target.get('name', '')
+    else:
+        target_id = target.get('entry') or target.get('name', '')
+    return (target_type, int(zone_id or 0), target_id)
+
+
+def _filter_recent_gossip_targets(
+    targets, target_type, zone_id, cooldown
+):
+    """Remove recently used gossip subjects."""
+    if cooldown <= 0:
+        return targets
+
+    now = time.time()
+    expired = [
+        key for key, expires_at
+        in _gossip_target_cooldowns.items()
+        if expires_at <= now
+    ]
+    for key in expired:
+        _gossip_target_cooldowns.pop(key, None)
+
+    return [
+        target for target in targets
+        if _gossip_target_cooldowns.get(
+            _gossip_target_key(target_type, zone_id, target),
+            0,
+        ) <= now
+    ]
+
+
+def _mark_gossip_target_seen(
+    target, target_type, zone_id, cooldown
+):
+    """Mark a gossip subject as recently used."""
+    if cooldown <= 0 or not target:
+        return
+    _gossip_target_cooldowns[
+        _gossip_target_key(target_type, zone_id, target)
+    ] = time.time() + cooldown
+
+
+def _pick_npc_gossip_target(config, zone_id):
+    """Pick a random NPC gossip subject for this zone."""
+    targets = query_zone_npcs(config, zone_id)
+    cooldown = _get_gossip_target_cooldown(config)
+    targets = _filter_recent_gossip_targets(
+        targets, "npc", zone_id, cooldown
+    )
+    target = random.choice(targets) if targets else None
+    _mark_gossip_target_seen(
+        target, "npc", zone_id, cooldown
+    )
+    return target
+
+
+def _pick_bot_gossip_target(config, cursor, zone_id, speaker_guids):
+    """Pick a random bot gossip subject for this zone."""
+    targets = query_zone_bot_gossip_targets(
+        cursor, zone_id, exclude_guids=speaker_guids
+    )
+    cooldown = _get_gossip_target_cooldown(config)
+    targets = _filter_recent_gossip_targets(
+        targets, "bot", zone_id, cooldown
+    )
+    target = random.choice(targets) if targets else None
+    _mark_gossip_target_seen(
+        target, "bot", zone_id, cooldown
+    )
+    return target
+
+
+def process_statement(
+    db, cursor, client, config, request, bot: dict
+):
+    """Process a single statement request."""
+    channel = 'general'
+
+    # Select message type
+    zone_id = request.get('zone_id', 0)
+    area_id = request.get('area_id', zone_id)
+    current_weather = request.get('weather') or None
+    mode = get_chatter_mode(config)
+
+    # Zone metadata for request logging
+    zone_meta = _build_zone_metadata(
+        zone_id, area_id
+    )
+    msg_type = _select_gossip_or_existing_type(config)
+
+    # Skip loot/trade in capital cities (no zone
+    # creatures to reference, causes empty queries)
+    if (
+        msg_type in ("loot", "trade")
+        and zone_id in CAPITAL_CITY_ZONES
+    ):
+        msg_type = "plain"
+
+
+    # Get zone data if needed
+    quest_data = None
+    item_data = None
+    item_can_use = False
+    spell_data = None
+    gossip_target = None
+    gossip_target_type = None
+
+    if msg_type == "quest" or msg_type == "quest_reward":
+        quests = query_zone_quests(
+            config, zone_id, bot['level']
+        )
+        if quests:
+            quest_data = random.choice(quests)
+        else:
+            msg_type = "plain"  # Fallback
+
+    if msg_type == "loot":
+        item_data = _fetch_loot_data(
+            config, zone_id, bot['level']
+        )
+        if item_data:
+            # Check if bot's class can use the item
+            item_can_use = can_class_use_item(
+                bot['class'],
+                item_data.get('allowable_class', -1)
+            )
+            quality_names = {
+                0: "gray", 1: "white", 2: "green",
+                3: "blue", 4: "epic"
+            }
+        else:
+            msg_type = "plain"  # Fallback
+
+    if msg_type == "trade":
+        item_data = _fetch_loot_data(
+            config, zone_id, bot['level']
+        )
+        if not item_data:
+            msg_type = "plain"  # Fallback
+
+    if msg_type == "spell":
+        spells = query_bot_spells(
+            config, bot['class'], bot['level']
+        )
+        if spells:
+            spell_data = random.choice(spells)
+        else:
+            msg_type = "plain"  # Fallback
+
+    if msg_type == "npc":
+        gossip_target = _pick_npc_gossip_target(
+            config, zone_id
+        )
+        if gossip_target:
+            gossip_target_type = "npc"
+        else:
+            msg_type = "plain"  # Fallback
+
+    if msg_type == "bot":
+        gossip_target = _pick_bot_gossip_target(
+            config, cursor, zone_id, [bot['guid']]
+        )
+        if gossip_target:
+            gossip_target_type = "bot"
+        else:
+            msg_type = "plain"  # Fallback
+
+    # Fetch recent zone messages for anti-repetition
+    recent_msgs = get_recent_zone_messages(
+        db, zone_id
+    )
+
+    # Talent context injection (speaker only)
+    speaker_talent = None
+    talent_chance = int(config.get(
+        'LLMChatter.TalentInjectionChance', '40',
+    ))
+    if (
+        talent_chance > 0
+        and random.randint(1, 100)
+        <= talent_chance
+    ):
+        speaker_talent = build_talent_context(
+            db, bot['guid'], bot['class'],
+            bot['name'], perspective='speaker',
+        )
+
+    # Pick RNG length for plain statements
+    # (link types use default pool to avoid
+    # forcing short on messages with WoW links)
+    _, _, rng_length = pick_statement_length()
+
+    # Build appropriate prompt
+    chosen_topic = ""
+    if msg_type == "plain":
+        # Get zone mobs for context
+        zone_mobs = []
+        mobs = query_zone_mobs(
+            config, zone_id, bot['level']
+        )
+        if mobs:
+            zone_mobs = random.sample(
+                mobs, min(10, len(mobs))
+            )
+        topic_pool = (
+            AMBIENT_CHAT_TOPICS_RP
+            if mode == 'roleplay'
+            else AMBIENT_CHAT_TOPICS
+        )
+        topic = random.choice(topic_pool)
+        chosen_topic = topic
+        prompt = build_plain_statement_prompt(
+            bot, zone_id, zone_mobs,
+            config, current_weather,
+            recent_messages=recent_msgs,
+            speaker_talent_context=speaker_talent,
+            topic=topic,
+            area_id=area_id,
+            length_hint=rng_length,
+        )
+    elif msg_type == "quest":
+        prompt = build_quest_statement_prompt(
+            bot, quest_data, config,
+            current_weather,
+            recent_messages=recent_msgs,
+            speaker_talent_context=speaker_talent,
+            zone_id=zone_id,
+        )
+    elif msg_type == "loot":
+        prompt = build_loot_statement_prompt(
+            bot, item_data, item_can_use,
+            config, current_weather,
+            recent_messages=recent_msgs,
+            speaker_talent_context=speaker_talent,
+            zone_id=zone_id,
+        )
+    elif msg_type == "quest_reward":
+        prompt = build_quest_reward_statement_prompt(
+            bot, quest_data, config,
+            current_weather,
+            recent_messages=recent_msgs,
+            speaker_talent_context=speaker_talent,
+            zone_id=zone_id,
+        )
+        # Also set item_data for replacement
+        if quest_data and quest_data.get('item1_name'):
+            item_data = {
+                'item_id': quest_data['item1_id'],
+                'item_name': quest_data['item1_name'],
+                'item_quality': quest_data.get(
+                    'item1_quality', 2
+                )
+            }
+    elif msg_type == "trade":
+        prompt = build_trade_statement_prompt(
+            bot, item_data, config,
+            current_weather,
+            recent_messages=recent_msgs,
+            speaker_talent_context=speaker_talent,
+            zone_id=zone_id,
+        )
+    elif msg_type == "spell":
+        prompt = build_spell_statement_prompt(
+            bot, spell_data, config,
+            current_weather,
+            recent_messages=recent_msgs,
+            speaker_talent_context=speaker_talent,
+            zone_id=zone_id,
+        )
+    elif msg_type in ("npc", "bot"):
+        chosen_topic = (
+            f"{gossip_target_type}:{gossip_target.get('name')}"
+        )
+        prompt = build_gossip_statement_prompt(
+            bot, gossip_target, gossip_target_type,
+            zone_id, config, current_weather,
+            recent_messages=recent_msgs,
+            speaker_talent_context=speaker_talent,
+            area_id=area_id,
+            length_hint=rng_length,
+        )
+    else:
+        topic_pool = (
+            AMBIENT_CHAT_TOPICS_RP
+            if mode == 'roleplay'
+            else AMBIENT_CHAT_TOPICS
+        )
+        topic = random.choice(topic_pool)
+        prompt = build_plain_statement_prompt(
+            bot, zone_id,
+            config=config,
+            current_weather=current_weather,
+            recent_messages=recent_msgs,
+            speaker_talent_context=speaker_talent,
+            topic=topic,
+            area_id=area_id,
+            length_hint=rng_length,
+        )
+
+    # Call LLM
+    if speaker_talent:
+        zone_meta['speaker_talent'] = (
+            speaker_talent
+        )
+    response = call_llm(
+        client, prompt, config,
+        context=f"ambient:{bot['name']}",
+        label='ambient_statement',
+        metadata=zone_meta,
+    )
+
+    if response:
+        parsed = parse_single_response(response)
+        message = parsed['message']
+        message = replace_placeholders(
+            message, quest_data, item_data,
+            spell_data
+        )
+        message = cleanup_message(
+            message, action=parsed.get('action')
+        )
+
+        if is_too_similar(message, recent_msgs):
+            return True
+
+
+        # Insert for delivery — enforce zone gap
+        extra = _zone_delivery_delay(zone_id, config)
+        topic_label = (
+            f" topic={chosen_topic}"
+            if chosen_topic else ""
+        )
+        logger.info(
+            "[GEN-FLOW] ambient statement | "
+            "type=%s%s bot=%s delay=%.1fs seq=0",
+            msg_type, topic_label, bot['name'],
+            extra,
+        )
+        insert_chat_message(
+            db, bot['guid'], bot['name'], message,
+            channel=channel,
+            delay_seconds=extra,
+            queue_id=request['id'],
+            sequence=0,
+        )
+        if channel == 'general':
+            maybe_queue_group_general_reaction(
+                db, config,
+                bot['guid'], bot['name'], message,
+                zone_id, 0,
+                source_queue_id=request['id'],
+                source_sequence=0,
+                source_delay_seconds=extra,
+            )
+
+        return True
+    return False
+
+
+def process_conversation(
+    db, cursor, client, config,
+    request, bots: List[dict]
+):
+    """Process a conversation request with 2-4 bots.
+
+    Args:
+        db: Database connection
+        cursor: Database cursor
+        client: LLM provider client
+        config: Configuration dict
+        request: Queue request row
+        bots: List of 2-4 bot dicts with guid, name,
+              class, race, level, zone
+    """
+    channel = 'general'
+    bot_count = len(bots)
+    bot_names = [b['name'] for b in bots]
+
+    # Create guid lookup for message insertion
+    bot_guids = {b['name']: b['guid'] for b in bots}
+
+
+    zone_id = request.get('zone_id', 0)
+    area_id = request.get('area_id', zone_id)
+    current_weather = request.get('weather') or None
+    mode = get_chatter_mode(config)
+
+    # Zone metadata for request logging
+    zone_meta = _build_zone_metadata(
+        zone_id, area_id
+    )
+
+    # Fetch recent zone messages for anti-repetition
+    recent_msgs = get_recent_zone_messages(
+        db, zone_id
+    )
+
+    # Talent context injection (speaker only,
+    # uses first bot as representative)
+    speaker_talent = None
+    talent_chance = int(config.get(
+        'LLMChatter.TalentInjectionChance', '40',
+    ))
+    if (
+        talent_chance > 0
+        and random.randint(1, 100)
+        <= talent_chance
+    ):
+        speaker_talent = build_talent_context(
+            db, bots[0]['guid'],
+            bots[0]['class'],
+            bots[0]['name'],
+            perspective='speaker',
+        )
+
+    # Select message type. Existing conversation mix is preserved
+    # unless an additive gossip gate wins first.
+    msg_type = _select_gossip_or_existing_type(
+        config, conversation=True
+    )
+
+    # Get quest/loot/spell data if needed
+    quest_data = None
+    item_data = None
+    spell_data = None
+    gossip_target = None
+    gossip_target_type = None
+
+    if msg_type == "quest":
+        quests = query_zone_quests(
+            config,
+            request.get('zone_id', 0),
+            bots[0]['level']
+        )
+        if quests:
+            quest_data = random.choice(quests)
+        else:
+            msg_type = "plain"
+
+    if msg_type == "loot":
+        item_data = _fetch_loot_data(
+            config, zone_id, bots[0]['level']
+        )
+        if not item_data:
+            msg_type = "plain"
+
+    if msg_type == "trade":
+        item_data = _fetch_loot_data(
+            config, zone_id, bots[0]['level']
+        )
+        if not item_data:
+            msg_type = "plain"
+
+    if msg_type == "spell":
+        spells = query_bot_spells(
+            config, bots[0]['class'],
+            bots[0]['level']
+        )
+        if spells:
+            spell_data = random.choice(spells)
+        else:
+            msg_type = "plain"
+
+    speaker_guids = [b['guid'] for b in bots]
+    if msg_type == "npc":
+        gossip_target = _pick_npc_gossip_target(
+            config, zone_id
+        )
+        if gossip_target:
+            gossip_target_type = "npc"
+        else:
+            msg_type = "plain"
+
+    if msg_type == "bot":
+        gossip_target = _pick_bot_gossip_target(
+            config, cursor, zone_id, speaker_guids
+        )
+        if gossip_target:
+            gossip_target_type = "bot"
+        else:
+            msg_type = "plain"
+
+    # Build prompt
+    chosen_topic = ""
+    if msg_type == "plain":
+        # Get zone mobs for context
+        zone_mobs = []
+        mobs = query_zone_mobs(
+            config, zone_id, bots[0]['level']
+        )
+        if mobs:
+            zone_mobs = random.sample(
+                mobs, min(10, len(mobs))
+            )
+        topic_pool = (
+            AMBIENT_CHAT_TOPICS_RP
+            if mode == 'roleplay'
+            else AMBIENT_CHAT_TOPICS
+        )
+        topic = random.choice(topic_pool)
+        chosen_topic = topic
+        prompt = build_plain_conversation_prompt(
+            bots, zone_id, zone_mobs,
+            config, current_weather,
+            recent_messages=recent_msgs,
+            speaker_talent_context=speaker_talent,
+            topic=topic,
+            area_id=area_id,
+        )
+    elif msg_type == "quest":
+        prompt = build_quest_conversation_prompt(
+            bots, quest_data, config,
+            current_weather,
+            recent_messages=recent_msgs,
+            speaker_talent_context=speaker_talent,
+            zone_id=zone_id,
+        )
+    elif msg_type == "trade":
+        prompt = build_trade_conversation_prompt(
+            bots, item_data, config,
+            current_weather,
+            recent_messages=recent_msgs,
+            speaker_talent_context=speaker_talent,
+            zone_id=zone_id,
+        )
+    elif msg_type == "spell":
+        prompt = build_spell_conversation_prompt(
+            bots, spell_data, config,
+            current_weather,
+            recent_messages=recent_msgs,
+            speaker_talent_context=speaker_talent,
+            zone_id=zone_id,
+        )
+    elif msg_type in ("npc", "bot"):
+        chosen_topic = (
+            f"{gossip_target_type}:{gossip_target.get('name')}"
+        )
+        prompt = build_gossip_conversation_prompt(
+            bots, gossip_target, gossip_target_type,
+            zone_id, config, current_weather,
+            recent_messages=recent_msgs,
+            speaker_talent_context=speaker_talent,
+            area_id=area_id,
+        )
+    else:  # loot
+        prompt = build_loot_conversation_prompt(
+            bots, item_data, config,
+            current_weather,
+            recent_messages=recent_msgs,
+            speaker_talent_context=speaker_talent,
+            zone_id=zone_id,
+        )
+
+    # Call LLM
+    conversation_max_tokens = int(
+        config.get(
+            'LLMChatter.ConversationMaxTokens',
+            config.get('LLMChatter.MaxTokens', 200)
+        )
+    )
+    if speaker_talent:
+        zone_meta['speaker_talent'] = (
+            speaker_talent
+        )
+    bot_names_ctx = ','.join(bot_names)
+    response = call_llm(
+        client, prompt, config,
+        max_tokens_override=conversation_max_tokens,
+        context=f"ambient-conv:{bot_names_ctx}",
+        label='ambient_conv',
+        metadata=zone_meta,
+    )
+
+    if response:
+        messages = parse_conversation_response(
+            response, bot_names
+        )
+
+        if not messages:
+            repair_prompt = _build_json_repair_prompt(
+                prompt, bot_names,
+            )
+            response = call_llm(
+                client, repair_prompt, config,
+                max_tokens_override=(
+                    conversation_max_tokens
+                ),
+                context="json-repair",
+                label='ambient_conv',
+                metadata=zone_meta,
+            )
+            if response:
+                messages = (
+                    parse_conversation_response(
+                        response, bot_names
+                    )
+                )
+
+        if messages:
+            # Zone gap applies to first message only;
+            # conversation followups stagger on top
+            base_delay = _zone_delivery_delay(
+                zone_id, config
+            )
+            cumulative_delay = base_delay
+            prev_msg_len = 0
+            for i, msg in enumerate(messages):
+                bot_guid = bot_guids.get(
+                    msg['name'], bots[0]['guid']
+                )
+
+                # Replace placeholders and cleanup
+                final_message = replace_placeholders(
+                    msg['message'], quest_data,
+                    item_data, spell_data
+                )
+                final_message = strip_speaker_prefix(
+                    final_message, msg['name']
+                )
+                final_message = cleanup_message(
+                    final_message,
+                    action=(
+                        msg.get('action')
+                        if should_include_action()
+                        else None
+                    ),
+                )
+
+                if i > 0:
+                    delay = calculate_dynamic_delay(
+                        len(final_message), config,
+                        prev_message_length=prev_msg_len,
+                    )
+                    cumulative_delay += delay
+                prev_msg_len = len(final_message)
+
+                topic_label = (
+                    f" topic={chosen_topic}"
+                    if chosen_topic else ""
+                )
+                logger.info(
+                    "[GEN-FLOW] ambient conv | "
+                    "type=%s%s bot=%s delay=%.1fs "
+                    "seq=%d/%d",
+                    msg_type, topic_label,
+                    msg['name'],
+                    cumulative_delay, i,
+                    len(messages),
+                )
+                insert_chat_message(
+                    db, bot_guid,
+                    msg['name'], final_message,
+                    channel=channel,
+                    delay_seconds=cumulative_delay,
+                    queue_id=request['id'],
+                    sequence=i,
+                )
+                if channel == 'general':
+                    maybe_queue_group_general_reaction(
+                        db, config,
+                        bot_guid, msg['name'],
+                        final_message, zone_id, 0,
+                        source_queue_id=request['id'],
+                        source_sequence=i,
+                        source_delay_seconds=(
+                            cumulative_delay
+                        ),
+                    )
+
+
+            # Push zone timestamp to after the last
+            # message so the gap applies from the END
+            # of the conversation, not the start
+            _zone_last_delivery[zone_id] = (
+                time.monotonic() + cumulative_delay
+            )
+            db.commit()
+            return True
+    return False

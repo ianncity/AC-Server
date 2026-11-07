@@ -72,6 +72,7 @@ char const* const SYSTEM =
     "may be a gift. Use recent context for 'that one' and clarify competing subjects. Respect refusals and goodbyes. "
     "Context is a bounded sample; omitted facts are unknown, not absent.";
 char const* const SCHEMA = R"({"type":"object","properties":{"action":{"type":"string","enum":["chat","inventory","buy","sell","cast","give","invite","guild_invite","craft","repair","restock","train","spells","needs","goals","quest","profession","location","ready","focus","peel","regroup","trade_cancel"]},"entity":{"type":"integer","minimum":0},"reply":{"type":"string","maxLength":200}},"required":["action","entity","reply"],"additionalProperties":false})";
+char const* const INITIATIVE_SCHEMA = R"({"type":"object","properties":{"action":{"type":"string","enum":["chat"]},"entity":{"type":"integer","enum":[0]},"reply":{"type":"string","minLength":1,"maxLength":200}},"required":["action","entity","reply"],"additionalProperties":false})";
 
 using LlmDeadline = std::chrono::steady_clock::time_point;
 
@@ -198,7 +199,7 @@ LlmResult Infer(LlmRequest request, boost::asio::ip::tcp::endpoint endpoint, std
         if (input.PromptTokens + LLM_OUTPUT_TOKENS + 32 > LLM_SLOT_TOKENS)
             throw std::runtime_error("llama.cpp chat template exceeds the 2048-token slot budget");
         std::string body = messages + ",\"stream\":false,\"temperature\":0.8,\"max_tokens\":" +
-            std::to_string(LLM_OUTPUT_TOKENS) + ",\"response_format\":{\"type\":\"json_schema\",\"json_schema\":{\"name\":\"advai_reply\",\"strict\":true,\"schema\":" + SCHEMA + "}}}";
+            std::to_string(LLM_OUTPUT_TOKENS) + ",\"response_format\":{\"type\":\"json_schema\",\"json_schema\":{\"name\":\"advai_reply\",\"strict\":true,\"schema\":" + (input.Initiating ? INITIATIVE_SCHEMA : SCHEMA) + "}}}";
         auto envelope = PostJson(endpoint, deadline, "/v1/chat/completions", std::move(body));
         boost::property_tree::ptree answer;
         auto const& choices = envelope.get_child("choices");

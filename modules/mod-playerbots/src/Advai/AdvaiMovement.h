@@ -95,5 +95,6 @@ bool PlayerRouteActive(PlayerbotAI* ai);
 std::string DescribeMovement(std::shared_ptr<MovementState> const& state);
 // Population-wide histograms of the humanising behaviours (for measuring variety, not for gameplay).
 std::string DescribeMovementStats(bool reset);
+std::string MovementTelemetry();
 }
 #endif

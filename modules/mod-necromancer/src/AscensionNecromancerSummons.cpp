@@ -255,7 +255,9 @@ void Scale(Player* player, Creature* minion, uint8 cost, float& inheritedSpeed)
     // level *and* gear. Add a floor that fades out toward the cap so levelling is competitive without touching 80.
     // x1.6 at 80 rising to x4.0 at level 0 (was x1.0 .. x4.0): the last measured run still had 22-64% of the stock median.
     float const levelBoost = 1.6f + 2.4f * std::clamp((80.0f - float(player->GetLevel())) / 80.0f, 0.0f, 1.0f);
-    float const weaponBase = player->GetLevel() * weight * overrankDmgMult * levelBoost;
+    // Reduce early minion weapon damage, tapering back to the existing balance by level 60.
+    float const earlyLevelScale = 0.55f + 0.45f * std::clamp((float(player->GetLevel()) - 1.0f) / 59.0f, 0.0f, 1.0f);
+    float const weaponBase = player->GetLevel() * weight * overrankDmgMult * levelBoost * earlyLevelScale;
     minion->SetBaseWeaponDamage(BASE_ATTACK, MINDAMAGE, weaponBase);
     minion->SetBaseWeaponDamage(BASE_ATTACK, MAXDAMAGE, weaponBase * 1.5f);
     minion->SetBaseWeaponDamage(RANGED_ATTACK, MINDAMAGE, weaponBase);

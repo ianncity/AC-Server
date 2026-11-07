@@ -54,6 +54,17 @@ void ApplyContracts(SpellInfo* info)
     if (!info)
         return;
     uint32 id = info->Id;
+    // Imported Putrefy has a spurious 4096-target chain on its triggered effect.
+    // Its direct damage and follow-up are both restricted to the selected enemy.
+    if (id == 804558 || id == 560777 || id == 560778 || id == 560779 || id == 561125 || id == 9666680)
+    {
+        info->MaxAffectedTargets = 1;
+        for (SpellEffectInfo& effect : info->Effects)
+            effect.ChainTarget = 0;
+    }
+    // Unholy Command has the same invalid chain count on an unused effect.
+    if (id == 802123)
+        info->Effects[2].ChainTarget = 0;
     // Crash guard shared by every Ascension class: a SHAPESHIFT aura naming a form that is missing from
     // SpellShapeshiftForm.dbc makes the core dereference a null row when the aura applies (found by the spell smoke
     // test: Lich Form 504691 is cast on Necromancer login and took the realm down). Keep the aura as a script marker.
