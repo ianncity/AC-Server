@@ -91,6 +91,7 @@ bool PlayerbotAIConfig::Initialize()
     AdvaiLlmEnabled = sConfigMgr->GetOption<bool>("Playerbots.AdvAI.LLM.Enabled", false);
     AdvaiLlmBotChat = sConfigMgr->GetOption<bool>("Playerbots.AdvAI.LLM.BotChat", true);
     AdvaiLlmHost = sConfigMgr->GetOption<std::string>("Playerbots.AdvAI.LLM.Host", "127.0.0.1");
+    AdvaiLlmApiKeyFile = sConfigMgr->GetOption<std::string>("Playerbots.AdvAI.LLM.ApiKeyFile", "");
     AdvaiLlmPort = sConfigMgr->GetOption<uint32>("Playerbots.AdvAI.LLM.Port", 8080);
     AdvaiLlmWorkers = sConfigMgr->GetOption<uint32>("Playerbots.AdvAI.LLM.Workers", 4);
     AdvaiLlmTimeoutSeconds = sConfigMgr->GetOption<uint32>("Playerbots.AdvAI.LLM.TimeoutSeconds", 15);
@@ -792,7 +793,7 @@ bool PlayerbotAIConfig::Initialize()
 
     if (AdvaiEnabled &&
         (!BotCheats.empty() || SyncQuestWithPlayer || SyncQuestForPlayer || AutoLearnTrainerSpells ||
-         AutoLearnQuestSpells || DeleteRandomBotAccounts || RandomBotXPRate != 1.0f || AutoUpgradeEquip ||
+         AutoLearnQuestSpells || DeleteRandomBotAccounts || RandomBotXPRate <= 0.0f || AutoUpgradeEquip ||
          AutoTeleportForLevel || AutoGearCommand || AutoGearBisCommand || ResetBotLevelEnabled ||
          LevelBracketsEnabled || MaintenanceCommand || SummonWhenGroup || DisableRandomLevels || SyncLevelWithPlayers ||
          !EnableNewRpgStrategy || AdvaiRotationSeconds < 30 || AdvaiSaveSeconds < 5 || !AdvaiChannelMessagesPerMinute))

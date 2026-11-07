@@ -254,7 +254,7 @@ void TestPlanner()
 void TestLifecycle()
 {
     using namespace Advai;
-    Check(Lifecycle::RecommendedReserveCharacters(2000) == 32000,
+    Check(Lifecycle::RecommendedReserveCharacters(2000) == 24000,
           "long breaks require character capacity beyond online slots");
     Check(Lifecycle::RecommendedReserveCharacters(0) == 0, "disabled population has no reserve demand");
     Lifecycle life;

@@ -217,8 +217,8 @@ bool Lifecycle::ShouldLeaveGuild() const { return WasPlayerGuild && GuildSatisfa
 
 std::uint64_t Lifecycle::RecommendedReserveCharacters(std::uint32_t onlineTarget)
 {
-    // Default long breaks and short sessions imply about 12.1 characters per online slot; retain capacity margin.
-    constexpr std::uint32_t DEFAULT_DUTY_CYCLE_RESERVE = 16;
+    // Realm policy: retain twelve identities per online slot for session rotation.
+    constexpr std::uint32_t DEFAULT_DUTY_CYCLE_RESERVE = 12;
     return static_cast<std::uint64_t>(onlineTarget) * DEFAULT_DUTY_CYCLE_RESERVE;
 }
 

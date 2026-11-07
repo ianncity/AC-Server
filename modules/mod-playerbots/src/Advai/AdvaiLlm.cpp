@@ -15,6 +15,7 @@
 #include <chrono>
 #include <ctime>
 #include <deque>
+#include <fstream>
 #include <mutex>
 #include <sstream>
 #include <stdexcept>
@@ -87,6 +88,22 @@ boost::property_tree::ptree PostJson(boost::asio::ip::tcp::endpoint endpoint, Ll
     http::request<http::string_body> outgoing{http::verb::post, path, 11};
     outgoing.set(http::field::host, endpoint.address().to_string());
     outgoing.set(http::field::content_type, "application/json");
+    static std::string const authorization = []
+    {
+        if (sPlayerbotAIConfig.AdvaiLlmApiKeyFile.empty())
+            return std::string{};
+        std::ifstream input(sPlayerbotAIConfig.AdvaiLlmApiKeyFile);
+        std::string key;
+        if (!input || !std::getline(input, key))
+            throw std::runtime_error("ADVAI llama.cpp API key file cannot be read");
+        if (!key.empty() && key.back() == '\r')
+            key.pop_back();
+        if (key.empty() || key.size() > 4096 || key.find_first_of("\r\n") != std::string::npos)
+            throw std::runtime_error("ADVAI llama.cpp API key file contains an invalid key");
+        return "Bearer " + key;
+    }();
+    if (!authorization.empty())
+        outgoing.set(http::field::authorization, authorization);
     outgoing.keep_alive(false);
     outgoing.body() = std::move(body);
     outgoing.prepare_payload();
@@ -181,7 +198,7 @@ LlmResult Infer(LlmRequest request, boost::asio::ip::tcp::endpoint endpoint, std
         if (input.PromptTokens + LLM_OUTPUT_TOKENS + 32 > LLM_SLOT_TOKENS)
             throw std::runtime_error("llama.cpp chat template exceeds the 2048-token slot budget");
         std::string body = messages + ",\"stream\":false,\"temperature\":0.8,\"max_tokens\":" +
-            std::to_string(LLM_OUTPUT_TOKENS) + ",\"response_format\":{\"type\":\"json_schema\",\"schema\":" + SCHEMA + "}}";
+            std::to_string(LLM_OUTPUT_TOKENS) + ",\"response_format\":{\"type\":\"json_schema\",\"json_schema\":{\"name\":\"advai_reply\",\"strict\":true,\"schema\":" + SCHEMA + "}}}";
         auto envelope = PostJson(endpoint, deadline, "/v1/chat/completions", std::move(body));
         boost::property_tree::ptree answer;
         auto const& choices = envelope.get_child("choices");

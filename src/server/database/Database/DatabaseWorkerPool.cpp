@@ -50,8 +50,15 @@ DatabaseWorkerPool<T>::DatabaseWorkerPool() :
 {
     WPFatal(mysql_thread_safe(), "Used MySQL library isn't thread-safe.");
 
+#if defined(MARIADB_BASE_VERSION)
+    // MariaDB Connector/C reports its own version numbering, not the MySQL
+    // client version used by the upstream minimum/equality checks.
+    bool isSupportClientDB = true;
+    bool isSameClientDB = true;
+#else
     bool isSupportClientDB = mysql_get_client_version() >= MIN_MYSQL_CLIENT_VERSION;
     bool isSameClientDB = mysql_get_client_version() == MYSQL_VERSION_ID;
+#endif
 
     WPFatal(isSupportClientDB, "AzerothCore does not support MySQL versions below 8.0\n\nFound version: {} / {}. Server compiled with: {}.\nSearch the wiki for ACE00043 in Common Errors (https://www.azerothcore.org/wiki/common-errors#ace00043).",
         mysql_get_client_info(), mysql_get_client_version(), MYSQL_VERSION_ID);
@@ -380,31 +387,20 @@ void DatabaseWorkerPool<T>::KeepAlive()
 * @param mysqlVersion The output from GetServerInfo()/mysql_get_server_info()
 * @return Returns true if the Server version is incompatible
 */
-bool DatabaseIncompatibleVersion(std::string const mysqlVersion)
+bool DatabaseIncompatibleVersion(std::string const& mysqlVersion)
 {
-    // anon func to turn a version string into an array of uint8
-    // "1.2.3" => [1, 2, 3]
     auto parse = [](std::string const& input)
     {
-        std::vector<uint8> result;
+        uint32 major = 0, minor = 0, patch = 0;
+        char firstDot = 0, secondDot = 0;
         std::istringstream parser(input);
-        result.push_back(parser.get());
-        for (int i = 1; i < 3; i++)
-        {
-            // Skip period
-            parser.get();
-            // Append int from parser to output
-            result.push_back(parser.get());
-        }
-        return result;
+        if (!(parser >> major >> firstDot >> minor >> secondDot >> patch) || firstDot != '.' || secondDot != '.')
+            return std::vector<uint32>{0, 0, 0};
+        return std::vector<uint32>{major, minor, patch};
     };
 
-    // default to values for MySQL
-    uint8 offset = 0;
-    std::string minVersion = MIN_MYSQL_SERVER_VERSION;
-
-    auto parsedMySQLVersion = parse(mysqlVersion.substr(offset));
-    auto parsedMinVersion = parse(minVersion);
+    auto parsedMySQLVersion = parse(mysqlVersion);
+    auto parsedMinVersion = parse(MIN_MYSQL_SERVER_VERSION);
 
     return std::lexicographical_compare(parsedMySQLVersion.begin(), parsedMySQLVersion.end(),
                                         parsedMinVersion.begin(), parsedMinVersion.end());

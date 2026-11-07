@@ -101,6 +101,7 @@ public:
     bool AdvaiLlmEnabled = false;
     bool AdvaiLlmBotChat = true;
     std::string AdvaiLlmHost = "127.0.0.1";
+    std::string AdvaiLlmApiKeyFile;
     uint32 AdvaiLlmPort = 8080;
     uint32 AdvaiLlmWorkers = 4;
     uint32 AdvaiLlmTimeoutSeconds = 15;

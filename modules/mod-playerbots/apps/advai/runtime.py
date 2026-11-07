@@ -72,7 +72,7 @@ if __name__ == "__main__":
     parser.add_argument("--accounts", type=int, help="Generated accounts, including the reserve for long breaks")
     parser.add_argument("--mysql-client", type=Path, required=True)
     args = parser.parse_args()
-    required_accounts = (args.population * 16 + 9) // 10 + 50
+    required_accounts = (args.population * 12 + 9) // 10 + 50
     if args.accounts is None:
         args.accounts = required_accounts
     if not 1 <= args.population <= 10000 or args.accounts < required_accounts:

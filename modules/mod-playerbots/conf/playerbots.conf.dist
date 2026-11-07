@@ -2779,6 +2779,8 @@ Playerbots.AdvAI.LLM.BotChat = 1
 # Numeric loopback address and port of llama-server's /v1/chat/completions endpoint.
 Playerbots.AdvAI.LLM.Host = "127.0.0.1"
 Playerbots.AdvAI.LLM.Port = 8080
+# Optional path to a file containing the llama-server API key (first line).
+Playerbots.AdvAI.LLM.ApiKeyFile = ""
 # Maximum simultaneous inference requests; 1-10. Set to the llama-server slot count
 # (--parallel), or lower if other applications share it. Excess requests queue (64 maximum).
 Playerbots.AdvAI.LLM.Workers = 4

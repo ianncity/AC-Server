@@ -14,7 +14,7 @@ Playerbots.SyncLevelWithPlayers = 0
 Playerbots.MinRandomBots = 2000
 Playerbots.MaxRandomBots = 2000
 # Reserve identities for multi-week breaks; only the online population is initialized and simulated.
-Playerbots.RandomBotAccountCount = 3250
+Playerbots.RandomBotAccountCount = 2450
 Playerbots.DeleteRandomBotAccounts = 0
 Playerbots.BotCheats = ""
 Playerbots.SyncQuestWithPlayer = 0
